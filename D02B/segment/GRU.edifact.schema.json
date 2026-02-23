@@ -1,0 +1,25 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D02B/segment/GRU.edifact.schema.json",
+    "title": "GRU",
+    "description": "To specify the usage of a segment group within a message type structure and its maintenance operation.",
+    "type": "object",
+    "properties": {
+        "groupIdentifier": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D02B/dataelement/9164.edifact.schema.json"
+        },
+        "requirementDesignatorCode": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D02B/dataelement/7299.edifact.schema.json"
+        },
+        "occurrencesMaximumNumber": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D02B/dataelement/6176.edifact.schema.json"
+        },
+        "maintenanceOperationCode": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D02B/dataelement/4513.edifact.schema.json"
+        },
+        "sequencePositionIdentifier": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D02B/dataelement/1050.edifact.schema.json"
+        }
+    },
+    "required": []
+}

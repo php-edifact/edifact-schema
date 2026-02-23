@@ -1,0 +1,16 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D11B/compositedataelement/C784.edifact.schema.json",
+    "title": "C784",
+    "description": "The identification of a footnote.",
+    "type": "object",
+    "properties": {
+        "footnoteIdentifier": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D11B/dataelement/9432.edifact.schema.json"
+        },
+        "objectIdentificationCodeQualifier": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D11B/dataelement/7405.edifact.schema.json"
+        }
+    },
+    "required": []
+}

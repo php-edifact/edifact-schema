@@ -1,0 +1,15 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D22B/dataelement/4473.edifact.schema.json",
+    "title": "informationTypeCode",
+    "description": "Code specifying a type of information.",
+    "type": "object",
+    "properties": {
+        "value": {
+            "description": "Value",
+            "type": "string",
+            "maxLength": 4
+        }
+    },
+    "required": []
+}

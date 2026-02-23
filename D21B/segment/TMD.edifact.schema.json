@@ -1,0 +1,19 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D21B/segment/TMD.edifact.schema.json",
+    "title": "TMD",
+    "description": "To specify operational transport movement details for a goods item or equipment (which may differ from the contractual conditions).",
+    "type": "object",
+    "properties": {
+        "movementType": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D21B/compositedataelement/C219.edifact.schema.json"
+        },
+        "equipmentPlanDescription": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D21B/dataelement/8332.edifact.schema.json"
+        },
+        "haulageArrangementsCode": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D21B/dataelement/8341.edifact.schema.json"
+        }
+    },
+    "required": []
+}

@@ -1,0 +1,16 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D97A/compositedataelement/C532.edifact.schema.json",
+    "title": "C532",
+    "description": "Indication of responsibility for payment and load contents of returnable packages.",
+    "type": "object",
+    "properties": {
+        "returnablePackageFreightPaymentResponsibility,Coded": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D97A/dataelement/8395.edifact.schema.json"
+        },
+        "returnablePackageLoadContents,Coded": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D97A/dataelement/8393.edifact.schema.json"
+        }
+    },
+    "required": []
+}

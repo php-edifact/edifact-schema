@@ -1,0 +1,22 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D15A/compositedataelement/C816.edifact.schema.json",
+    "title": "C816",
+    "description": "To specify a name component.",
+    "type": "object",
+    "properties": {
+        "nameComponentTypeCodeQualifier": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D15A/dataelement/3405.edifact.schema.json"
+        },
+        "nameComponentDescription": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D15A/dataelement/3398.edifact.schema.json"
+        },
+        "nameComponentUsageCode": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D15A/dataelement/3401.edifact.schema.json"
+        },
+        "nameOriginalAlphabetCode": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D15A/dataelement/3295.edifact.schema.json"
+        }
+    },
+    "required": []
+}

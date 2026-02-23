@@ -1,0 +1,22 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D23A/compositedataelement/C288.edifact.schema.json",
+    "title": "C288",
+    "description": "To give product group information.",
+    "type": "object",
+    "properties": {
+        "productGroupNameCode": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D23A/dataelement/5389.edifact.schema.json"
+        },
+        "codeListIdentificationCode": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D23A/dataelement/1131.edifact.schema.json"
+        },
+        "codeListResponsibleAgencyCode": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D23A/dataelement/3055.edifact.schema.json"
+        },
+        "productGroupName": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D23A/dataelement/5388.edifact.schema.json"
+        }
+    },
+    "required": []
+}

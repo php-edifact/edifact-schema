@@ -1,0 +1,15 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D05A/dataelement/3225.edifact.schema.json",
+    "title": "locationNameCode",
+    "description": "Code specifying the name of the location.",
+    "type": "object",
+    "properties": {
+        "value": {
+            "description": "Value",
+            "type": "string",
+            "maxLength": 35
+        }
+    },
+    "required": []
+}

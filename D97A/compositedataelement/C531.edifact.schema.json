@@ -1,0 +1,19 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D97A/compositedataelement/C531.edifact.schema.json",
+    "title": "C531",
+    "description": "Packaging level and details, terms and conditions.",
+    "type": "object",
+    "properties": {
+        "packagingLevel,Coded": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D97A/dataelement/7075.edifact.schema.json"
+        },
+        "packagingRelatedInformation,Coded": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D97A/dataelement/7233.edifact.schema.json"
+        },
+        "packagingTermsAndConditions,Coded": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D97A/dataelement/7073.edifact.schema.json"
+        }
+    },
+    "required": []
+}

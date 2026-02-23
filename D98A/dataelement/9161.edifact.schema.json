@@ -1,0 +1,15 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D98A/dataelement/9161.edifact.schema.json",
+    "title": "codeSetIndicator,Coded",
+    "description": "To indicate if a data element has an associated code set.",
+    "type": "object",
+    "properties": {
+        "value": {
+            "description": "Value",
+            "type": "string",
+            "maxLength": 3
+        }
+    },
+    "required": []
+}

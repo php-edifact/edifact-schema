@@ -1,0 +1,15 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D98A/dataelement/1518.edifact.schema.json",
+    "title": "valueListIdentifier",
+    "description": "The identifier of a coded or non coded value list.",
+    "type": "object",
+    "properties": {
+        "value": {
+            "description": "Value",
+            "type": "string",
+            "maxLength": 35
+        }
+    },
+    "required": []
+}

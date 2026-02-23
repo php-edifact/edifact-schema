@@ -1,0 +1,22 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D02B/compositedataelement/C059.edifact.schema.json",
+    "title": "C059",
+    "description": "Street address and/or PO Box number in a structured address: one to four lines.",
+    "type": "object",
+    "properties": {
+        "streetAndNumberOrPostOfficeBoxIdentifier": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D02B/dataelement/3042.edifact.schema.json"
+        },
+        "streetAndNumberOrPostOfficeBoxIdentifier2": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D02B/dataelement/3042.edifact.schema.json"
+        },
+        "streetAndNumberOrPostOfficeBoxIdentifier3": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D02B/dataelement/3042.edifact.schema.json"
+        },
+        "streetAndNumberOrPostOfficeBoxIdentifier4": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D02B/dataelement/3042.edifact.schema.json"
+        }
+    },
+    "required": []
+}

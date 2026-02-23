@@ -1,0 +1,16 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D96A/segment/FCA.edifact.schema.json",
+    "title": "FCA",
+    "description": "Description of allocation of charges.",
+    "type": "object",
+    "properties": {
+        "settlementCoded": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D96A/dataelement/4471.edifact.schema.json"
+        },
+        "chargeallowanceAccount": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D96A/compositedataelement/C878.edifact.schema.json"
+        }
+    },
+    "required": []
+}

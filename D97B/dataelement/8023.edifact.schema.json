@@ -1,0 +1,15 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D97B/dataelement/8023.edifact.schema.json",
+    "title": "freightAndChargesIdentification",
+    "description": "Coded description of freight charges and other charges (used in combination with 1131/3055).",
+    "type": "object",
+    "properties": {
+        "value": {
+            "description": "Value",
+            "type": "string",
+            "maxLength": 17
+        }
+    },
+    "required": []
+}

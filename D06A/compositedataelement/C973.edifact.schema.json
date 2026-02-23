@@ -1,0 +1,22 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D06A/compositedataelement/C973.edifact.schema.json",
+    "title": "C973",
+    "description": "Specification of the applicability type in coded or clear form.",
+    "type": "object",
+    "properties": {
+        "applicabilityTypeDescriptionCode": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D06A/dataelement/9049.edifact.schema.json"
+        },
+        "codeListIdentificationCode": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D06A/dataelement/1131.edifact.schema.json"
+        },
+        "codeListResponsibleAgencyCode": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D06A/dataelement/3055.edifact.schema.json"
+        },
+        "applicabilityTypeDescription": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D06A/dataelement/9048.edifact.schema.json"
+        }
+    },
+    "required": []
+}

@@ -1,0 +1,15 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D96A/dataelement/5125.edifact.schema.json",
+    "title": "priceQualifier",
+    "description": "Identification of a type of price.",
+    "type": "object",
+    "properties": {
+        "value": {
+            "description": "Value",
+            "type": "string",
+            "maxLength": 3
+        }
+    },
+    "required": []
+}

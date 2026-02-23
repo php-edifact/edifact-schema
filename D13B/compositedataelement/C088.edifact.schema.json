@@ -1,0 +1,34 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D13B/compositedataelement/C088.edifact.schema.json",
+    "title": "C088",
+    "description": "Identification of a financial institution by code branch number, or name and name of place. Code or branch number preferred.",
+    "type": "object",
+    "properties": {
+        "institutionNameCode": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D13B/dataelement/3433.edifact.schema.json"
+        },
+        "codeListIdentificationCode": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D13B/dataelement/1131.edifact.schema.json"
+        },
+        "codeListResponsibleAgencyCode": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D13B/dataelement/3055.edifact.schema.json"
+        },
+        "institutionBranchIdentifier": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D13B/dataelement/3434.edifact.schema.json"
+        },
+        "codeListIdentificationCode2": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D13B/dataelement/1131.edifact.schema.json"
+        },
+        "codeListResponsibleAgencyCode2": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D13B/dataelement/3055.edifact.schema.json"
+        },
+        "institutionName": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D13B/dataelement/3432.edifact.schema.json"
+        },
+        "institutionBranchLocationName": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D13B/dataelement/3436.edifact.schema.json"
+        }
+    },
+    "required": []
+}

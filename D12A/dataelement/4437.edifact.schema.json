@@ -1,0 +1,15 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D12A/dataelement/4437.edifact.schema.json",
+    "title": "accountTypeCodeQualifier",
+    "description": "Code qualifying the type of account.",
+    "type": "object",
+    "properties": {
+        "value": {
+            "description": "Value",
+            "type": "string",
+            "maxLength": 3
+        }
+    },
+    "required": []
+}

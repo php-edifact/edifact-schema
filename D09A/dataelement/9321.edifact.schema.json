@@ -1,0 +1,15 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D09A/dataelement/9321.edifact.schema.json",
+    "title": "applicationErrorCode",
+    "description": "Code specifying an application error.",
+    "type": "object",
+    "properties": {
+        "value": {
+            "description": "Value",
+            "type": "string",
+            "maxLength": 8
+        }
+    },
+    "required": []
+}

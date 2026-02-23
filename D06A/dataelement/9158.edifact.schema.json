@@ -1,0 +1,15 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D06A/dataelement/9158.edifact.schema.json",
+    "title": "simpleDataElementMinimumLengthMeasure",
+    "description": "To specify the value of the minimum length of a simple data element.",
+    "type": "object",
+    "properties": {
+        "value": {
+            "description": "Value",
+            "type": "string",
+            "maxLength": 3
+        }
+    },
+    "required": []
+}

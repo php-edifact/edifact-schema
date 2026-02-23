@@ -1,0 +1,15 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D08B/dataelement/4461.edifact.schema.json",
+    "title": "paymentMeansCode",
+    "description": "Code identifying a means of payment.",
+    "type": "object",
+    "properties": {
+        "value": {
+            "description": "Value",
+            "type": "string",
+            "maxLength": 3
+        }
+    },
+    "required": []
+}

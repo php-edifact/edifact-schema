@@ -1,0 +1,15 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D18A/dataelement/4494.edifact.schema.json",
+    "title": "insuranceCoverDescription",
+    "description": "Free form description of the insurance cover.",
+    "type": "object",
+    "properties": {
+        "value": {
+            "description": "Value",
+            "type": "string",
+            "maxLength": 35
+        }
+    },
+    "required": []
+}

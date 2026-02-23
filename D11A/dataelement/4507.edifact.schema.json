@@ -1,0 +1,15 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D11A/dataelement/4507.edifact.schema.json",
+    "title": "creditCoverResponseTypeCode",
+    "description": "Code specifying the type of response to a request for credit cover.",
+    "type": "object",
+    "properties": {
+        "value": {
+            "description": "Value",
+            "type": "string",
+            "maxLength": 3
+        }
+    },
+    "required": []
+}

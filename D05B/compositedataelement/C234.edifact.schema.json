@@ -1,0 +1,16 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D05B/compositedataelement/C234.edifact.schema.json",
+    "title": "C234",
+    "description": "Information on dangerous goods, taken from the United Nations Dangerous Goods classification.",
+    "type": "object",
+    "properties": {
+        "unitedNationsDangerousGoods(undg)Identifier": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D05B/dataelement/7124.edifact.schema.json"
+        },
+        "dangerousGoodsFlashpointDescription": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D05B/dataelement/7088.edifact.schema.json"
+        }
+    },
+    "required": []
+}

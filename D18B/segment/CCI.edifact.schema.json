@@ -1,0 +1,22 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D18B/segment/CCI.edifact.schema.json",
+    "title": "CCI",
+    "description": "To identify and describe a specific characteristic and its relevance for subsequent business processes.",
+    "type": "object",
+    "properties": {
+        "classTypeCode": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D18B/dataelement/7059.edifact.schema.json"
+        },
+        "measurementDetails": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D18B/compositedataelement/C502.edifact.schema.json"
+        },
+        "characteristicDescription": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D18B/compositedataelement/C240.edifact.schema.json"
+        },
+        "characteristicRelevanceCode": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D18B/dataelement/4051.edifact.schema.json"
+        }
+    },
+    "required": []
+}

@@ -1,0 +1,19 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D99A/compositedataelement/C237.edifact.schema.json",
+    "title": "C237",
+    "description": "Marks (letters and/or numbers) identifying equipment used for transport such as a container.",
+    "type": "object",
+    "properties": {
+        "equipmentIdentificationNumber": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D99A/dataelement/8260.edifact.schema.json"
+        },
+        "codeListQualifier": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D99A/dataelement/1131.edifact.schema.json"
+        },
+        "codeListResponsibleAgency,Coded": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D99A/dataelement/3055.edifact.schema.json"
+        }
+    },
+    "required": []
+}

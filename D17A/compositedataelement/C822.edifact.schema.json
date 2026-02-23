@@ -1,0 +1,22 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D17A/compositedataelement/C822.edifact.schema.json",
+    "title": "C822",
+    "description": "To specify where the damage is on an object.",
+    "type": "object",
+    "properties": {
+        "damageAreaDescriptionCode": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D17A/dataelement/7503.edifact.schema.json"
+        },
+        "codeListIdentificationCode": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D17A/dataelement/1131.edifact.schema.json"
+        },
+        "codeListResponsibleAgencyCode": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D17A/dataelement/3055.edifact.schema.json"
+        },
+        "damageAreaDescription": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D17A/dataelement/7502.edifact.schema.json"
+        }
+    },
+    "required": []
+}

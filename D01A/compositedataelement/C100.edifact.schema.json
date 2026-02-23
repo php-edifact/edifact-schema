@@ -1,0 +1,25 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D01A/compositedataelement/C100.edifact.schema.json",
+    "title": "C100",
+    "description": "Terms of delivery or transport code from a specified source.",
+    "type": "object",
+    "properties": {
+        "deliveryOrTransportTermsDescriptionCode": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D01A/dataelement/4053.edifact.schema.json"
+        },
+        "codeListIdentificationCode": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D01A/dataelement/1131.edifact.schema.json"
+        },
+        "codeListResponsibleAgencyCode": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D01A/dataelement/3055.edifact.schema.json"
+        },
+        "deliveryOrTransportTermsDescription": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D01A/dataelement/4052.edifact.schema.json"
+        },
+        "deliveryOrTransportTermsDescription2": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D01A/dataelement/4052.edifact.schema.json"
+        }
+    },
+    "required": []
+}

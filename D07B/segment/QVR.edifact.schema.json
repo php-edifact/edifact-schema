@@ -1,0 +1,19 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D07B/segment/QVR.edifact.schema.json",
+    "title": "QVR",
+    "description": "To specify item details relating to quantity variances.",
+    "type": "object",
+    "properties": {
+        "quantityDifferenceInformation": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D07B/compositedataelement/C279.edifact.schema.json"
+        },
+        "discrepancyNatureIdentificationCode": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D07B/dataelement/4221.edifact.schema.json"
+        },
+        "reasonForChange": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D07B/compositedataelement/C960.edifact.schema.json"
+        }
+    },
+    "required": []
+}

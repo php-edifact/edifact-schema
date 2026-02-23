@@ -1,0 +1,13 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D05B/compositedataelement/C819.edifact.schema.json",
+    "title": "C819",
+    "description": "To specify a part of a country (eg county or part of a city).",
+    "type": "object",
+    "properties": {
+        "codeListResponsibleAgencyCode": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D05B/dataelement/3055.edifact.schema.json"
+        }
+    },
+    "required": []
+}

@@ -1,0 +1,15 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D18A/dataelement/1082.edifact.schema.json",
+    "title": "lineItemIdentifier",
+    "description": "To identify a line item.",
+    "type": "object",
+    "properties": {
+        "value": {
+            "description": "Value",
+            "type": "string",
+            "maxLength": 6
+        }
+    },
+    "required": []
+}

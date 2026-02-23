@@ -1,0 +1,22 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D96B/compositedataelement/C333.edifact.schema.json",
+    "title": "C333",
+    "description": "To specify the information requested in a responding message.",
+    "type": "object",
+    "properties": {
+        "requestedInformationCoded": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D96B/dataelement/4511.edifact.schema.json"
+        },
+        "codeListQualifier": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D96B/dataelement/1131.edifact.schema.json"
+        },
+        "codeListResponsibleAgencyCoded": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D96B/dataelement/3055.edifact.schema.json"
+        },
+        "requestedInformation": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D96B/dataelement/4510.edifact.schema.json"
+        }
+    },
+    "required": []
+}

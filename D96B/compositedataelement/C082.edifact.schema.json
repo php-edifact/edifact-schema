@@ -1,0 +1,19 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D96B/compositedataelement/C082.edifact.schema.json",
+    "title": "C082",
+    "description": "Identification of a transaction party by code.",
+    "type": "object",
+    "properties": {
+        "partyIdIdentification": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D96B/dataelement/3039.edifact.schema.json"
+        },
+        "codeListQualifier": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D96B/dataelement/1131.edifact.schema.json"
+        },
+        "codeListResponsibleAgencyCoded": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D96B/dataelement/3055.edifact.schema.json"
+        }
+    },
+    "required": []
+}

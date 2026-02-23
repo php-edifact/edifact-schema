@@ -1,0 +1,37 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D10B/segment/NAD.edifact.schema.json",
+    "title": "NAD",
+    "description": "To specify the name/address and their related function, either by C082 only and/or unstructured by C058 or structured by C080 thru 3207.",
+    "type": "object",
+    "properties": {
+        "partyFunctionCodeQualifier": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D10B/dataelement/3035.edifact.schema.json"
+        },
+        "partyIdentificationDetails": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D10B/compositedataelement/C082.edifact.schema.json"
+        },
+        "nameAndAddress": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D10B/compositedataelement/C058.edifact.schema.json"
+        },
+        "partyName": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D10B/compositedataelement/C080.edifact.schema.json"
+        },
+        "street": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D10B/compositedataelement/C059.edifact.schema.json"
+        },
+        "cityName": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D10B/dataelement/3164.edifact.schema.json"
+        },
+        "countrySubdivisionDetails": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D10B/compositedataelement/C819.edifact.schema.json"
+        },
+        "postalIdentificationCode": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D10B/dataelement/3251.edifact.schema.json"
+        },
+        "countryIdentifier": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D10B/dataelement/3207.edifact.schema.json"
+        }
+    },
+    "required": []
+}

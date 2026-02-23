@@ -1,0 +1,15 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D98A/dataelement/1154.edifact.schema.json",
+    "title": "referenceNumber",
+    "description": "Identification number the nature and function of which can be qualified by an entry in data element 1153 Reference qualifier.",
+    "type": "object",
+    "properties": {
+        "value": {
+            "description": "Value",
+            "type": "string",
+            "maxLength": 35
+        }
+    },
+    "required": []
+}

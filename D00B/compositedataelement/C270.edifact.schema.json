@@ -1,0 +1,19 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D00B/compositedataelement/C270.edifact.schema.json",
+    "title": "C270",
+    "description": "Control total for checking integrity of a message or part of a message.",
+    "type": "object",
+    "properties": {
+        "controlTotalTypeCodeQualifier": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D00B/dataelement/6069.edifact.schema.json"
+        },
+        "controlTotalValue": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D00B/dataelement/6066.edifact.schema.json"
+        },
+        "measurementUnitCode": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D00B/dataelement/6411.edifact.schema.json"
+        }
+    },
+    "required": []
+}

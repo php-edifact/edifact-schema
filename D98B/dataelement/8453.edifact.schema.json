@@ -1,0 +1,15 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D98B/dataelement/8453.edifact.schema.json",
+    "title": "nationalityOfMeansOfTransport,Coded",
+    "description": "Coded name of the country in which a means of transport is registered.",
+    "type": "object",
+    "properties": {
+        "value": {
+            "description": "Value",
+            "type": "string",
+            "maxLength": 3
+        }
+    },
+    "required": []
+}

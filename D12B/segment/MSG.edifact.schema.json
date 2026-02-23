@@ -1,0 +1,22 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D12B/segment/MSG.edifact.schema.json",
+    "title": "MSG",
+    "description": "To identify a message type and to give its class and maintenance operation.",
+    "type": "object",
+    "properties": {
+        "messageIdentifier": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D12B/compositedataelement/C709.edifact.schema.json"
+        },
+        "designatedClassCode": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D12B/dataelement/1507.edifact.schema.json"
+        },
+        "maintenanceOperationCode": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D12B/dataelement/4513.edifact.schema.json"
+        },
+        "relationship": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D12B/compositedataelement/C941.edifact.schema.json"
+        }
+    },
+    "required": []
+}

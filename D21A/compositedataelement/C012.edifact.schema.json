@@ -1,0 +1,22 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D21A/compositedataelement/C012.edifact.schema.json",
+    "title": "C012",
+    "description": "Identification of the processing indicator.",
+    "type": "object",
+    "properties": {
+        "processingIndicatorDescriptionCode": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D21A/dataelement/7365.edifact.schema.json"
+        },
+        "codeListIdentificationCode": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D21A/dataelement/1131.edifact.schema.json"
+        },
+        "codeListResponsibleAgencyCode": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D21A/dataelement/3055.edifact.schema.json"
+        },
+        "processingIndicatorDescription": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D21A/dataelement/7364.edifact.schema.json"
+        }
+    },
+    "required": []
+}

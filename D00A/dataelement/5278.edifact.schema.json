@@ -1,0 +1,15 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D00A/dataelement/5278.edifact.schema.json",
+    "title": "dutyOrTaxOrFeeRateDescription",
+    "description": "Free form description of a rate of a duty or tax or fee rate.",
+    "type": "object",
+    "properties": {
+        "value": {
+            "description": "Value",
+            "type": "string",
+            "maxLength": 17
+        }
+    },
+    "required": []
+}

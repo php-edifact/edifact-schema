@@ -1,0 +1,22 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D01A/compositedataelement/C545.edifact.schema.json",
+    "title": "C545",
+    "description": "To identify an index.",
+    "type": "object",
+    "properties": {
+        "indexCodeQualifier": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D01A/dataelement/5013.edifact.schema.json"
+        },
+        "indexTypeIdentifier": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D01A/dataelement/5027.edifact.schema.json"
+        },
+        "codeListIdentificationCode": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D01A/dataelement/1131.edifact.schema.json"
+        },
+        "codeListResponsibleAgencyCode": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D01A/dataelement/3055.edifact.schema.json"
+        }
+    },
+    "required": []
+}

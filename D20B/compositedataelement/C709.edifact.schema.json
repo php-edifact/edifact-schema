@@ -1,0 +1,31 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D20B/compositedataelement/C709.edifact.schema.json",
+    "title": "C709",
+    "description": "Identification of the message.",
+    "type": "object",
+    "properties": {
+        "messageTypeCode": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D20B/dataelement/1003.edifact.schema.json"
+        },
+        "versionIdentifier": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D20B/dataelement/1056.edifact.schema.json"
+        },
+        "releaseIdentifier": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D20B/dataelement/1058.edifact.schema.json"
+        },
+        "controllingAgencyIdentifier": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D20B/dataelement/1476.edifact.schema.json"
+        },
+        "messageImplementationIdentificationCode": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D20B/dataelement/1523.edifact.schema.json"
+        },
+        "revisionIdentifier": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D20B/dataelement/1060.edifact.schema.json"
+        },
+        "documentStatusCode": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D20B/dataelement/1373.edifact.schema.json"
+        }
+    },
+    "required": []
+}

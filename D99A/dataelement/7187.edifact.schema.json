@@ -1,0 +1,15 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D99A/dataelement/7187.edifact.schema.json",
+    "title": "processTypeIdentification",
+    "description": "Specification of a process or subprocess.",
+    "type": "object",
+    "properties": {
+        "value": {
+            "description": "Value",
+            "type": "string",
+            "maxLength": 17
+        }
+    },
+    "required": []
+}

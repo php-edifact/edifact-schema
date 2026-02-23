@@ -1,0 +1,22 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D95B/compositedataelement/unh5.edifact.schema.json",
+    "title": "unh5",
+    "description": "",
+    "type": "object",
+    "properties": {
+        "subsetIdentification": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D95B/dataelement/unh51.edifact.schema.json"
+        },
+        "subsetVersion": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D95B/dataelement/unh52.edifact.schema.json"
+        },
+        "subsetRelease": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D95B/dataelement/unh53.edifact.schema.json"
+        },
+        "controllingAgency": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D95B/dataelement/unh54.edifact.schema.json"
+        }
+    },
+    "required": []
+}

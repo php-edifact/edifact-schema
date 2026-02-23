@@ -1,0 +1,16 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D10A/compositedataelement/C235.edifact.schema.json",
+    "title": "C235",
+    "description": "These numbers appear on the hazard identification placard required on the means of transport.",
+    "type": "object",
+    "properties": {
+        "orangeHazardPlacardUpperPartIdentifier": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D10A/dataelement/8158.edifact.schema.json"
+        },
+        "orangeHazardPlacardLowerPartIdentifier": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D10A/dataelement/8186.edifact.schema.json"
+        }
+    },
+    "required": []
+}

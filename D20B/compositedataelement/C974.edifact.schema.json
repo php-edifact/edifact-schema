@@ -1,0 +1,22 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D20B/compositedataelement/C974.edifact.schema.json",
+    "title": "C974",
+    "description": "Specification of the basis in coded or clear form.",
+    "type": "object",
+    "properties": {
+        "basisTypeDescriptionCode": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D20B/dataelement/9047.edifact.schema.json"
+        },
+        "codeListIdentificationCode": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D20B/dataelement/1131.edifact.schema.json"
+        },
+        "codeListResponsibleAgencyCode": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D20B/dataelement/3055.edifact.schema.json"
+        },
+        "basisTypeDescription": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D20B/dataelement/9046.edifact.schema.json"
+        }
+    },
+    "required": []
+}

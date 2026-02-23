@@ -1,0 +1,31 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D98A/segment/SGU.edifact.schema.json",
+    "title": "SGU",
+    "description": "To specify the details of the usage of a segment within a message type structure.",
+    "type": "object",
+    "properties": {
+        "segmentTag": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D98A/dataelement/9166.edifact.schema.json"
+        },
+        "requirementDesignator,Coded": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D98A/dataelement/7299.edifact.schema.json"
+        },
+        "maximumNumberOfOccurrences": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D98A/dataelement/6176.edifact.schema.json"
+        },
+        "levelNumber": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D98A/dataelement/7168.edifact.schema.json"
+        },
+        "sequenceNumber": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D98A/dataelement/1050.edifact.schema.json"
+        },
+        "messageSection,Coded": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D98A/dataelement/1049.edifact.schema.json"
+        },
+        "maintenanceOperation,Coded": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D98A/dataelement/4513.edifact.schema.json"
+        }
+    },
+    "required": []
+}

@@ -1,0 +1,22 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D10B/compositedataelement/C828.edifact.schema.json",
+    "title": "C828",
+    "description": "To specify a clinical intervention.",
+    "type": "object",
+    "properties": {
+        "clinicalInterventionDescriptionCode": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D10B/dataelement/9437.edifact.schema.json"
+        },
+        "codeListIdentificationCode": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D10B/dataelement/1131.edifact.schema.json"
+        },
+        "codeListResponsibleAgencyCode": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D10B/dataelement/3055.edifact.schema.json"
+        },
+        "clinicalInterventionDescription": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D10B/dataelement/9436.edifact.schema.json"
+        }
+    },
+    "required": []
+}

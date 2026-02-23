@@ -1,0 +1,16 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D00B/segment/EVT.edifact.schema.json",
+    "title": "EVT",
+    "description": "To identify an event.",
+    "type": "object",
+    "properties": {
+        "eventType": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D00B/compositedataelement/C030.edifact.schema.json"
+        },
+        "eventIdentification": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D00B/compositedataelement/C063.edifact.schema.json"
+        }
+    },
+    "required": []
+}

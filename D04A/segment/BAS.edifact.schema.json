@@ -1,0 +1,16 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D04A/segment/BAS.edifact.schema.json",
+    "title": "BAS",
+    "description": "To describe the foundation or starting point.",
+    "type": "object",
+    "properties": {
+        "basisCodeQualifier": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D04A/dataelement/9045.edifact.schema.json"
+        },
+        "basisType": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D04A/compositedataelement/C974.edifact.schema.json"
+        }
+    },
+    "required": []
+}

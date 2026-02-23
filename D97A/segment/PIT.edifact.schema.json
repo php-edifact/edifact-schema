@@ -1,0 +1,31 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D97A/segment/PIT.edifact.schema.json",
+    "title": "PIT",
+    "description": "To specify details relating to pricing of a product.",
+    "type": "object",
+    "properties": {
+        "lineItemNumber": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D97A/dataelement/1082.edifact.schema.json"
+        },
+        "actionRequestOrnotification,Coded": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D97A/dataelement/1229.edifact.schema.json"
+        },
+        "priceChangeInformation": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D97A/compositedataelement/C292.edifact.schema.json"
+        },
+        "articleAvailability,Coded": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D97A/dataelement/7011.edifact.schema.json"
+        },
+        "sub-lineIndicator,Coded": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D97A/dataelement/5495.edifact.schema.json"
+        },
+        "configurationLevel": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D97A/dataelement/1222.edifact.schema.json"
+        },
+        "configuration,Coded": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D97A/dataelement/7083.edifact.schema.json"
+        }
+    },
+    "required": []
+}

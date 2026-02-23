@@ -1,0 +1,15 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D10B/dataelement/4521.edifact.schema.json",
+    "title": "premiumCalculationComponentIdentifier",
+    "description": "To identify a component affecting premium calculation.",
+    "type": "object",
+    "properties": {
+        "value": {
+            "description": "Value",
+            "type": "string",
+            "maxLength": 17
+        }
+    },
+    "required": []
+}

@@ -1,0 +1,15 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D99B/dataelement/7293.edifact.schema.json",
+    "title": "sectorAreaIdentificationCodeQualifier",
+    "description": "Code qualifying identification of a subject area.",
+    "type": "object",
+    "properties": {
+        "value": {
+            "description": "Value",
+            "type": "string",
+            "maxLength": 3
+        }
+    },
+    "required": []
+}

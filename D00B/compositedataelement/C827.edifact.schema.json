@@ -1,0 +1,19 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D00B/compositedataelement/C827.edifact.schema.json",
+    "title": "C827",
+    "description": "Specification of the type of marking that reflects the method that was used and the conventions adhered to for marking (e.g. of packages).",
+    "type": "object",
+    "properties": {
+        "markingTypeCode": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D00B/dataelement/7511.edifact.schema.json"
+        },
+        "codeListIdentificationCode": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D00B/dataelement/1131.edifact.schema.json"
+        },
+        "codeListResponsibleAgencyCode": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D00B/dataelement/3055.edifact.schema.json"
+        }
+    },
+    "required": []
+}

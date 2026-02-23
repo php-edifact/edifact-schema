@@ -1,0 +1,15 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D18B/dataelement/7164.edifact.schema.json",
+    "title": "hierarchicalStructureLevelIdentifier",
+    "description": "To identify a level within a hierarchical structure.",
+    "type": "object",
+    "properties": {
+        "value": {
+            "description": "Value",
+            "type": "string",
+            "maxLength": 35
+        }
+    },
+    "required": []
+}

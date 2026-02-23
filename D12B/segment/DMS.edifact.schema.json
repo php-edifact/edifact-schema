@@ -1,0 +1,19 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D12B/segment/DMS.edifact.schema.json",
+    "title": "DMS",
+    "description": "To specify summary information relating to the document/message.",
+    "type": "object",
+    "properties": {
+        "document": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D12B/compositedataelement/C106.edifact.schema.json"
+        },
+        "document2": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D12B/compositedataelement/C002.edifact.schema.json"
+        },
+        "itemTotalQuantity": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D12B/dataelement/7240.edifact.schema.json"
+        }
+    },
+    "required": []
+}

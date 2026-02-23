@@ -1,0 +1,15 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D03B/dataelement/7240.edifact.schema.json",
+    "title": "itemTotalQuantity",
+    "description": "Count of the total number of items.",
+    "type": "object",
+    "properties": {
+        "value": {
+            "description": "Value",
+            "type": "string",
+            "maxLength": 15
+        }
+    },
+    "required": []
+}

@@ -1,0 +1,15 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D98A/dataelement/4055.edifact.schema.json",
+    "title": "termsOfDeliveryOrTransportFunction,Coded",
+    "description": "Indication whether the terms relate to e.g. price conditions, delivery conditions, transport conditions, or a combination of these.",
+    "type": "object",
+    "properties": {
+        "value": {
+            "description": "Value",
+            "type": "string",
+            "maxLength": 3
+        }
+    },
+    "required": []
+}

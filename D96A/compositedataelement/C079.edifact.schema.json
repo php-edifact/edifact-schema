@@ -1,0 +1,31 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D96A/compositedataelement/C079.edifact.schema.json",
+    "title": "C079",
+    "description": "To identify parts of a computer environment.",
+    "type": "object",
+    "properties": {
+        "computerEnvironmentCoded": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D96A/dataelement/1511.edifact.schema.json"
+        },
+        "codeListQualifier": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D96A/dataelement/1131.edifact.schema.json"
+        },
+        "codeListResponsibleAgencyCoded": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D96A/dataelement/3055.edifact.schema.json"
+        },
+        "computerEnvironment": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D96A/dataelement/1510.edifact.schema.json"
+        },
+        "version": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D96A/dataelement/1056.edifact.schema.json"
+        },
+        "release": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D96A/dataelement/1058.edifact.schema.json"
+        },
+        "identityNumber": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D96A/dataelement/7402.edifact.schema.json"
+        }
+    },
+    "required": []
+}

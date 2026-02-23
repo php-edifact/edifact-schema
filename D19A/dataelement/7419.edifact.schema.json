@@ -1,0 +1,15 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D19A/dataelement/7419.edifact.schema.json",
+    "title": "hazardousMaterialCategoryNameCode",
+    "description": "Code specifying a kind of hazard for a material.",
+    "type": "object",
+    "properties": {
+        "value": {
+            "description": "Value",
+            "type": "string",
+            "maxLength": 7
+        }
+    },
+    "required": []
+}

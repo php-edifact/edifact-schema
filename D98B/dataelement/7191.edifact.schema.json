@@ -1,0 +1,15 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D98B/dataelement/7191.edifact.schema.json",
+    "title": "processIdentification",
+    "description": "Code to identify a specific process.",
+    "type": "object",
+    "properties": {
+        "value": {
+            "description": "Value",
+            "type": "string",
+            "maxLength": 17
+        }
+    },
+    "required": []
+}

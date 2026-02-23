@@ -1,0 +1,15 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D97B/dataelement/7168.edifact.schema.json",
+    "title": "levelNumber",
+    "description": "Relative hierarchical position of a data segment within a message as expressed in a branching diagram.",
+    "type": "object",
+    "properties": {
+        "value": {
+            "description": "Value",
+            "type": "string",
+            "maxLength": 1
+        }
+    },
+    "required": []
+}

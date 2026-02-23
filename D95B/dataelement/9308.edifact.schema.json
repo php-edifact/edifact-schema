@@ -1,0 +1,15 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D95B/dataelement/9308.edifact.schema.json",
+    "title": "sealNumber",
+    "description": "The number of a custom seal or another seal affixed to the containers or other transport unit.",
+    "type": "object",
+    "properties": {
+        "value": {
+            "description": "Value",
+            "type": "string",
+            "maxLength": 10
+        }
+    },
+    "required": []
+}

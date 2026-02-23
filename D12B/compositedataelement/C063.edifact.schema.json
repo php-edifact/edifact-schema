@@ -1,0 +1,22 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D12B/compositedataelement/C063.edifact.schema.json",
+    "title": "C063",
+    "description": "To identify an event.",
+    "type": "object",
+    "properties": {
+        "eventDescriptionCode": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D12B/dataelement/9173.edifact.schema.json"
+        },
+        "codeListIdentificationCode": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D12B/dataelement/1131.edifact.schema.json"
+        },
+        "codeListResponsibleAgencyCode": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D12B/dataelement/3055.edifact.schema.json"
+        },
+        "event": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D12B/dataelement/9172.edifact.schema.json"
+        }
+    },
+    "required": []
+}

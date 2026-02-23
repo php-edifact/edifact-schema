@@ -1,0 +1,15 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D95B/dataelement/1054.edifact.schema.json",
+    "title": "messageSubitemNumber",
+    "description": "The reference number allocated to an identifiable sub-item in a message. eg: invoice line number.",
+    "type": "object",
+    "properties": {
+        "value": {
+            "description": "Value",
+            "type": "string",
+            "maxLength": 6
+        }
+    },
+    "required": []
+}

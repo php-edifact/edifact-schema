@@ -1,0 +1,15 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D95B/dataelement/9900.edifact.schema.json",
+    "title": "segmentsNumber",
+    "description": "segmentsNumber",
+    "type": "object",
+    "properties": {
+        "value": {
+            "description": "Value",
+            "type": "string",
+            "maxLength": 10
+        }
+    },
+    "required": []
+}

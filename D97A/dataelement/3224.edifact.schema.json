@@ -1,0 +1,15 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D97A/dataelement/3224.edifact.schema.json",
+    "title": "placeOrlocation",
+    "description": "Name of place/location, other than 3164 City name.",
+    "type": "object",
+    "properties": {
+        "value": {
+            "description": "Value",
+            "type": "string",
+            "maxLength": 70
+        }
+    },
+    "required": []
+}

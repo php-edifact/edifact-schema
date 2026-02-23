@@ -1,0 +1,15 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D97A/dataelement/6411.edifact.schema.json",
+    "title": "measureUnitQualifier",
+    "description": "Indication of the unit of measurement in which weight (mass), capacity, length, area, volume or other quantity is expressed.",
+    "type": "object",
+    "properties": {
+        "value": {
+            "description": "Value",
+            "type": "string",
+            "maxLength": 3
+        }
+    },
+    "required": []
+}

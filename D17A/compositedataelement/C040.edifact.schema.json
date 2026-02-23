@@ -1,0 +1,22 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D17A/compositedataelement/C040.edifact.schema.json",
+    "title": "C040",
+    "description": "Identification of a carrier by code and/or by name. Code preferred.",
+    "type": "object",
+    "properties": {
+        "carrierIdentifier": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D17A/dataelement/3127.edifact.schema.json"
+        },
+        "codeListIdentificationCode": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D17A/dataelement/1131.edifact.schema.json"
+        },
+        "codeListResponsibleAgencyCode": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D17A/dataelement/3055.edifact.schema.json"
+        },
+        "carrierName": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D17A/dataelement/3126.edifact.schema.json"
+        }
+    },
+    "required": []
+}

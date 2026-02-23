@@ -1,0 +1,19 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D02B/segment/CDS.edifact.schema.json",
+    "title": "CDS",
+    "description": "To identify a code set and to give its class and maintenance operation.",
+    "type": "object",
+    "properties": {
+        "codeSetIdentification": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D02B/compositedataelement/C702.edifact.schema.json"
+        },
+        "designatedClassCode": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D02B/dataelement/1507.edifact.schema.json"
+        },
+        "maintenanceOperationCode": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D02B/dataelement/4513.edifact.schema.json"
+        }
+    },
+    "required": []
+}

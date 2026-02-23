@@ -1,0 +1,19 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D96A/compositedataelement/C901.edifact.schema.json",
+    "title": "C901",
+    "description": "Code assigned by the recipient of a message to indicate a data validation error condition.",
+    "type": "object",
+    "properties": {
+        "applicationErrorIdentification": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D96A/dataelement/9321.edifact.schema.json"
+        },
+        "codeListQualifier": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D96A/dataelement/1131.edifact.schema.json"
+        },
+        "codeListResponsibleAgencyCoded": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D96A/dataelement/3055.edifact.schema.json"
+        }
+    },
+    "required": []
+}

@@ -1,0 +1,15 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D09B/dataelement/3412.edifact.schema.json",
+    "title": "contactName",
+    "description": "Name of a contact, such as a department or employee.",
+    "type": "object",
+    "properties": {
+        "value": {
+            "description": "Value",
+            "type": "string",
+            "maxLength": 256
+        }
+    },
+    "required": []
+}

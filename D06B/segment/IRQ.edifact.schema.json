@@ -1,0 +1,13 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D06B/segment/IRQ.edifact.schema.json",
+    "title": "IRQ",
+    "description": "To indicate which information is requested in a responding message.",
+    "type": "object",
+    "properties": {
+        "informationRequest": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D06B/compositedataelement/C333.edifact.schema.json"
+        }
+    },
+    "required": []
+}

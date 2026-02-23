@@ -1,0 +1,637 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D98A/message/RESRSP.edifact.schema.json",
+    "title": "RESRSP",
+    "description": "",
+    "type": "object",
+    "properties": {
+        "UIH": {
+            "description": "Segment UIH",
+            "type": "object",
+            "properties": []
+        },
+        "MSD": {
+            "description": "Segment MSD",
+            "type": "object",
+            "properties": []
+        },
+        "ORG": {
+            "description": "Segment ORG",
+            "type": "object",
+            "properties": []
+        },
+        "RCI": {
+            "description": "Segment RCI",
+            "type": "object",
+            "properties": []
+        },
+        "NUN": {
+            "description": "Segment NUN",
+            "type": "object",
+            "properties": []
+        },
+        "CRI": {
+            "description": "Segment CRI",
+            "type": "object",
+            "properties": []
+        },
+        "TFF": {
+            "description": "Segment TFF",
+            "type": "object",
+            "properties": []
+        },
+        "PDT": {
+            "description": "Segment PDT",
+            "type": "object",
+            "properties": []
+        },
+        "ATI": {
+            "description": "Segment ATI",
+            "type": "object",
+            "properties": []
+        },
+        "CON": {
+            "description": "Segment CON",
+            "type": "object",
+            "properties": []
+        },
+        "CMN": {
+            "description": "Segment CMN",
+            "type": "object",
+            "properties": []
+        },
+        "ITM": {
+            "description": "Segment ITM",
+            "type": "object",
+            "properties": []
+        },
+        "IFT": {
+            "description": "Segment IFT",
+            "type": "object",
+            "properties": []
+        },
+        "PMT": {
+            "description": "Segment PMT",
+            "type": "object",
+            "properties": []
+        },
+        "TDI": {
+            "description": "Segment TDI",
+            "type": "object",
+            "properties": []
+        },
+        "ADS": {
+            "description": "Segment ADS",
+            "type": "object",
+            "properties": []
+        },
+        "SG1": {
+            "description": "Group SG1",
+            "type": "object",
+            "properties": {
+                "NME": {
+                    "description": "Segment NME",
+                    "type": "object",
+                    "properties": null
+                },
+                "ADS": {
+                    "description": "Segment ADS",
+                    "type": "object",
+                    "properties": null
+                }
+            },
+            "required": [
+                "NME"
+            ]
+        },
+        "SG2": {
+            "description": "Group SG2",
+            "type": "object",
+            "properties": {
+                "SSR": {
+                    "description": "Segment SSR",
+                    "type": "object",
+                    "properties": null
+                },
+                "IFT": {
+                    "description": "Segment IFT",
+                    "type": "object",
+                    "properties": null
+                }
+            },
+            "required": [
+                "SSR"
+            ]
+        },
+        "SG3": {
+            "description": "Group SG3",
+            "type": "object",
+            "properties": {
+                "ERI": {
+                    "description": "Segment ERI",
+                    "type": "object",
+                    "properties": null
+                },
+                "IFT": {
+                    "description": "Segment IFT",
+                    "type": "object",
+                    "properties": null
+                }
+            },
+            "required": [
+                "ERI"
+            ]
+        },
+        "SG4": {
+            "description": "Group SG4",
+            "type": "object",
+            "properties": {
+                "RUL": {
+                    "description": "Segment RUL",
+                    "type": "object",
+                    "properties": null
+                },
+                "PMT": {
+                    "description": "Segment PMT",
+                    "type": "object",
+                    "properties": null
+                },
+                "ADS": {
+                    "description": "Segment ADS",
+                    "type": "object",
+                    "properties": null
+                }
+            },
+            "required": [
+                "RUL"
+            ]
+        },
+        "SG5": {
+            "description": "Group SG5",
+            "type": "object",
+            "properties": {
+                "TIF": {
+                    "description": "Segment TIF",
+                    "type": "object",
+                    "properties": null
+                },
+                "FTI": {
+                    "description": "Segment FTI",
+                    "type": "object",
+                    "properties": null
+                },
+                "CRI": {
+                    "description": "Segment CRI",
+                    "type": "object",
+                    "properties": null
+                },
+                "CON": {
+                    "description": "Segment CON",
+                    "type": "object",
+                    "properties": null
+                },
+                "IFT": {
+                    "description": "Segment IFT",
+                    "type": "object",
+                    "properties": null
+                },
+                "DIS": {
+                    "description": "Segment DIS",
+                    "type": "object",
+                    "properties": null
+                },
+                "ASD": {
+                    "description": "Segment ASD",
+                    "type": "object",
+                    "properties": null
+                },
+                "TFF": {
+                    "description": "Segment TFF",
+                    "type": "object",
+                    "properties": null
+                },
+                "ADS": {
+                    "description": "Segment ADS",
+                    "type": "object",
+                    "properties": null
+                },
+                "PMT": {
+                    "description": "Segment PMT",
+                    "type": "object",
+                    "properties": null
+                },
+                "TDI": {
+                    "description": "Segment TDI",
+                    "type": "object",
+                    "properties": null
+                },
+                "SG6": {
+                    "description": "Group SG6",
+                    "type": "object",
+                    "properties": {
+                        "SSR": {
+                            "description": "Segment SSR",
+                            "type": "object",
+                            "properties": null
+                        },
+                        "IFT": {
+                            "description": "Segment IFT",
+                            "type": "object",
+                            "properties": null
+                        }
+                    },
+                    "required": [
+                        "SSR"
+                    ]
+                }
+            },
+            "required": [
+                "TIF"
+            ]
+        },
+        "SG7": {
+            "description": "Group SG7",
+            "type": "object",
+            "properties": {
+                "TVL": {
+                    "description": "Segment TVL",
+                    "type": "object",
+                    "properties": null
+                },
+                "MSD": {
+                    "description": "Segment MSD",
+                    "type": "object",
+                    "properties": null
+                },
+                "RCI": {
+                    "description": "Segment RCI",
+                    "type": "object",
+                    "properties": null
+                },
+                "RPI": {
+                    "description": "Segment RPI",
+                    "type": "object",
+                    "properties": null
+                },
+                "MOV": {
+                    "description": "Segment MOV",
+                    "type": "object",
+                    "properties": null
+                },
+                "PDT": {
+                    "description": "Segment PDT",
+                    "type": "object",
+                    "properties": null
+                },
+                "ATI": {
+                    "description": "Segment ATI",
+                    "type": "object",
+                    "properties": null
+                },
+                "DIS": {
+                    "description": "Segment DIS",
+                    "type": "object",
+                    "properties": null
+                },
+                "AAI": {
+                    "description": "Segment AAI",
+                    "type": "object",
+                    "properties": null
+                },
+                "CON": {
+                    "description": "Segment CON",
+                    "type": "object",
+                    "properties": null
+                },
+                "ADS": {
+                    "description": "Segment ADS",
+                    "type": "object",
+                    "properties": null
+                },
+                "NME": {
+                    "description": "Segment NME",
+                    "type": "object",
+                    "properties": null
+                },
+                "ASD": {
+                    "description": "Segment ASD",
+                    "type": "object",
+                    "properties": null
+                },
+                "NUN": {
+                    "description": "Segment NUN",
+                    "type": "object",
+                    "properties": null
+                },
+                "CMN": {
+                    "description": "Segment CMN",
+                    "type": "object",
+                    "properties": null
+                },
+                "PMT": {
+                    "description": "Segment PMT",
+                    "type": "object",
+                    "properties": null
+                },
+                "IFT": {
+                    "description": "Segment IFT",
+                    "type": "object",
+                    "properties": null
+                },
+                "TDI": {
+                    "description": "Segment TDI",
+                    "type": "object",
+                    "properties": null
+                },
+                "TFF": {
+                    "description": "Segment TFF",
+                    "type": "object",
+                    "properties": null
+                },
+                "SG8": {
+                    "description": "Group SG8",
+                    "type": "object",
+                    "properties": {
+                        "VEH": {
+                            "description": "Segment VEH",
+                            "type": "object",
+                            "properties": null
+                        },
+                        "PDT": {
+                            "description": "Segment PDT",
+                            "type": "object",
+                            "properties": null
+                        }
+                    },
+                    "required": [
+                        "VEH"
+                    ]
+                },
+                "SG9": {
+                    "description": "Group SG9",
+                    "type": "object",
+                    "properties": {
+                        "SSR": {
+                            "description": "Segment SSR",
+                            "type": "object",
+                            "properties": null
+                        },
+                        "IFT": {
+                            "description": "Segment IFT",
+                            "type": "object",
+                            "properties": null
+                        }
+                    },
+                    "required": [
+                        "SSR"
+                    ]
+                },
+                "SG10": {
+                    "description": "Group SG10",
+                    "type": "object",
+                    "properties": {
+                        "ERI": {
+                            "description": "Segment ERI",
+                            "type": "object",
+                            "properties": null
+                        },
+                        "IFT": {
+                            "description": "Segment IFT",
+                            "type": "object",
+                            "properties": null
+                        }
+                    },
+                    "required": [
+                        "ERI"
+                    ]
+                },
+                "SG11": {
+                    "description": "Group SG11",
+                    "type": "object",
+                    "properties": {
+                        "RUL": {
+                            "description": "Segment RUL",
+                            "type": "object",
+                            "properties": null
+                        },
+                        "PMT": {
+                            "description": "Segment PMT",
+                            "type": "object",
+                            "properties": null
+                        }
+                    },
+                    "required": [
+                        "RUL"
+                    ]
+                },
+                "SG12": {
+                    "description": "Group SG12",
+                    "type": "object",
+                    "properties": {
+                        "TIF": {
+                            "description": "Segment TIF",
+                            "type": "object",
+                            "properties": null
+                        },
+                        "FTI": {
+                            "description": "Segment FTI",
+                            "type": "object",
+                            "properties": null
+                        },
+                        "CRI": {
+                            "description": "Segment CRI",
+                            "type": "object",
+                            "properties": null
+                        },
+                        "CON": {
+                            "description": "Segment CON",
+                            "type": "object",
+                            "properties": null
+                        },
+                        "IFT": {
+                            "description": "Segment IFT",
+                            "type": "object",
+                            "properties": null
+                        },
+                        "ASD": {
+                            "description": "Segment ASD",
+                            "type": "object",
+                            "properties": null
+                        },
+                        "ADS": {
+                            "description": "Segment ADS",
+                            "type": "object",
+                            "properties": null
+                        },
+                        "PMT": {
+                            "description": "Segment PMT",
+                            "type": "object",
+                            "properties": null
+                        },
+                        "TFF": {
+                            "description": "Segment TFF",
+                            "type": "object",
+                            "properties": null
+                        },
+                        "SG13": {
+                            "description": "Group SG13",
+                            "type": "object",
+                            "properties": [],
+                            "required": []
+                        }
+                    },
+                    "required": [
+                        "TIF"
+                    ]
+                }
+            },
+            "required": [
+                "TVL"
+            ]
+        },
+        "SG14": {
+            "description": "Group SG14",
+            "type": "object",
+            "properties": {
+                "ODI": {
+                    "description": "Segment ODI",
+                    "type": "object",
+                    "properties": null
+                },
+                "MSD": {
+                    "description": "Segment MSD",
+                    "type": "object",
+                    "properties": null
+                },
+                "IFT": {
+                    "description": "Segment IFT",
+                    "type": "object",
+                    "properties": null
+                },
+                "SG15": {
+                    "description": "Group SG15",
+                    "type": "object",
+                    "properties": {
+                        "ERI": {
+                            "description": "Segment ERI",
+                            "type": "object",
+                            "properties": null
+                        },
+                        "IFT": {
+                            "description": "Segment IFT",
+                            "type": "object",
+                            "properties": null
+                        }
+                    },
+                    "required": [
+                        "ERI"
+                    ]
+                },
+                "SG16": {
+                    "description": "Group SG16",
+                    "type": "object",
+                    "properties": {
+                        "TVL": {
+                            "description": "Segment TVL",
+                            "type": "object",
+                            "properties": null
+                        },
+                        "APD": {
+                            "description": "Segment APD",
+                            "type": "object",
+                            "properties": null
+                        },
+                        "RPI": {
+                            "description": "Segment RPI",
+                            "type": "object",
+                            "properties": null
+                        },
+                        "NUN": {
+                            "description": "Segment NUN",
+                            "type": "object",
+                            "properties": null
+                        },
+                        "PDT": {
+                            "description": "Segment PDT",
+                            "type": "object",
+                            "properties": null
+                        },
+                        "ATI": {
+                            "description": "Segment ATI",
+                            "type": "object",
+                            "properties": null
+                        },
+                        "AAI": {
+                            "description": "Segment AAI",
+                            "type": "object",
+                            "properties": null
+                        },
+                        "DIS": {
+                            "description": "Segment DIS",
+                            "type": "object",
+                            "properties": null
+                        },
+                        "TFF": {
+                            "description": "Segment TFF",
+                            "type": "object",
+                            "properties": null
+                        },
+                        "RCI": {
+                            "description": "Segment RCI",
+                            "type": "object",
+                            "properties": null
+                        },
+                        "ASD": {
+                            "description": "Segment ASD",
+                            "type": "object",
+                            "properties": null
+                        },
+                        "IFT": {
+                            "description": "Segment IFT",
+                            "type": "object",
+                            "properties": null
+                        },
+                        "PMT": {
+                            "description": "Segment PMT",
+                            "type": "object",
+                            "properties": null
+                        },
+                        "SG17": {
+                            "description": "Group SG17",
+                            "type": "object",
+                            "properties": [],
+                            "required": []
+                        },
+                        "SG18": {
+                            "description": "Group SG18",
+                            "type": "object",
+                            "properties": [],
+                            "required": []
+                        },
+                        "SG19": {
+                            "description": "Group SG19",
+                            "type": "object",
+                            "properties": [],
+                            "required": []
+                        }
+                    },
+                    "required": [
+                        "TVL"
+                    ]
+                }
+            },
+            "required": [
+                "ODI"
+            ]
+        },
+        "UIT": {
+            "description": "Segment UIT",
+            "type": "object",
+            "properties": []
+        }
+    },
+    "required": [
+        "UIH",
+        "UIT"
+    ]
+}

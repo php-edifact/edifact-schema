@@ -1,0 +1,19 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D95A/segment/API.edifact.schema.json",
+    "title": "API",
+    "description": "To provide information concerning pricing related to class of trade, price multiplier, and reason for change. segment APR) APR has been automatically substituted in the messages API. APR must be used in future messages which require the segment function.",
+    "type": "object",
+    "properties": {
+        "classOfTradeCoded": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D95A/dataelement/4043.edifact.schema.json"
+        },
+        "priceMultiplierInformation": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D95A/compositedataelement/C138.edifact.schema.json"
+        },
+        "reasonForChange": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D95A/compositedataelement/C262.edifact.schema.json"
+        }
+    },
+    "required": []
+}

@@ -1,0 +1,15 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D02B/dataelement/9507.edifact.schema.json",
+    "title": "formulaSequenceCodeQualifier",
+    "description": "Code giving specific meaning to a formula sequence.",
+    "type": "object",
+    "properties": {
+        "value": {
+            "description": "Value",
+            "type": "string",
+            "maxLength": 3
+        }
+    },
+    "required": []
+}

@@ -1,0 +1,15 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D97B/dataelement/6072.edifact.schema.json",
+    "title": "frequencyValue",
+    "description": "A value indicating a repetitive occurrence.",
+    "type": "object",
+    "properties": {
+        "value": {
+            "description": "Value",
+            "type": "string",
+            "maxLength": 9
+        }
+    },
+    "required": []
+}

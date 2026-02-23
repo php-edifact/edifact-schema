@@ -1,0 +1,25 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D97A/segment/LOC.edifact.schema.json",
+    "title": "LOC",
+    "description": "To identify a country/place/location/related location one/related location two.",
+    "type": "object",
+    "properties": {
+        "placeOrlocationQualifier": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D97A/dataelement/3227.edifact.schema.json"
+        },
+        "locationIdentification": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D97A/compositedataelement/C517.edifact.schema.json"
+        },
+        "relatedLocationOneIdentification": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D97A/compositedataelement/C519.edifact.schema.json"
+        },
+        "relatedLocationTwoIdentification": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D97A/compositedataelement/C553.edifact.schema.json"
+        },
+        "relation,Coded": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D97A/dataelement/5479.edifact.schema.json"
+        }
+    },
+    "required": []
+}

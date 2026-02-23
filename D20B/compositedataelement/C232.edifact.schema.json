@@ -1,0 +1,22 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D20B/compositedataelement/C232.edifact.schema.json",
+    "title": "C232",
+    "description": "Function: To indicate the requirement for a specific governmental action and/or procedure or which specific procedure is valid for a specific part of the transport and cross-border transactions. (Note the red portion as change in the segment description.).",
+    "type": "object",
+    "properties": {
+        "governmentAgencyIdentificationCode": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D20B/dataelement/9415.edifact.schema.json"
+        },
+        "governmentInvolvementCode": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D20B/dataelement/9411.edifact.schema.json"
+        },
+        "governmentActionCode": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D20B/dataelement/9417.edifact.schema.json"
+        },
+        "governmentProcedureCode": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D20B/dataelement/9353.edifact.schema.json"
+        }
+    },
+    "required": []
+}

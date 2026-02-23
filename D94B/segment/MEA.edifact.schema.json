@@ -1,0 +1,22 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D94B/segment/MEA.edifact.schema.json",
+    "title": "MEA",
+    "description": "To specify physical measurements, including dimension tolerances, weights and counts.",
+    "type": "object",
+    "properties": {
+        "measurementApplicationQualifier": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D94B/dataelement/6311.edifact.schema.json"
+        },
+        "measurementDetails": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D94B/compositedataelement/C502.edifact.schema.json"
+        },
+        "valuerange": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D94B/compositedataelement/C174.edifact.schema.json"
+        },
+        "surfacelayerIndicatorCoded": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D94B/dataelement/7383.edifact.schema.json"
+        }
+    },
+    "required": []
+}

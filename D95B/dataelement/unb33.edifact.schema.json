@@ -1,0 +1,15 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D95B/dataelement/unb33.edifact.schema.json",
+    "title": "routingAddress",
+    "description": "Routing address",
+    "type": "object",
+    "properties": {
+        "value": {
+            "description": "Value",
+            "type": "string",
+            "maxLength": 14
+        }
+    },
+    "required": []
+}

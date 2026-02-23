@@ -1,0 +1,19 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D00A/compositedataelement/C206.edifact.schema.json",
+    "title": "C206",
+    "description": "The identification of an object.",
+    "type": "object",
+    "properties": {
+        "objectIdentifier": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D00A/dataelement/7402.edifact.schema.json"
+        },
+        "objectIdentificationCodeQualifier": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D00A/dataelement/7405.edifact.schema.json"
+        },
+        "statusDescriptionCode": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D00A/dataelement/4405.edifact.schema.json"
+        }
+    },
+    "required": []
+}

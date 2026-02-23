@@ -1,0 +1,15 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D11B/dataelement/6002.edifact.schema.json",
+    "title": "longitudeDegree",
+    "description": "To specify the value of longitude i.e. the angular distance east or west on the earth's surface, measured by the angle and expressed in degrees, minutes, and seconds, which the meridian passing through a particular place makes with a standard or prime meridian.",
+    "type": "object",
+    "properties": {
+        "value": {
+            "description": "Value",
+            "type": "string",
+            "maxLength": 11
+        }
+    },
+    "required": []
+}

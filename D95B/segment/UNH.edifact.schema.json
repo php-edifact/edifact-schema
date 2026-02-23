@@ -1,0 +1,31 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D95B/segment/UNH.edifact.schema.json",
+    "title": "UNH",
+    "description": "To head, identify and specify a message.",
+    "type": "object",
+    "properties": {
+        "messageReferenceNumber": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D95B/dataelement/unh1.edifact.schema.json"
+        },
+        "messageType": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D95B/compositedataelement/unh2.edifact.schema.json"
+        },
+        "commonAccessReference": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D95B/dataelement/unh3.edifact.schema.json"
+        },
+        "tranferStatus": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D95B/compositedataelement/unh4.edifact.schema.json"
+        },
+        "subsetIdentification": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D95B/compositedataelement/unh5.edifact.schema.json"
+        },
+        "implementationGuidelineIdentification": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D95B/compositedataelement/unh6.edifact.schema.json"
+        },
+        "scenarioIdentification": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D95B/compositedataelement/unh7.edifact.schema.json"
+        }
+    },
+    "required": []
+}

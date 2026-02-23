@@ -1,0 +1,22 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D12A/compositedataelement/C244.edifact.schema.json",
+    "title": "C244",
+    "description": "Specification of the test method employed.",
+    "type": "object",
+    "properties": {
+        "testMethodIdentifier": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D12A/dataelement/4415.edifact.schema.json"
+        },
+        "codeListIdentificationCode": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D12A/dataelement/1131.edifact.schema.json"
+        },
+        "codeListResponsibleAgencyCode": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D12A/dataelement/3055.edifact.schema.json"
+        },
+        "testDescription": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D12A/dataelement/4416.edifact.schema.json"
+        }
+    },
+    "required": []
+}

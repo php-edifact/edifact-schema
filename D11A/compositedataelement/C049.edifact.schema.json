@@ -1,0 +1,25 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D11A/compositedataelement/C049.edifact.schema.json",
+    "title": "C049",
+    "description": "Identification of the type of a remuneration.",
+    "type": "object",
+    "properties": {
+        "remunerationTypeNameCode": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D11A/dataelement/5315.edifact.schema.json"
+        },
+        "codeListIdentificationCode": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D11A/dataelement/1131.edifact.schema.json"
+        },
+        "codeListResponsibleAgencyCode": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D11A/dataelement/3055.edifact.schema.json"
+        },
+        "remunerationTypeName": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D11A/dataelement/5314.edifact.schema.json"
+        },
+        "remunerationTypeName2": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D11A/dataelement/5314.edifact.schema.json"
+        }
+    },
+    "required": []
+}

@@ -1,0 +1,16 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D03A/compositedataelement/C508.edifact.schema.json",
+    "title": "C508",
+    "description": "To identify a language.",
+    "type": "object",
+    "properties": {
+        "languageNameCode": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D03A/dataelement/3453.edifact.schema.json"
+        },
+        "languageName": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D03A/dataelement/3452.edifact.schema.json"
+        }
+    },
+    "required": []
+}

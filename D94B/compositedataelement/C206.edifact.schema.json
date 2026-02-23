@@ -1,0 +1,16 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D94B/compositedataelement/C206.edifact.schema.json",
+    "title": "C206",
+    "description": "Goods item identification number.",
+    "type": "object",
+    "properties": {
+        "identityNumber": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D94B/dataelement/7402.edifact.schema.json"
+        },
+        "identityNumberQualifier": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D94B/dataelement/7405.edifact.schema.json"
+        }
+    },
+    "required": []
+}

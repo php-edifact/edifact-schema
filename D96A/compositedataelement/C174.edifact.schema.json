@@ -1,0 +1,25 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D96A/compositedataelement/C174.edifact.schema.json",
+    "title": "C174",
+    "description": "Measurement value and relevant minimum and maximum tolerances in that order.",
+    "type": "object",
+    "properties": {
+        "measureUnitQualifier": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D96A/dataelement/6411.edifact.schema.json"
+        },
+        "measurementValue": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D96A/dataelement/6314.edifact.schema.json"
+        },
+        "rangeMinimum": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D96A/dataelement/6162.edifact.schema.json"
+        },
+        "rangeMaximum": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D96A/dataelement/6152.edifact.schema.json"
+        },
+        "significantDigits": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D96A/dataelement/6432.edifact.schema.json"
+        }
+    },
+    "required": []
+}

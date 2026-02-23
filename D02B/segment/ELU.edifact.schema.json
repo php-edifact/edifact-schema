@@ -1,0 +1,34 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D02B/segment/ELU.edifact.schema.json",
+    "title": "ELU",
+    "description": "To specify the usage of a data element.",
+    "type": "object",
+    "properties": {
+        "dataElementTagIdentifier": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D02B/dataelement/9162.edifact.schema.json"
+        },
+        "requirementDesignatorCode": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D02B/dataelement/7299.edifact.schema.json"
+        },
+        "sequencePositionIdentifier": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D02B/dataelement/1050.edifact.schema.json"
+        },
+        "maintenanceOperationCode": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D02B/dataelement/4513.edifact.schema.json"
+        },
+        "occurrencesMaximumNumber": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D02B/dataelement/6176.edifact.schema.json"
+        },
+        "codeValueSourceCode": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D02B/dataelement/9453.edifact.schema.json"
+        },
+        "validationCriteriaCode": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D02B/dataelement/9285.edifact.schema.json"
+        },
+        "dataElementUsageTypeCode": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D02B/dataelement/9175.edifact.schema.json"
+        }
+    },
+    "required": []
+}

@@ -1,0 +1,15 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D98B/dataelement/7224.edifact.schema.json",
+    "title": "numberOfPackages",
+    "description": "Number of individual parts of a shipment either unpacked, or packed in such a way that they cannot be divided without first undoing the packing.",
+    "type": "object",
+    "properties": {
+        "value": {
+            "description": "Value",
+            "type": "string",
+            "maxLength": 8
+        }
+    },
+    "required": []
+}

@@ -1,0 +1,40 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D96B/compositedataelement/C203.edifact.schema.json",
+    "title": "C203",
+    "description": "Identification of the applicable rate/tariff class.",
+    "type": "object",
+    "properties": {
+        "ratetariffClassIdentification": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D96B/dataelement/5243.edifact.schema.json"
+        },
+        "codeListQualifier": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D96B/dataelement/1131.edifact.schema.json"
+        },
+        "codeListResponsibleAgencyCoded": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D96B/dataelement/3055.edifact.schema.json"
+        },
+        "ratetariffClass": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D96B/dataelement/5242.edifact.schema.json"
+        },
+        "supplementaryRatetariffBasisIdentification": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D96B/dataelement/5275.edifact.schema.json"
+        },
+        "codeListQualifier2": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D96B/dataelement/1131.edifact.schema.json"
+        },
+        "codeListResponsibleAgencyCoded2": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D96B/dataelement/3055.edifact.schema.json"
+        },
+        "supplementaryRatetariffBasisIdentification2": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D96B/dataelement/5275.edifact.schema.json"
+        },
+        "codeListQualifier3": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D96B/dataelement/1131.edifact.schema.json"
+        },
+        "codeListResponsibleAgencyCoded3": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D96B/dataelement/3055.edifact.schema.json"
+        }
+    },
+    "required": []
+}

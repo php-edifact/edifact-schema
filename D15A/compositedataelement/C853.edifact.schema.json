@@ -1,0 +1,19 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D15A/compositedataelement/C853.edifact.schema.json",
+    "title": "C853",
+    "description": "To indicate the exact segment location of an application error within a message.",
+    "type": "object",
+    "properties": {
+        "segmentTagIdentifier": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D15A/dataelement/9166.edifact.schema.json"
+        },
+        "sequencePositionIdentifier": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D15A/dataelement/1050.edifact.schema.json"
+        },
+        "sequenceIdentifierSourceCode": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D15A/dataelement/1159.edifact.schema.json"
+        }
+    },
+    "required": []
+}

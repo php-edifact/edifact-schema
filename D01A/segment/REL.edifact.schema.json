@@ -1,0 +1,16 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D01A/segment/REL.edifact.schema.json",
+    "title": "REL",
+    "description": "To identify relationships between objects.",
+    "type": "object",
+    "properties": {
+        "relationshipTypeCodeQualifier": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D01A/dataelement/9141.edifact.schema.json"
+        },
+        "relationship": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D01A/compositedataelement/C941.edifact.schema.json"
+        }
+    },
+    "required": []
+}

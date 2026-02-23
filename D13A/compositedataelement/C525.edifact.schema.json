@@ -1,0 +1,22 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D13A/compositedataelement/C525.edifact.schema.json",
+    "title": "C525",
+    "description": "Description of the purpose of the call of the conveyance.",
+    "type": "object",
+    "properties": {
+        "conveyanceCallPurposeDescriptionCode": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D13A/dataelement/8025.edifact.schema.json"
+        },
+        "codeListIdentificationCode": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D13A/dataelement/1131.edifact.schema.json"
+        },
+        "codeListResponsibleAgencyCode": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D13A/dataelement/3055.edifact.schema.json"
+        },
+        "conveyanceCallPurposeDescription": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D13A/dataelement/8024.edifact.schema.json"
+        }
+    },
+    "required": []
+}

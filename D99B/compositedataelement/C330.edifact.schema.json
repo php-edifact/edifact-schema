@@ -1,0 +1,19 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D99B/compositedataelement/C330.edifact.schema.json",
+    "title": "C330",
+    "description": "To provide the insurance cover type.",
+    "type": "object",
+    "properties": {
+        "insuranceCoverTypeCode": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D99B/dataelement/4497.edifact.schema.json"
+        },
+        "codeListIdentificationCode": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D99B/dataelement/1131.edifact.schema.json"
+        },
+        "codeListResponsibleAgencyCode": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D99B/dataelement/3055.edifact.schema.json"
+        }
+    },
+    "required": []
+}

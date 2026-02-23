@@ -1,0 +1,28 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D14A/compositedataelement/C045.edifact.schema.json",
+    "title": "C045",
+    "description": "A sequenced collection of facetted codes used for multiple indexing purposes.",
+    "type": "object",
+    "properties": {
+        "levelOneIdentifier": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D14A/dataelement/7436.edifact.schema.json"
+        },
+        "levelTwoIdentifier": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D14A/dataelement/7438.edifact.schema.json"
+        },
+        "levelThreeIdentifier": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D14A/dataelement/7440.edifact.schema.json"
+        },
+        "levelFourIdentifier": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D14A/dataelement/7442.edifact.schema.json"
+        },
+        "levelFiveIdentifier": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D14A/dataelement/7444.edifact.schema.json"
+        },
+        "levelSixIdentifier": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D14A/dataelement/7446.edifact.schema.json"
+        }
+    },
+    "required": []
+}

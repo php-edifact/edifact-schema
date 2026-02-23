@@ -1,0 +1,16 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D99B/segment/TMP.edifact.schema.json",
+    "title": "TMP",
+    "description": "To specify the temperature setting.",
+    "type": "object",
+    "properties": {
+        "temperatureQualifier": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D99B/dataelement/6245.edifact.schema.json"
+        },
+        "temperatureSetting": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D99B/compositedataelement/C239.edifact.schema.json"
+        }
+    },
+    "required": []
+}

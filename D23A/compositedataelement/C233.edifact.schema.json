@@ -1,0 +1,28 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D23A/compositedataelement/C233.edifact.schema.json",
+    "title": "C233",
+    "description": "To identify a service (which may constitute an additional component to a basic contract).",
+    "type": "object",
+    "properties": {
+        "serviceRequirementCode": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D23A/dataelement/7273.edifact.schema.json"
+        },
+        "codeListIdentificationCode": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D23A/dataelement/1131.edifact.schema.json"
+        },
+        "codeListResponsibleAgencyCode": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D23A/dataelement/3055.edifact.schema.json"
+        },
+        "serviceRequirementCode2": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D23A/dataelement/7273.edifact.schema.json"
+        },
+        "codeListIdentificationCode2": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D23A/dataelement/1131.edifact.schema.json"
+        },
+        "codeListResponsibleAgencyCode2": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D23A/dataelement/3055.edifact.schema.json"
+        }
+    },
+    "required": []
+}

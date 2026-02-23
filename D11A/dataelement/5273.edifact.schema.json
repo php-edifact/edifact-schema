@@ -1,0 +1,15 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D11A/dataelement/5273.edifact.schema.json",
+    "title": "dutyOrTaxOrFeeRateBasisCode",
+    "description": "Code specifying the basis for a duty or tax or fee rate.",
+    "type": "object",
+    "properties": {
+        "value": {
+            "description": "Value",
+            "type": "string",
+            "maxLength": 12
+        }
+    },
+    "required": []
+}

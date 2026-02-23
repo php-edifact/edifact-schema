@@ -1,0 +1,15 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D10B/dataelement/4509.edifact.schema.json",
+    "title": "creditCoverResponseReasonCode",
+    "description": "Code specifying the reason for a response to a request for credit cover.",
+    "type": "object",
+    "properties": {
+        "value": {
+            "description": "Value",
+            "type": "string",
+            "maxLength": 3
+        }
+    },
+    "required": []
+}

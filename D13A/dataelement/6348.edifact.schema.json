@@ -1,0 +1,15 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D13A/dataelement/6348.edifact.schema.json",
+    "title": "currencyRate",
+    "description": "To specify the value of the multiplication factor used in expressing currency units.",
+    "type": "object",
+    "properties": {
+        "value": {
+            "description": "Value",
+            "type": "string",
+            "maxLength": 4
+        }
+    },
+    "required": []
+}

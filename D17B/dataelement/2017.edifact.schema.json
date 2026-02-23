@@ -1,0 +1,15 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D17B/dataelement/2017.edifact.schema.json",
+    "title": "despatchPatternTimingCode",
+    "description": "Code specifying a set of dates/times within a despatch pattern.",
+    "type": "object",
+    "properties": {
+        "value": {
+            "description": "Value",
+            "type": "string",
+            "maxLength": 3
+        }
+    },
+    "required": []
+}

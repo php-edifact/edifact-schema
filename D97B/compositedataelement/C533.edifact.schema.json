@@ -1,0 +1,19 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D97B/compositedataelement/C533.edifact.schema.json",
+    "title": "C533",
+    "description": "Indication of account reference for duties, taxes and/or fees.",
+    "type": "object",
+    "properties": {
+        "dutyOrtaxOrfeeAccountIdentification": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D97B/dataelement/5289.edifact.schema.json"
+        },
+        "codeListQualifier": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D97B/dataelement/1131.edifact.schema.json"
+        },
+        "codeListResponsibleAgency,Coded": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D97B/dataelement/3055.edifact.schema.json"
+        }
+    },
+    "required": []
+}

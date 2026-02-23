@@ -1,0 +1,15 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D99A/dataelement/6074.edifact.schema.json",
+    "title": "confidenceLimit",
+    "description": "A percent value expressing the confidence that a true value falls within a certain confidence interval.",
+    "type": "object",
+    "properties": {
+        "value": {
+            "description": "Value",
+            "type": "string",
+            "maxLength": 6
+        }
+    },
+    "required": []
+}

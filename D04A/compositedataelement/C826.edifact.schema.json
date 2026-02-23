@@ -1,0 +1,22 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D04A/compositedataelement/C826.edifact.schema.json",
+    "title": "C826",
+    "description": "To indicate an action which has been taken or is to be taken (e.g. in relation to a certain object).",
+    "type": "object",
+    "properties": {
+        "actionRequestOrnotificationDescriptionCode": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D04A/dataelement/1229.edifact.schema.json"
+        },
+        "codeListIdentificationCode": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D04A/dataelement/1131.edifact.schema.json"
+        },
+        "codeListResponsibleAgencyCode": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D04A/dataelement/3055.edifact.schema.json"
+        },
+        "actionRequestOrnotificationDescription": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D04A/dataelement/1228.edifact.schema.json"
+        }
+    },
+    "required": []
+}

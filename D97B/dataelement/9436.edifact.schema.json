@@ -1,0 +1,15 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D97B/dataelement/9436.edifact.schema.json",
+    "title": "clinicalIntervention",
+    "description": "To specify clinical intervention as free text.",
+    "type": "object",
+    "properties": {
+        "value": {
+            "description": "Value",
+            "type": "string",
+            "maxLength": 70
+        }
+    },
+    "required": []
+}

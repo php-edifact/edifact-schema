@@ -1,0 +1,31 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D99B/compositedataelement/C593.edifact.schema.json",
+    "title": "C593",
+    "description": "Identification of an account.",
+    "type": "object",
+    "properties": {
+        "accountIdentification": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D99B/dataelement/1147.edifact.schema.json"
+        },
+        "codeListIdentificationCode": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D99B/dataelement/1131.edifact.schema.json"
+        },
+        "codeListResponsibleAgencyCode": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D99B/dataelement/3055.edifact.schema.json"
+        },
+        "accountAbbreviatedName": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D99B/dataelement/1148.edifact.schema.json"
+        },
+        "accountName": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D99B/dataelement/1146.edifact.schema.json"
+        },
+        "accountName2": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D99B/dataelement/1146.edifact.schema.json"
+        },
+        "currencyIdentificationCode": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D99B/dataelement/6345.edifact.schema.json"
+        }
+    },
+    "required": []
+}

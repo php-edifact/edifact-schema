@@ -1,0 +1,15 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D04B/dataelement/8332.edifact.schema.json",
+    "title": "equipmentPlanDescription",
+    "description": "Free form description of the equipment plan.",
+    "type": "object",
+    "properties": {
+        "value": {
+            "description": "Value",
+            "type": "string",
+            "maxLength": 26
+        }
+    },
+    "required": []
+}

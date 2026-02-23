@@ -1,0 +1,15 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D04B/dataelement/7175.edifact.schema.json",
+    "title": "rulePartIdentifier",
+    "description": "To identify a part of a rule.",
+    "type": "object",
+    "properties": {
+        "value": {
+            "description": "Value",
+            "type": "string",
+            "maxLength": 7
+        }
+    },
+    "required": []
+}

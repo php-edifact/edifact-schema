@@ -1,0 +1,15 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D13A/dataelement/1514.edifact.schema.json",
+    "title": "valueListName",
+    "description": "Name of a coded or non-coded list of values.",
+    "type": "object",
+    "properties": {
+        "value": {
+            "description": "Value",
+            "type": "string",
+            "maxLength": 70
+        }
+    },
+    "required": []
+}

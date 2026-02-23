@@ -1,0 +1,25 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D99A/compositedataelement/C402.edifact.schema.json",
+    "title": "C402",
+    "description": "Identification of the form in which goods are described.",
+    "type": "object",
+    "properties": {
+        "itemDescriptionType,Coded": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D99A/dataelement/7077.edifact.schema.json"
+        },
+        "typeOfPackages": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D99A/dataelement/7064.edifact.schema.json"
+        },
+        "itemNumberType,Coded": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D99A/dataelement/7143.edifact.schema.json"
+        },
+        "typeOfPackages2": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D99A/dataelement/7064.edifact.schema.json"
+        },
+        "itemNumberType,Coded2": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D99A/dataelement/7143.edifact.schema.json"
+        }
+    },
+    "required": []
+}

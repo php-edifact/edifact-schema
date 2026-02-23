@@ -1,0 +1,19 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D17A/segment/MKS.edifact.schema.json",
+    "title": "MKS",
+    "description": "To specify to which market and/or through which sales distribution channel and/or for which end- use the sales of product/service have been made or are given as forecast.",
+    "type": "object",
+    "properties": {
+        "sectorAreaIdentificationCodeQualifier": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D17A/dataelement/7293.edifact.schema.json"
+        },
+        "salesChannelIdentification": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D17A/compositedataelement/C332.edifact.schema.json"
+        },
+        "actionCode": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D17A/dataelement/1229.edifact.schema.json"
+        }
+    },
+    "required": []
+}

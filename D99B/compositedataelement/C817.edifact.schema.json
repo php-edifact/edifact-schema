@@ -1,0 +1,9 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D99B/compositedataelement/C817.edifact.schema.json",
+    "title": "C817",
+    "description": "To describe the usage of an address.",
+    "type": "object",
+    "properties": [],
+    "required": []
+}

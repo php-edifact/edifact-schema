@@ -1,0 +1,15 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D99A/dataelement/8028.edifact.schema.json",
+    "title": "conveyanceReferenceNumber",
+    "description": "Unique reference given by the carrier to a certain journey or departure of a means of transport (generic term).",
+    "type": "object",
+    "properties": {
+        "value": {
+            "description": "Value",
+            "type": "string",
+            "maxLength": 17
+        }
+    },
+    "required": []
+}

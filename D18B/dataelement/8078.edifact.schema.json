@@ -1,0 +1,15 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D18B/dataelement/8078.edifact.schema.json",
+    "title": "additionalHazardClassificationIdentifier",
+    "description": "To identify an additional hazard classification.",
+    "type": "object",
+    "properties": {
+        "value": {
+            "description": "Value",
+            "type": "string",
+            "maxLength": 7
+        }
+    },
+    "required": []
+}

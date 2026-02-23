@@ -1,0 +1,16 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D15B/segment/PRC.edifact.schema.json",
+    "title": "PRC",
+    "description": "To identify a process.",
+    "type": "object",
+    "properties": {
+        "processTypeAndDescription": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D15B/compositedataelement/C242.edifact.schema.json"
+        },
+        "processIdentificationDetails": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D15B/compositedataelement/C830.edifact.schema.json"
+        }
+    },
+    "required": []
+}

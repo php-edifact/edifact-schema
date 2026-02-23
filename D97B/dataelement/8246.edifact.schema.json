@@ -1,0 +1,15 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D97B/dataelement/8246.edifact.schema.json",
+    "title": "dangerousGoodsLabelMarking",
+    "description": "Marking identifying the type of hazardous goods (substance), Loading/Unloading instructions and advising actions in case of emergency.",
+    "type": "object",
+    "properties": {
+        "value": {
+            "description": "Value",
+            "type": "string",
+            "maxLength": 4
+        }
+    },
+    "required": []
+}

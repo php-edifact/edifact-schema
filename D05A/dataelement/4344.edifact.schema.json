@@ -1,0 +1,15 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D05A/dataelement/4344.edifact.schema.json",
+    "title": "responseDescription",
+    "description": "Free form description of a response.",
+    "type": "object",
+    "properties": {
+        "value": {
+            "description": "Value",
+            "type": "string",
+            "maxLength": 256
+        }
+    },
+    "required": []
+}

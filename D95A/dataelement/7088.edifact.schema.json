@@ -1,0 +1,15 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D95A/dataelement/7088.edifact.schema.json",
+    "title": "dangerousGoodsFlashpoint",
+    "description": "Lowest temperature, in the case of dangerous goods, at which vapour from an inflammable liquid forms an ignitable mixture with air.",
+    "type": "object",
+    "properties": {
+        "value": {
+            "description": "Value",
+            "type": "string",
+            "maxLength": 8
+        }
+    },
+    "required": []
+}

@@ -1,0 +1,16 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D10B/segment/AGR.edifact.schema.json",
+    "title": "AGR",
+    "description": "To specify the agreement details.",
+    "type": "object",
+    "properties": {
+        "agreementTypeIdentification": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D10B/compositedataelement/C543.edifact.schema.json"
+        },
+        "serviceLayerCode": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D10B/dataelement/9419.edifact.schema.json"
+        }
+    },
+    "required": []
+}

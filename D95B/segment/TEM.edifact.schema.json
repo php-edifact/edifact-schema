@@ -1,0 +1,28 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D95B/segment/TEM.edifact.schema.json",
+    "title": "TEM",
+    "description": "To describe the nature of the test performed.",
+    "type": "object",
+    "properties": {
+        "testMethod": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D95B/compositedataelement/C244.edifact.schema.json"
+        },
+        "testRouteOfAdministeringCoded": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D95B/dataelement/4419.edifact.schema.json"
+        },
+        "testMediaCoded": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D95B/dataelement/3077.edifact.schema.json"
+        },
+        "measurementApplicationQualifier": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D95B/dataelement/6311.edifact.schema.json"
+        },
+        "testRevisionNumber": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D95B/dataelement/7188.edifact.schema.json"
+        },
+        "testReason": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D95B/compositedataelement/C515.edifact.schema.json"
+        }
+    },
+    "required": []
+}

@@ -1,0 +1,25 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D18B/segment/IFD.edifact.schema.json",
+    "title": "IFD",
+    "description": "To specify details about items of information.",
+    "type": "object",
+    "properties": {
+        "informationDetailsCodeQualifier": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D18B/dataelement/4153.edifact.schema.json"
+        },
+        "informationCategory": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D18B/compositedataelement/C009.edifact.schema.json"
+        },
+        "informationType": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D18B/compositedataelement/C010.edifact.schema.json"
+        },
+        "informationDetail": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D18B/compositedataelement/C011.edifact.schema.json"
+        },
+        "statusDescriptionCode": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D18B/dataelement/4405.edifact.schema.json"
+        }
+    },
+    "required": []
+}

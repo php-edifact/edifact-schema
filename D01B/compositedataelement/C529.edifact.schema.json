@@ -1,0 +1,22 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D01B/compositedataelement/C529.edifact.schema.json",
+    "title": "C529",
+    "description": "Type of process indication.",
+    "type": "object",
+    "properties": {
+        "processingIndicatorDescriptionCode": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D01B/dataelement/7365.edifact.schema.json"
+        },
+        "codeListIdentificationCode": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D01B/dataelement/1131.edifact.schema.json"
+        },
+        "codeListResponsibleAgencyCode": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D01B/dataelement/3055.edifact.schema.json"
+        },
+        "processTypeDescriptionCode": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D01B/dataelement/7187.edifact.schema.json"
+        }
+    },
+    "required": []
+}

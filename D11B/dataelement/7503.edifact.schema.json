@@ -1,0 +1,15 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D11B/dataelement/7503.edifact.schema.json",
+    "title": "damageAreaDescriptionCode",
+    "description": "Code specifying where the damage is on an object.",
+    "type": "object",
+    "properties": {
+        "value": {
+            "description": "Value",
+            "type": "string",
+            "maxLength": 4
+        }
+    },
+    "required": []
+}

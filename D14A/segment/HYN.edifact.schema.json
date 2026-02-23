@@ -1,0 +1,25 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D14A/segment/HYN.edifact.schema.json",
+    "title": "HYN",
+    "description": "A segment to identify hierarchical connections from a given item to a higher or lower levelled item or to identify dependencies among the content of hierarchically related groups of data.",
+    "type": "object",
+    "properties": {
+        "hierarchyObjectCodeQualifier": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D14A/dataelement/7173.edifact.schema.json"
+        },
+        "hierarchicalStructureRelationshipCode": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D14A/dataelement/7171.edifact.schema.json"
+        },
+        "actionCode": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D14A/dataelement/1229.edifact.schema.json"
+        },
+        "itemNumberIdentification": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D14A/compositedataelement/C212.edifact.schema.json"
+        },
+        "hierarchicalStructureParentIdentifier": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D14A/dataelement/7166.edifact.schema.json"
+        }
+    },
+    "required": []
+}

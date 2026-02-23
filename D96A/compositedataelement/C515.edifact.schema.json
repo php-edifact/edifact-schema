@@ -1,0 +1,22 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D96A/compositedataelement/C515.edifact.schema.json",
+    "title": "C515",
+    "description": "To identify the reason for the test as specified.",
+    "type": "object",
+    "properties": {
+        "testReasonIdentification": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D96A/dataelement/4425.edifact.schema.json"
+        },
+        "codeListQualifier": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D96A/dataelement/1131.edifact.schema.json"
+        },
+        "codeListResponsibleAgencyCoded": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D96A/dataelement/3055.edifact.schema.json"
+        },
+        "testReason": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D96A/dataelement/4424.edifact.schema.json"
+        }
+    },
+    "required": []
+}

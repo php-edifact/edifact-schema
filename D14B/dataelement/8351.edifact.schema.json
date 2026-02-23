@@ -1,0 +1,15 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D14B/dataelement/8351.edifact.schema.json",
+    "title": "hazardIdentificationCode",
+    "description": "Code identifying a hazard.",
+    "type": "object",
+    "properties": {
+        "value": {
+            "description": "Value",
+            "type": "string",
+            "maxLength": 7
+        }
+    },
+    "required": []
+}

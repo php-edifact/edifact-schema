@@ -1,0 +1,15 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D11A/dataelement/8022.edifact.schema.json",
+    "title": "freightAndOtherChargesDescription",
+    "description": "Free form description of freight and other charges.",
+    "type": "object",
+    "properties": {
+        "value": {
+            "description": "Value",
+            "type": "string",
+            "maxLength": 26
+        }
+    },
+    "required": []
+}

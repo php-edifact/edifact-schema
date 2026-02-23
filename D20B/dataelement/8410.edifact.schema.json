@@ -1,0 +1,15 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D20B/dataelement/8410.edifact.schema.json",
+    "title": "hazardMedicalFirstAidGuideIdentifier",
+    "description": "To identify a Medical First Aid Guide (MFAG) for hazardous goods.",
+    "type": "object",
+    "properties": {
+        "value": {
+            "description": "Value",
+            "type": "string",
+            "maxLength": 4
+        }
+    },
+    "required": []
+}

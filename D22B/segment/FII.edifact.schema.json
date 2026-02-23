@@ -1,0 +1,22 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D22B/segment/FII.edifact.schema.json",
+    "title": "FII",
+    "description": "To identify an account and a related financial institution.",
+    "type": "object",
+    "properties": {
+        "partyFunctionCodeQualifier": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D22B/dataelement/3035.edifact.schema.json"
+        },
+        "accountHolderIdentification": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D22B/compositedataelement/C078.edifact.schema.json"
+        },
+        "institutionIdentification": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D22B/compositedataelement/C088.edifact.schema.json"
+        },
+        "countryIdentifier": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D22B/dataelement/3207.edifact.schema.json"
+        }
+    },
+    "required": []
+}

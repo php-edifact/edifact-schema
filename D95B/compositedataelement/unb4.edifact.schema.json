@@ -1,0 +1,16 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D95B/compositedataelement/unb4.edifact.schema.json",
+    "title": "unb4",
+    "description": "Date Time of preparation",
+    "type": "object",
+    "properties": {
+        "date": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D95B/dataelement/unb41.edifact.schema.json"
+        },
+        "time": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D95B/dataelement/unb42.edifact.schema.json"
+        }
+    },
+    "required": []
+}

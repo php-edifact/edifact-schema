@@ -1,0 +1,15 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D96B/dataelement/1052.edifact.schema.json",
+    "title": "messageItemNumber",
+    "description": "The referenced number allocated to an identifiable item in a message. eg Customs item or invoice item.",
+    "type": "object",
+    "properties": {
+        "value": {
+            "description": "Value",
+            "type": "string",
+            "maxLength": 35
+        }
+    },
+    "required": []
+}

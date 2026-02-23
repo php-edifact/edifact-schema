@@ -1,0 +1,16 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D03A/segment/RJL.edifact.schema.json",
+    "title": "RJL",
+    "description": "To identify an accounting journal.",
+    "type": "object",
+    "properties": {
+        "accountingJournalIdentification": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D03A/compositedataelement/C595.edifact.schema.json"
+        },
+        "accountingEntryTypeDetails": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D03A/compositedataelement/C596.edifact.schema.json"
+        }
+    },
+    "required": []
+}

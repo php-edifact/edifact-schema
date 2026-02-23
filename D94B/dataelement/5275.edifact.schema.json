@@ -1,0 +1,15 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D94B/dataelement/5275.edifact.schema.json",
+    "title": "supplementaryRatetariffBasisIdentification",
+    "description": "Code identifying supplementary rate/tariff.",
+    "type": "object",
+    "properties": {
+        "value": {
+            "description": "Value",
+            "type": "string",
+            "maxLength": 6
+        }
+    },
+    "required": []
+}

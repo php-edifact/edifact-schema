@@ -1,0 +1,15 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D15B/dataelement/5104.edifact.schema.json",
+    "title": "monetaryAmountFunctionDetailDescription",
+    "description": "Free form description of the detail of a monetary amount function.",
+    "type": "object",
+    "properties": {
+        "value": {
+            "description": "Value",
+            "type": "string",
+            "maxLength": 70
+        }
+    },
+    "required": []
+}

@@ -1,0 +1,15 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D95A/dataelement/9353.edifact.schema.json",
+    "title": "governmentProcedureCoded",
+    "description": "Code identifying the treatment applied by the government to goods which are subject to a control.",
+    "type": "object",
+    "properties": {
+        "value": {
+            "description": "Value",
+            "type": "string",
+            "maxLength": 3
+        }
+    },
+    "required": []
+}

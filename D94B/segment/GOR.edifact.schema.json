@@ -1,0 +1,25 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D94B/segment/GOR.edifact.schema.json",
+    "title": "GOR",
+    "description": "To indicate the requirement for a specifiC govermental action and/or procedure or which specific procedure is valid for a specific part of the transport.",
+    "type": "object",
+    "properties": {
+        "transportMovementCoded": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D94B/dataelement/8323.edifact.schema.json"
+        },
+        "governmentAction": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D94B/compositedataelement/C232.edifact.schema.json"
+        },
+        "governmentAction2": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D94B/compositedataelement/C232.edifact.schema.json"
+        },
+        "governmentAction3": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D94B/compositedataelement/C232.edifact.schema.json"
+        },
+        "governmentAction4": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D94B/compositedataelement/C232.edifact.schema.json"
+        }
+    },
+    "required": []
+}

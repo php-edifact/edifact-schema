@@ -1,0 +1,15 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D03B/dataelement/7224.edifact.schema.json",
+    "title": "packageQuantity",
+    "description": "To specify the number of packages.",
+    "type": "object",
+    "properties": {
+        "value": {
+            "description": "Value",
+            "type": "string",
+            "maxLength": 8
+        }
+    },
+    "required": []
+}

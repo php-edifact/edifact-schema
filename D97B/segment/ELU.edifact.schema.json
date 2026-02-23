@@ -1,0 +1,22 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D97B/segment/ELU.edifact.schema.json",
+    "title": "ELU",
+    "description": "To specify the usage of a data element.",
+    "type": "object",
+    "properties": {
+        "dataElementTag": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D97B/dataelement/9162.edifact.schema.json"
+        },
+        "requirementDesignator,Coded": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D97B/dataelement/7299.edifact.schema.json"
+        },
+        "sequenceNumber": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D97B/dataelement/1050.edifact.schema.json"
+        },
+        "maintenanceOperation,Coded": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D97B/dataelement/4513.edifact.schema.json"
+        }
+    },
+    "required": []
+}

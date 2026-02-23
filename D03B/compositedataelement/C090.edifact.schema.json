@@ -1,0 +1,28 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D03B/compositedataelement/C090.edifact.schema.json",
+    "title": "C090",
+    "description": "To specify the details of an address.",
+    "type": "object",
+    "properties": {
+        "addressFormatCode": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D03B/dataelement/3477.edifact.schema.json"
+        },
+        "addressComponentDescription": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D03B/dataelement/3286.edifact.schema.json"
+        },
+        "addressComponentDescription2": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D03B/dataelement/3286.edifact.schema.json"
+        },
+        "addressComponentDescription3": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D03B/dataelement/3286.edifact.schema.json"
+        },
+        "addressComponentDescription4": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D03B/dataelement/3286.edifact.schema.json"
+        },
+        "addressComponentDescription5": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D03B/dataelement/3286.edifact.schema.json"
+        }
+    },
+    "required": []
+}

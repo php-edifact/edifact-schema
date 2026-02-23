@@ -1,0 +1,22 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D95A/compositedataelement/C504.edifact.schema.json",
+    "title": "C504",
+    "description": "The usage to which a currency relates.",
+    "type": "object",
+    "properties": {
+        "currencyDetailsQualifier": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D95A/dataelement/6347.edifact.schema.json"
+        },
+        "currencyCoded": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D95A/dataelement/6345.edifact.schema.json"
+        },
+        "currencyQualifier": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D95A/dataelement/6343.edifact.schema.json"
+        },
+        "currencyRateBase": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D95A/dataelement/6348.edifact.schema.json"
+        }
+    },
+    "required": []
+}

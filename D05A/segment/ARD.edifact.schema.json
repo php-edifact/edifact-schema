@@ -1,0 +1,16 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D05A/segment/ARD.edifact.schema.json",
+    "title": "ARD",
+    "description": "To provide details of the function of a monetary amount.",
+    "type": "object",
+    "properties": {
+        "monetaryAmountFunction": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D05A/compositedataelement/C549.edifact.schema.json"
+        },
+        "monetaryAmountFunctionDetail": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D05A/compositedataelement/C008.edifact.schema.json"
+        }
+    },
+    "required": []
+}

@@ -1,0 +1,25 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D96A/compositedataelement/C543.edifact.schema.json",
+    "title": "C543",
+    "description": "Identification of specific agreement type by code or name.",
+    "type": "object",
+    "properties": {
+        "agreementTypeQualifier": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D96A/dataelement/7431.edifact.schema.json"
+        },
+        "agreementTypeCoded": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D96A/dataelement/7433.edifact.schema.json"
+        },
+        "codeListQualifier": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D96A/dataelement/1131.edifact.schema.json"
+        },
+        "codeListResponsibleAgencyCoded": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D96A/dataelement/3055.edifact.schema.json"
+        },
+        "agreementTypeDescription": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D96A/dataelement/7434.edifact.schema.json"
+        }
+    },
+    "required": []
+}

@@ -1,0 +1,16 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D01C/compositedataelement/C849.edifact.schema.json",
+    "title": "C849",
+    "description": "Identify the sending and receiving parties of the instruction.",
+    "type": "object",
+    "properties": {
+        "enactingPartyIdentifier": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D01C/dataelement/3301.edifact.schema.json"
+        },
+        "instructionReceivingPartyIdentifier": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D01C/dataelement/3285.edifact.schema.json"
+        }
+    },
+    "required": []
+}

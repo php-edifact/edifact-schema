@@ -1,0 +1,16 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D22B/compositedataelement/C138.edifact.schema.json",
+    "title": "C138",
+    "description": "Price multiplier and its identification.",
+    "type": "object",
+    "properties": {
+        "priceMultiplierRate": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D22B/dataelement/5394.edifact.schema.json"
+        },
+        "priceMultiplierTypeCodeQualifier": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D22B/dataelement/5393.edifact.schema.json"
+        }
+    },
+    "required": []
+}

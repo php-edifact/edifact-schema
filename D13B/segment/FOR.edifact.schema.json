@@ -1,0 +1,25 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D13B/segment/FOR.edifact.schema.json",
+    "title": "FOR",
+    "description": "To identify a formula.",
+    "type": "object",
+    "properties": {
+        "formulaTypeCodeQualifier": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D13B/dataelement/9501.edifact.schema.json"
+        },
+        "objectIdentifier": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D13B/dataelement/7402.edifact.schema.json"
+        },
+        "formulaName": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D13B/dataelement/9502.edifact.schema.json"
+        },
+        "freeText": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D13B/dataelement/4440.edifact.schema.json"
+        },
+        "formulaComplexity": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D13B/compositedataelement/C961.edifact.schema.json"
+        }
+    },
+    "required": []
+}

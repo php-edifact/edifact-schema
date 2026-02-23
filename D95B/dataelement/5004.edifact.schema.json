@@ -1,0 +1,15 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D95B/dataelement/5004.edifact.schema.json",
+    "title": "monetaryAmount",
+    "description": "Number of monetary units.",
+    "type": "object",
+    "properties": {
+        "value": {
+            "description": "Value",
+            "type": "string",
+            "maxLength": 18
+        }
+    },
+    "required": []
+}

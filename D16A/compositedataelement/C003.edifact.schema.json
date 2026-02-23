@@ -1,0 +1,22 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D16A/compositedataelement/C003.edifact.schema.json",
+    "title": "C003",
+    "description": "To specify the type of power.",
+    "type": "object",
+    "properties": {
+        "powerTypeCode": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D16A/dataelement/7041.edifact.schema.json"
+        },
+        "codeListIdentificationCode": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D16A/dataelement/1131.edifact.schema.json"
+        },
+        "codeListResponsibleAgencyCode": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D16A/dataelement/3055.edifact.schema.json"
+        },
+        "powerTypeDescription": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D16A/dataelement/7040.edifact.schema.json"
+        }
+    },
+    "required": []
+}

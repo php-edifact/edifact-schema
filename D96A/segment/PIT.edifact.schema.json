@@ -1,0 +1,31 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D96A/segment/PIT.edifact.schema.json",
+    "title": "PIT",
+    "description": "To specify details relating to pricing of a product. Note: Segment marked for deletion in D.98A directory. Segment no longer used by any message in the current draft directory.",
+    "type": "object",
+    "properties": {
+        "lineItemNumber": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D96A/dataelement/1082.edifact.schema.json"
+        },
+        "actionRequestnotificationCoded": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D96A/dataelement/1229.edifact.schema.json"
+        },
+        "priceChangeInformation": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D96A/compositedataelement/C292.edifact.schema.json"
+        },
+        "articleAvailabilityCoded": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D96A/dataelement/7011.edifact.schema.json"
+        },
+        "sublineIndicatorCoded": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D96A/dataelement/5495.edifact.schema.json"
+        },
+        "configurationLevel": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D96A/dataelement/1222.edifact.schema.json"
+        },
+        "configurationCoded": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D96A/dataelement/7083.edifact.schema.json"
+        }
+    },
+    "required": []
+}

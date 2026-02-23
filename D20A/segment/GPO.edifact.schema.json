@@ -1,0 +1,22 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D20A/segment/GPO.edifact.schema.json",
+    "title": "GPO",
+    "description": "To specify a geographical position.",
+    "type": "object",
+    "properties": {
+        "geographicalPositionCodeQualifier": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D20A/dataelement/6029.edifact.schema.json"
+        },
+        "latitudeDegree": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D20A/dataelement/6000.edifact.schema.json"
+        },
+        "longitudeDegree": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D20A/dataelement/6002.edifact.schema.json"
+        },
+        "altitude": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D20A/dataelement/6096.edifact.schema.json"
+        }
+    },
+    "required": []
+}

@@ -1,0 +1,15 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D15B/dataelement/3042.edifact.schema.json",
+    "title": "streetAndNumberOrPostOfficeBoxIdentifier",
+    "description": "To identify a street and number and/or Post Office box number.",
+    "type": "object",
+    "properties": {
+        "value": {
+            "description": "Value",
+            "type": "string",
+            "maxLength": 35
+        }
+    },
+    "required": []
+}

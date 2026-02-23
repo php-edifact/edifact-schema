@@ -1,0 +1,15 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D04A/dataelement/7188.edifact.schema.json",
+    "title": "testMethodRevisionIdentifier",
+    "description": "To identify the revision of a test method.",
+    "type": "object",
+    "properties": {
+        "value": {
+            "description": "Value",
+            "type": "string",
+            "maxLength": 30
+        }
+    },
+    "required": []
+}

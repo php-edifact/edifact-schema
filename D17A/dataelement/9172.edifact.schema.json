@@ -1,0 +1,15 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D17A/dataelement/9172.edifact.schema.json",
+    "title": "event",
+    "description": "Free form description of the event.",
+    "type": "object",
+    "properties": {
+        "value": {
+            "description": "Value",
+            "type": "string",
+            "maxLength": 256
+        }
+    },
+    "required": []
+}

@@ -1,0 +1,16 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D95B/segment/EQA.edifact.schema.json",
+    "title": "EQA",
+    "description": "To specify attached or related equipment.",
+    "type": "object",
+    "properties": {
+        "equipmentQualifier": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D95B/dataelement/8053.edifact.schema.json"
+        },
+        "equipmentIdentification": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D95B/compositedataelement/C237.edifact.schema.json"
+        }
+    },
+    "required": []
+}

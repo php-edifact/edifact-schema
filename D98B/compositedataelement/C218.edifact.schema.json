@@ -1,0 +1,22 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D98B/compositedataelement/C218.edifact.schema.json",
+    "title": "C218",
+    "description": "To specify a hazardous material.",
+    "type": "object",
+    "properties": {
+        "hazardousMaterialClassCode,Identification": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D98B/dataelement/7419.edifact.schema.json"
+        },
+        "codeListQualifier": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D98B/dataelement/1131.edifact.schema.json"
+        },
+        "codeListResponsibleAgency,Coded": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D98B/dataelement/3055.edifact.schema.json"
+        },
+        "hazardousMaterialClass": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D98B/dataelement/7418.edifact.schema.json"
+        }
+    },
+    "required": []
+}

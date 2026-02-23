@@ -1,0 +1,15 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D96B/dataelement/1227.edifact.schema.json",
+    "title": "calculationSequenceIndicatorCoded",
+    "description": "Code indicating the sequence of cumulated calculations to be agreed between interchange partners.",
+    "type": "object",
+    "properties": {
+        "value": {
+            "description": "Value",
+            "type": "string",
+            "maxLength": 3
+        }
+    },
+    "required": []
+}

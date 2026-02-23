@@ -1,0 +1,9 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D99B/compositedataelement/C531.edifact.schema.json",
+    "title": "C531",
+    "description": "Packaging level and details, terms and conditions.",
+    "type": "object",
+    "properties": [],
+    "required": []
+}

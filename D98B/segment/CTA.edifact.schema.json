@@ -1,0 +1,16 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D98B/segment/CTA.edifact.schema.json",
+    "title": "CTA",
+    "description": "To identify a person or a department to whom communication should be directed.",
+    "type": "object",
+    "properties": {
+        "contactFunction,Coded": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D98B/dataelement/3139.edifact.schema.json"
+        },
+        "departmentOrEmployeeDetails": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D98B/compositedataelement/C056.edifact.schema.json"
+        }
+    },
+    "required": []
+}

@@ -1,0 +1,15 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D06B/dataelement/3009.edifact.schema.json",
+    "title": "maintenanceOperationPayerCode",
+    "description": "A code identifying  the type of party paying for a maintenance operation.",
+    "type": "object",
+    "properties": {
+        "value": {
+            "description": "Value",
+            "type": "string",
+            "maxLength": 3
+        }
+    },
+    "required": []
+}

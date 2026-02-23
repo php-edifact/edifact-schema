@@ -1,0 +1,15 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D19A/dataelement/5402.edifact.schema.json",
+    "title": "currencyExchangeRate",
+    "description": "To specify the rate at which one specified currency is expressed in another specified currency.",
+    "type": "object",
+    "properties": {
+        "value": {
+            "description": "Value",
+            "type": "string",
+            "maxLength": 12
+        }
+    },
+    "required": []
+}

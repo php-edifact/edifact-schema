@@ -1,0 +1,22 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D08B/compositedataelement/C836.edifact.schema.json",
+    "title": "C836",
+    "description": "To specify an item of clinical information.",
+    "type": "object",
+    "properties": {
+        "clinicalInformationDescriptionIdentifier": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D08B/dataelement/6413.edifact.schema.json"
+        },
+        "codeListIdentificationCode": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D08B/dataelement/1131.edifact.schema.json"
+        },
+        "codeListResponsibleAgencyCode": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D08B/dataelement/3055.edifact.schema.json"
+        },
+        "clinicalInformationDescription": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D08B/dataelement/6412.edifact.schema.json"
+        }
+    },
+    "required": []
+}

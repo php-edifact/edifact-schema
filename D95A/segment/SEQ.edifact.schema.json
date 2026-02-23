@@ -1,0 +1,16 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D95A/segment/SEQ.edifact.schema.json",
+    "title": "SEQ",
+    "description": "To provide specific details related to the delivery sequence.",
+    "type": "object",
+    "properties": {
+        "statusIndicatorCoded": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D95A/dataelement/1245.edifact.schema.json"
+        },
+        "sequenceInformation": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D95A/compositedataelement/C286.edifact.schema.json"
+        }
+    },
+    "required": []
+}

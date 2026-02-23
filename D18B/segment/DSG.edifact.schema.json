@@ -1,0 +1,16 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D18B/segment/DSG.edifact.schema.json",
+    "title": "DSG",
+    "description": "To communicate how dose(s) are administered.",
+    "type": "object",
+    "properties": {
+        "dosageAdministrationCodeQualifier": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D18B/dataelement/6085.edifact.schema.json"
+        },
+        "dosageDetails": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D18B/compositedataelement/C838.edifact.schema.json"
+        }
+    },
+    "required": []
+}

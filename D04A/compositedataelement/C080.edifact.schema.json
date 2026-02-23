@@ -1,0 +1,28 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D04A/compositedataelement/C080.edifact.schema.json",
+    "title": "C080",
+    "description": "Identification of a transaction party by name, one to five lines. Party name may be formatted.",
+    "type": "object",
+    "properties": {
+        "partyName": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D04A/dataelement/3036.edifact.schema.json"
+        },
+        "partyName2": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D04A/dataelement/3036.edifact.schema.json"
+        },
+        "partyName3": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D04A/dataelement/3036.edifact.schema.json"
+        },
+        "partyName4": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D04A/dataelement/3036.edifact.schema.json"
+        },
+        "partyName5": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D04A/dataelement/3036.edifact.schema.json"
+        },
+        "partyNameFormatCode": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D04A/dataelement/3045.edifact.schema.json"
+        }
+    },
+    "required": []
+}

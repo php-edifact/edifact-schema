@@ -1,0 +1,19 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D01C/compositedataelement/C280.edifact.schema.json",
+    "title": "C280",
+    "description": "Range minimum and maximum limits.",
+    "type": "object",
+    "properties": {
+        "measurementUnitCode": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D01C/dataelement/6411.edifact.schema.json"
+        },
+        "rangeMinimumQuantity": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D01C/dataelement/6162.edifact.schema.json"
+        },
+        "rangeMaximumQuantity": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D01C/dataelement/6152.edifact.schema.json"
+        }
+    },
+    "required": []
+}

@@ -1,0 +1,22 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D17B/compositedataelement/C848.edifact.schema.json",
+    "title": "C848",
+    "description": "To specify a measurement unit.",
+    "type": "object",
+    "properties": {
+        "measurementUnitCode": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D17B/dataelement/6411.edifact.schema.json"
+        },
+        "codeListIdentificationCode": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D17B/dataelement/1131.edifact.schema.json"
+        },
+        "codeListResponsibleAgencyCode": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D17B/dataelement/3055.edifact.schema.json"
+        },
+        "measurementUnitName": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D17B/dataelement/6410.edifact.schema.json"
+        }
+    },
+    "required": []
+}

@@ -1,0 +1,15 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D98B/dataelement/1220.edifact.schema.json",
+    "title": "numberOfCopiesOfDocumentRequired",
+    "description": "Number of originals or copies of a document stipulated or referred to as being required.",
+    "type": "object",
+    "properties": {
+        "value": {
+            "description": "Value",
+            "type": "string",
+            "maxLength": 2
+        }
+    },
+    "required": []
+}

@@ -1,0 +1,16 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D03B/compositedataelement/C701.edifact.schema.json",
+    "title": "C701",
+    "description": "Indication of the point of error in a message.",
+    "type": "object",
+    "properties": {
+        "messageSectionCode": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D03B/dataelement/1049.edifact.schema.json"
+        },
+        "messageItemIdentifier": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D03B/dataelement/1052.edifact.schema.json"
+        }
+    },
+    "required": []
+}

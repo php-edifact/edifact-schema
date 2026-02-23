@@ -1,0 +1,22 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D22B/compositedataelement/C564.edifact.schema.json",
+    "title": "C564",
+    "description": "To give information in coded or clear text form on the physical or logical state.",
+    "type": "object",
+    "properties": {
+        "physicalOrLogicalStateDescriptionCode": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D22B/dataelement/7007.edifact.schema.json"
+        },
+        "codeListIdentificationCode": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D22B/dataelement/1131.edifact.schema.json"
+        },
+        "codeListResponsibleAgencyCode": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D22B/dataelement/3055.edifact.schema.json"
+        },
+        "physicalOrLogicalStateDescription": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D22B/dataelement/7006.edifact.schema.json"
+        }
+    },
+    "required": []
+}

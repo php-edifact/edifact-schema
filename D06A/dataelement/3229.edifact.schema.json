@@ -1,0 +1,15 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D06A/dataelement/3229.edifact.schema.json",
+    "title": "countrySubdivisionIdentifier",
+    "description": "To identify a country subdivision, such as state, canton, county, prefecture.",
+    "type": "object",
+    "properties": {
+        "value": {
+            "description": "Value",
+            "type": "string",
+            "maxLength": 9
+        }
+    },
+    "required": []
+}

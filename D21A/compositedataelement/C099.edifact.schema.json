@@ -1,0 +1,22 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D21A/compositedataelement/C099.edifact.schema.json",
+    "title": "C099",
+    "description": "To define details relevant to a file.",
+    "type": "object",
+    "properties": {
+        "fileFormatName": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D21A/dataelement/1516.edifact.schema.json"
+        },
+        "versionIdentifier": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D21A/dataelement/1056.edifact.schema.json"
+        },
+        "dataFormatDescriptionCode": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D21A/dataelement/1503.edifact.schema.json"
+        },
+        "dataFormatDescription": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D21A/dataelement/1502.edifact.schema.json"
+        }
+    },
+    "required": []
+}

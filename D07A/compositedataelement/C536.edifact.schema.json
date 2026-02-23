@@ -1,0 +1,19 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D07A/compositedataelement/C536.edifact.schema.json",
+    "title": "C536",
+    "description": "To identify a contract and carriage condition.",
+    "type": "object",
+    "properties": {
+        "contractAndCarriageConditionCode": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D07A/dataelement/4065.edifact.schema.json"
+        },
+        "codeListIdentificationCode": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D07A/dataelement/1131.edifact.schema.json"
+        },
+        "codeListResponsibleAgencyCode": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D07A/dataelement/3055.edifact.schema.json"
+        }
+    },
+    "required": []
+}

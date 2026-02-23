@@ -1,0 +1,15 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D95B/dataelement/7106.edifact.schema.json",
+    "title": "shipmentFlashpoint",
+    "description": "Temperature in centigrade determined by the closed cup test as per ISO 1523/73 where a vapour is given off that can be ignited.",
+    "type": "object",
+    "properties": {
+        "value": {
+            "description": "Value",
+            "type": "string",
+            "maxLength": 0
+        }
+    },
+    "required": []
+}

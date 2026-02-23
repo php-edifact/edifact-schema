@@ -1,0 +1,15 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D17A/dataelement/8179.edifact.schema.json",
+    "title": "transportMeansDescriptionCode",
+    "description": "Code specifying the means of transport.",
+    "type": "object",
+    "properties": {
+        "value": {
+            "description": "Value",
+            "type": "string",
+            "maxLength": 8
+        }
+    },
+    "required": []
+}

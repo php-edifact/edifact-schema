@@ -1,0 +1,22 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D11A/compositedataelement/C011.edifact.schema.json",
+    "title": "C011",
+    "description": "To provide the information details.",
+    "type": "object",
+    "properties": {
+        "informationDetailDescriptionCode": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D11A/dataelement/9617.edifact.schema.json"
+        },
+        "codeListIdentificationCode": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D11A/dataelement/1131.edifact.schema.json"
+        },
+        "codeListResponsibleAgencyCode": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D11A/dataelement/3055.edifact.schema.json"
+        },
+        "informationDetailDescription": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D11A/dataelement/9616.edifact.schema.json"
+        }
+    },
+    "required": []
+}

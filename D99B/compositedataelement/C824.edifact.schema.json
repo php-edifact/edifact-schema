@@ -1,0 +1,16 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D99B/compositedataelement/C824.edifact.schema.json",
+    "title": "C824",
+    "description": "To identify the material of which a component is composed (e.g. steel, plastics).",
+    "type": "object",
+    "properties": {
+        "codeListResponsibleAgencyCode": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D99B/dataelement/3055.edifact.schema.json"
+        },
+        "componentMaterial": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D99B/dataelement/7506.edifact.schema.json"
+        }
+    },
+    "required": []
+}

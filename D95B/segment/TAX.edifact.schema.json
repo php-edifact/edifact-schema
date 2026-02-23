@@ -1,0 +1,31 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D95B/segment/TAX.edifact.schema.json",
+    "title": "TAX",
+    "description": "To specify relevant duty/tax/fee information.",
+    "type": "object",
+    "properties": {
+        "dutytaxfeeFunctionQualifier": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D95B/dataelement/5283.edifact.schema.json"
+        },
+        "dutytaxfeeType": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D95B/compositedataelement/C241.edifact.schema.json"
+        },
+        "dutytaxfeeAccountDetail": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D95B/compositedataelement/C533.edifact.schema.json"
+        },
+        "dutytaxfeeAssessmentBasis": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D95B/dataelement/5286.edifact.schema.json"
+        },
+        "dutytaxfeeDetail": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D95B/compositedataelement/C243.edifact.schema.json"
+        },
+        "dutytaxfeeCategoryCoded": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D95B/dataelement/5305.edifact.schema.json"
+        },
+        "partyTaxIdentificationNumber": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D95B/dataelement/3446.edifact.schema.json"
+        }
+    },
+    "required": []
+}

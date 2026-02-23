@@ -1,0 +1,15 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D19A/dataelement/8126.edifact.schema.json",
+    "title": "transportEmergencyCardIdentifier",
+    "description": "To identify a transport emergency (TREM) card.",
+    "type": "object",
+    "properties": {
+        "value": {
+            "description": "Value",
+            "type": "string",
+            "maxLength": 10
+        }
+    },
+    "required": []
+}

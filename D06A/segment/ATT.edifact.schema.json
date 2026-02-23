@@ -1,0 +1,19 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D06A/segment/ATT.edifact.schema.json",
+    "title": "ATT",
+    "description": "To identify a specific attribute.",
+    "type": "object",
+    "properties": {
+        "attributeFunctionCodeQualifier": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D06A/dataelement/9017.edifact.schema.json"
+        },
+        "attributeType": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D06A/compositedataelement/C955.edifact.schema.json"
+        },
+        "attributeDetail": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D06A/compositedataelement/C956.edifact.schema.json"
+        }
+    },
+    "required": []
+}

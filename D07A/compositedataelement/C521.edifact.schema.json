@@ -1,0 +1,25 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D07A/compositedataelement/C521.edifact.schema.json",
+    "title": "C521",
+    "description": "To specify a business reason.",
+    "type": "object",
+    "properties": {
+        "businessFunctionTypeCodeQualifier": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D07A/dataelement/4027.edifact.schema.json"
+        },
+        "businessFunctionCode": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D07A/dataelement/4025.edifact.schema.json"
+        },
+        "codeListIdentificationCode": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D07A/dataelement/1131.edifact.schema.json"
+        },
+        "codeListResponsibleAgencyCode": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D07A/dataelement/3055.edifact.schema.json"
+        },
+        "businessDescription": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D07A/dataelement/4022.edifact.schema.json"
+        }
+    },
+    "required": []
+}

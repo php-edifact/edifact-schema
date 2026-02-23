@@ -1,0 +1,16 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D02A/compositedataelement/C208.edifact.schema.json",
+    "title": "C208",
+    "description": "Goods item identification numbers, start and end of consecutively numbered range.",
+    "type": "object",
+    "properties": {
+        "objectIdentifier": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D02A/dataelement/7402.edifact.schema.json"
+        },
+        "objectIdentifier2": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D02A/dataelement/7402.edifact.schema.json"
+        }
+    },
+    "required": []
+}

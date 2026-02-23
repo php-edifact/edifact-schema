@@ -1,0 +1,15 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D94B/dataelement/5030.edifact.schema.json",
+    "title": "indexValue",
+    "description": "To specify the value of an index.",
+    "type": "object",
+    "properties": {
+        "value": {
+            "description": "Value",
+            "type": "string",
+            "maxLength": 6
+        }
+    },
+    "required": []
+}

@@ -1,0 +1,16 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D98B/segment/PRI.edifact.schema.json",
+    "title": "PRI",
+    "description": "To specify price information.",
+    "type": "object",
+    "properties": {
+        "priceInformation": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D98B/compositedataelement/C509.edifact.schema.json"
+        },
+        "sub-linePriceChange,Coded": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D98B/dataelement/5213.edifact.schema.json"
+        }
+    },
+    "required": []
+}

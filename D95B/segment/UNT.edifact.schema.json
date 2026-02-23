@@ -1,0 +1,16 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D95B/segment/UNT.edifact.schema.json",
+    "title": "UNT",
+    "description": "MessageTrailer",
+    "type": "object",
+    "properties": {
+        "segmentsNumber": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D95B/dataelement/9900.edifact.schema.json"
+        },
+        "msgRefNumber": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D95B/dataelement/9901.edifact.schema.json"
+        }
+    },
+    "required": []
+}

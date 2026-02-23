@@ -1,0 +1,19 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D97B/compositedataelement/C236.edifact.schema.json",
+    "title": "C236",
+    "description": "Markings identifying the type of hazardous goods and similar information.",
+    "type": "object",
+    "properties": {
+        "dangerousGoodsLabelMarking": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D97B/dataelement/8246.edifact.schema.json"
+        },
+        "dangerousGoodsLabelMarking2": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D97B/dataelement/8246.edifact.schema.json"
+        },
+        "dangerousGoodsLabelMarking3": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D97B/dataelement/8246.edifact.schema.json"
+        }
+    },
+    "required": []
+}

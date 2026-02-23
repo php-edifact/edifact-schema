@@ -1,0 +1,19 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D22B/compositedataelement/C246.edifact.schema.json",
+    "title": "C246",
+    "description": "Specification of goods in terms of customs identity.",
+    "type": "object",
+    "properties": {
+        "customsGoodsIdentifier": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D22B/dataelement/7361.edifact.schema.json"
+        },
+        "codeListIdentificationCode": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D22B/dataelement/1131.edifact.schema.json"
+        },
+        "codeListResponsibleAgencyCode": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D22B/dataelement/3055.edifact.schema.json"
+        }
+    },
+    "required": []
+}

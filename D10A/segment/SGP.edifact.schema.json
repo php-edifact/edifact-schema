@@ -1,0 +1,16 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D10A/segment/SGP.edifact.schema.json",
+    "title": "SGP",
+    "description": "To specify the placement of goods in relation to equipment.",
+    "type": "object",
+    "properties": {
+        "equipmentIdentification": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D10A/compositedataelement/C237.edifact.schema.json"
+        },
+        "packageQuantity": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D10A/dataelement/7224.edifact.schema.json"
+        }
+    },
+    "required": []
+}

@@ -1,0 +1,15 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D09A/dataelement/3207.edifact.schema.json",
+    "title": "countryIdentifier",
+    "description": "Identification of the name of the country or other geographical entity as defined in ISO 3166-1 and UN/ECE Recommendation 3.",
+    "type": "object",
+    "properties": {
+        "value": {
+            "description": "Value",
+            "type": "string",
+            "maxLength": 3
+        }
+    },
+    "required": []
+}

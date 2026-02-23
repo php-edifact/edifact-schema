@@ -1,0 +1,22 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D21A/segment/MTD.edifact.schema.json",
+    "title": "MTD",
+    "description": "To identify a maintenance operation and its responsible parties.",
+    "type": "object",
+    "properties": {
+        "objectTypeCodeQualifier": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D21A/dataelement/7495.edifact.schema.json"
+        },
+        "maintenanceOperationCode": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D21A/dataelement/4513.edifact.schema.json"
+        },
+        "maintenanceOperationOperatorCode": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D21A/dataelement/3005.edifact.schema.json"
+        },
+        "maintenanceOperationPayerCode": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D21A/dataelement/3009.edifact.schema.json"
+        }
+    },
+    "required": []
+}

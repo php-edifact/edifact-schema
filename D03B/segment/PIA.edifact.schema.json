@@ -1,0 +1,28 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D03B/segment/PIA.edifact.schema.json",
+    "title": "PIA",
+    "description": "To specify additional or substitutional item identification codes.",
+    "type": "object",
+    "properties": {
+        "productIdentifierCodeQualifier": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D03B/dataelement/4347.edifact.schema.json"
+        },
+        "itemNumberIdentification": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D03B/compositedataelement/C212.edifact.schema.json"
+        },
+        "itemNumberIdentification2": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D03B/compositedataelement/C212.edifact.schema.json"
+        },
+        "itemNumberIdentification3": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D03B/compositedataelement/C212.edifact.schema.json"
+        },
+        "itemNumberIdentification4": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D03B/compositedataelement/C212.edifact.schema.json"
+        },
+        "itemNumberIdentification5": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D03B/compositedataelement/C212.edifact.schema.json"
+        }
+    },
+    "required": []
+}

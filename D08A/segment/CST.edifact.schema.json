@@ -1,0 +1,28 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D08A/segment/CST.edifact.schema.json",
+    "title": "CST",
+    "description": "To specify goods in terms of customs identities, status and intended use.",
+    "type": "object",
+    "properties": {
+        "goodsItemNumber": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D08A/dataelement/1496.edifact.schema.json"
+        },
+        "customsIdentityCodes": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D08A/compositedataelement/C246.edifact.schema.json"
+        },
+        "customsIdentityCodes2": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D08A/compositedataelement/C246.edifact.schema.json"
+        },
+        "customsIdentityCodes3": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D08A/compositedataelement/C246.edifact.schema.json"
+        },
+        "customsIdentityCodes4": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D08A/compositedataelement/C246.edifact.schema.json"
+        },
+        "customsIdentityCodes5": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D08A/compositedataelement/C246.edifact.schema.json"
+        }
+    },
+    "required": []
+}

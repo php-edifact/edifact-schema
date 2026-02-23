@@ -1,0 +1,25 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D15B/compositedataelement/C222.edifact.schema.json",
+    "title": "C222",
+    "description": "Code and/or name identifying the means of transport.",
+    "type": "object",
+    "properties": {
+        "transportMeansIdentificationNameIdentifier": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D15B/dataelement/8213.edifact.schema.json"
+        },
+        "codeListIdentificationCode": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D15B/dataelement/1131.edifact.schema.json"
+        },
+        "codeListResponsibleAgencyCode": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D15B/dataelement/3055.edifact.schema.json"
+        },
+        "transportMeansIdentificationName": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D15B/dataelement/8212.edifact.schema.json"
+        },
+        "transportMeansNationalityCode": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D15B/dataelement/8453.edifact.schema.json"
+        }
+    },
+    "required": []
+}

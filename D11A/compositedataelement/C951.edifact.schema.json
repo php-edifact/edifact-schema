@@ -1,0 +1,25 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D11A/compositedataelement/C951.edifact.schema.json",
+    "title": "C951",
+    "description": "Description of an occupation.",
+    "type": "object",
+    "properties": {
+        "occupationDescriptionCode": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D11A/dataelement/9009.edifact.schema.json"
+        },
+        "codeListIdentificationCode": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D11A/dataelement/1131.edifact.schema.json"
+        },
+        "codeListResponsibleAgencyCode": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D11A/dataelement/3055.edifact.schema.json"
+        },
+        "occupationDescription": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D11A/dataelement/9008.edifact.schema.json"
+        },
+        "occupationDescription2": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D11A/dataelement/9008.edifact.schema.json"
+        }
+    },
+    "required": []
+}

@@ -1,0 +1,19 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D17A/segment/STG.edifact.schema.json",
+    "title": "STG",
+    "description": "To provide information related to the kind of stage in a process, the number of stages and the actual stage.",
+    "type": "object",
+    "properties": {
+        "processStageCodeQualifier": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D17A/dataelement/9421.edifact.schema.json"
+        },
+        "processStagesQuantity": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D17A/dataelement/6426.edifact.schema.json"
+        },
+        "processStagesActualQuantity": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D17A/dataelement/6428.edifact.schema.json"
+        }
+    },
+    "required": []
+}

@@ -1,0 +1,510 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D04B/message/OSTRPT.edifact.schema.json",
+    "title": "OSTRPT",
+    "description": "",
+    "type": "object",
+    "properties": {
+        "UNH": {
+            "description": "Segment UNH",
+            "type": "object",
+            "properties": []
+        },
+        "BGM": {
+            "description": "Segment BGM",
+            "type": "object",
+            "properties": {
+                "document": {
+                    "$ref": "https://php-edifact.github.io/edifact-schema/D04B/compositedataelement/C002.edifact.schema.json"
+                },
+                "document2": {
+                    "$ref": "https://php-edifact.github.io/edifact-schema/D04B/compositedataelement/C106.edifact.schema.json"
+                },
+                "messageFunctionCode": {
+                    "$ref": "https://php-edifact.github.io/edifact-schema/D04B/dataelement/1225.edifact.schema.json"
+                },
+                "responseTypeCode": {
+                    "$ref": "https://php-edifact.github.io/edifact-schema/D04B/dataelement/4343.edifact.schema.json"
+                }
+            }
+        },
+        "DTM": {
+            "description": "Segment DTM",
+            "type": "object",
+            "properties": {
+                "date": {
+                    "$ref": "https://php-edifact.github.io/edifact-schema/D04B/compositedataelement/C507.edifact.schema.json"
+                }
+            }
+        },
+        "RFF": {
+            "description": "Segment RFF",
+            "type": "object",
+            "properties": {
+                "reference": {
+                    "$ref": "https://php-edifact.github.io/edifact-schema/D04B/compositedataelement/C506.edifact.schema.json"
+                }
+            }
+        },
+        "IRQ": {
+            "description": "Segment IRQ",
+            "type": "object",
+            "properties": {
+                "informationRequest": {
+                    "$ref": "https://php-edifact.github.io/edifact-schema/D04B/compositedataelement/C333.edifact.schema.json"
+                }
+            }
+        },
+        "FTX": {
+            "description": "Segment FTX",
+            "type": "object",
+            "properties": {
+                "textSubjectCodeQualifier": {
+                    "$ref": "https://php-edifact.github.io/edifact-schema/D04B/dataelement/4451.edifact.schema.json"
+                },
+                "freeTextFunctionCode": {
+                    "$ref": "https://php-edifact.github.io/edifact-schema/D04B/dataelement/4453.edifact.schema.json"
+                },
+                "textReference": {
+                    "$ref": "https://php-edifact.github.io/edifact-schema/D04B/compositedataelement/C107.edifact.schema.json"
+                },
+                "textLiteral": {
+                    "$ref": "https://php-edifact.github.io/edifact-schema/D04B/compositedataelement/C108.edifact.schema.json"
+                },
+                "languageNameCode": {
+                    "$ref": "https://php-edifact.github.io/edifact-schema/D04B/dataelement/3453.edifact.schema.json"
+                },
+                "freeTextFormatCode": {
+                    "$ref": "https://php-edifact.github.io/edifact-schema/D04B/dataelement/4447.edifact.schema.json"
+                }
+            }
+        },
+        "SG1": {
+            "description": "Group SG1",
+            "type": "object",
+            "properties": {
+                "NAD": {
+                    "description": "Segment NAD",
+                    "type": "object",
+                    "properties": {
+                        "partyFunctionCodeQualifier": {
+                            "$ref": "https://php-edifact.github.io/edifact-schema/D04B/dataelement/3035.edifact.schema.json"
+                        },
+                        "partyIdentificationDetails": {
+                            "$ref": "https://php-edifact.github.io/edifact-schema/D04B/compositedataelement/C082.edifact.schema.json"
+                        },
+                        "nameAndAddress": {
+                            "$ref": "https://php-edifact.github.io/edifact-schema/D04B/compositedataelement/C058.edifact.schema.json"
+                        },
+                        "partyName": {
+                            "$ref": "https://php-edifact.github.io/edifact-schema/D04B/compositedataelement/C080.edifact.schema.json"
+                        },
+                        "street": {
+                            "$ref": "https://php-edifact.github.io/edifact-schema/D04B/compositedataelement/C059.edifact.schema.json"
+                        },
+                        "cityName": {
+                            "$ref": "https://php-edifact.github.io/edifact-schema/D04B/dataelement/3164.edifact.schema.json"
+                        },
+                        "countrySub": {
+                            "$ref": "https://php-edifact.github.io/edifact-schema/D04B/compositedataelement/C819.edifact.schema.json"
+                        },
+                        "postalIdentificationCode": {
+                            "$ref": "https://php-edifact.github.io/edifact-schema/D04B/dataelement/3251.edifact.schema.json"
+                        },
+                        "countryNameCode": {
+                            "$ref": "https://php-edifact.github.io/edifact-schema/D04B/dataelement/3207.edifact.schema.json"
+                        }
+                    }
+                },
+                "LOC": {
+                    "description": "Segment LOC",
+                    "type": "object",
+                    "properties": {
+                        "locationFunctionCodeQualifier": {
+                            "$ref": "https://php-edifact.github.io/edifact-schema/D04B/dataelement/3227.edifact.schema.json"
+                        },
+                        "locationIdentification": {
+                            "$ref": "https://php-edifact.github.io/edifact-schema/D04B/compositedataelement/C517.edifact.schema.json"
+                        },
+                        "relatedLocationOneIdentification": {
+                            "$ref": "https://php-edifact.github.io/edifact-schema/D04B/compositedataelement/C519.edifact.schema.json"
+                        },
+                        "relatedLocationTwoIdentification": {
+                            "$ref": "https://php-edifact.github.io/edifact-schema/D04B/compositedataelement/C553.edifact.schema.json"
+                        },
+                        "relationCode": {
+                            "$ref": "https://php-edifact.github.io/edifact-schema/D04B/dataelement/5479.edifact.schema.json"
+                        }
+                    }
+                },
+                "SG2": {
+                    "description": "Group SG2",
+                    "type": "object",
+                    "properties": {
+                        "CTA": {
+                            "description": "Segment CTA",
+                            "type": "object",
+                            "properties": {
+                                "contactFunctionCode": {
+                                    "$ref": "https://php-edifact.github.io/edifact-schema/D04B/dataelement/3139.edifact.schema.json"
+                                },
+                                "departmentOrEmployeeDetails": {
+                                    "$ref": "https://php-edifact.github.io/edifact-schema/D04B/compositedataelement/C056.edifact.schema.json"
+                                }
+                            }
+                        },
+                        "COM": {
+                            "description": "Segment COM",
+                            "type": "object",
+                            "properties": {
+                                "communicationContact": {
+                                    "$ref": "https://php-edifact.github.io/edifact-schema/D04B/compositedataelement/C076.edifact.schema.json"
+                                }
+                            }
+                        }
+                    },
+                    "required": [
+                        "CTA"
+                    ]
+                }
+            },
+            "required": [
+                "NAD"
+            ]
+        },
+        "SG3": {
+            "description": "Group SG3",
+            "type": "object",
+            "properties": {
+                "DOC": {
+                    "description": "Segment DOC",
+                    "type": "object",
+                    "properties": {
+                        "document": {
+                            "$ref": "https://php-edifact.github.io/edifact-schema/D04B/compositedataelement/C002.edifact.schema.json"
+                        },
+                        "document2": {
+                            "$ref": "https://php-edifact.github.io/edifact-schema/D04B/compositedataelement/C503.edifact.schema.json"
+                        },
+                        "communicationMediumTypeCode": {
+                            "$ref": "https://php-edifact.github.io/edifact-schema/D04B/dataelement/3153.edifact.schema.json"
+                        },
+                        "documentCopiesRequiredQuantity": {
+                            "$ref": "https://php-edifact.github.io/edifact-schema/D04B/dataelement/1220.edifact.schema.json"
+                        },
+                        "documentOriginalsRequiredQuantity": {
+                            "$ref": "https://php-edifact.github.io/edifact-schema/D04B/dataelement/1218.edifact.schema.json"
+                        }
+                    }
+                },
+                "DTM": {
+                    "description": "Segment DTM",
+                    "type": "object",
+                    "properties": {
+                        "date": {
+                            "$ref": "https://php-edifact.github.io/edifact-schema/D04B/compositedataelement/C507.edifact.schema.json"
+                        }
+                    }
+                },
+                "CNT": {
+                    "description": "Segment CNT",
+                    "type": "object",
+                    "properties": {
+                        "control": {
+                            "$ref": "https://php-edifact.github.io/edifact-schema/D04B/compositedataelement/C270.edifact.schema.json"
+                        }
+                    }
+                },
+                "RFF": {
+                    "description": "Segment RFF",
+                    "type": "object",
+                    "properties": {
+                        "reference": {
+                            "$ref": "https://php-edifact.github.io/edifact-schema/D04B/compositedataelement/C506.edifact.schema.json"
+                        }
+                    }
+                },
+                "TOD": {
+                    "description": "Segment TOD",
+                    "type": "object",
+                    "properties": {
+                        "deliveryOrTransportTermsFunctionCode": {
+                            "$ref": "https://php-edifact.github.io/edifact-schema/D04B/dataelement/4055.edifact.schema.json"
+                        },
+                        "transportChargesPaymentMethodCode": {
+                            "$ref": "https://php-edifact.github.io/edifact-schema/D04B/dataelement/4215.edifact.schema.json"
+                        },
+                        "termsOfDeliveryOrTransport": {
+                            "$ref": "https://php-edifact.github.io/edifact-schema/D04B/compositedataelement/C100.edifact.schema.json"
+                        }
+                    }
+                },
+                "SG4": {
+                    "description": "Group SG4",
+                    "type": "object",
+                    "properties": {
+                        "STS": {
+                            "description": "Segment STS",
+                            "type": "object",
+                            "properties": {
+                                "statusCategory": {
+                                    "$ref": "https://php-edifact.github.io/edifact-schema/D04B/compositedataelement/C601.edifact.schema.json"
+                                },
+                                "status": {
+                                    "$ref": "https://php-edifact.github.io/edifact-schema/D04B/compositedataelement/C555.edifact.schema.json"
+                                },
+                                "statusReason": {
+                                    "$ref": "https://php-edifact.github.io/edifact-schema/D04B/compositedataelement/C556.edifact.schema.json"
+                                },
+                                "statusReason2": {
+                                    "$ref": "https://php-edifact.github.io/edifact-schema/D04B/compositedataelement/C556.edifact.schema.json"
+                                },
+                                "statusReason3": {
+                                    "$ref": "https://php-edifact.github.io/edifact-schema/D04B/compositedataelement/C556.edifact.schema.json"
+                                },
+                                "statusReason4": {
+                                    "$ref": "https://php-edifact.github.io/edifact-schema/D04B/compositedataelement/C556.edifact.schema.json"
+                                },
+                                "statusReason5": {
+                                    "$ref": "https://php-edifact.github.io/edifact-schema/D04B/compositedataelement/C556.edifact.schema.json"
+                                }
+                            }
+                        },
+                        "DTM": {
+                            "description": "Segment DTM",
+                            "type": "object",
+                            "properties": {
+                                "date": {
+                                    "$ref": "https://php-edifact.github.io/edifact-schema/D04B/compositedataelement/C507.edifact.schema.json"
+                                }
+                            }
+                        },
+                        "PCD": {
+                            "description": "Segment PCD",
+                            "type": "object",
+                            "properties": {
+                                "percentageDetails": {
+                                    "$ref": "https://php-edifact.github.io/edifact-schema/D04B/compositedataelement/C501.edifact.schema.json"
+                                },
+                                "statusDescriptionCode": {
+                                    "$ref": "https://php-edifact.github.io/edifact-schema/D04B/dataelement/4405.edifact.schema.json"
+                                }
+                            }
+                        },
+                        "QTY": {
+                            "description": "Segment QTY",
+                            "type": "object",
+                            "properties": {
+                                "quantityDetails": {
+                                    "$ref": "https://php-edifact.github.io/edifact-schema/D04B/compositedataelement/C186.edifact.schema.json"
+                                }
+                            }
+                        },
+                        "SG5": {
+                            "description": "Group SG5",
+                            "type": "object",
+                            "properties": [],
+                            "required": []
+                        }
+                    },
+                    "required": [
+                        "STS"
+                    ]
+                },
+                "SG6": {
+                    "description": "Group SG6",
+                    "type": "object",
+                    "properties": {
+                        "LIN": {
+                            "description": "Segment LIN",
+                            "type": "object",
+                            "properties": {
+                                "lineItemIdentifier": {
+                                    "$ref": "https://php-edifact.github.io/edifact-schema/D04B/dataelement/1082.edifact.schema.json"
+                                },
+                                "actionRequestOrnotificationDescriptionCode": {
+                                    "$ref": "https://php-edifact.github.io/edifact-schema/D04B/dataelement/1229.edifact.schema.json"
+                                },
+                                "itemNumberIdentification": {
+                                    "$ref": "https://php-edifact.github.io/edifact-schema/D04B/compositedataelement/C212.edifact.schema.json"
+                                },
+                                "sub": {
+                                    "$ref": "https://php-edifact.github.io/edifact-schema/D04B/compositedataelement/C829.edifact.schema.json"
+                                },
+                                "configurationLevelNumber": {
+                                    "$ref": "https://php-edifact.github.io/edifact-schema/D04B/dataelement/1222.edifact.schema.json"
+                                },
+                                "configurationOperationCode": {
+                                    "$ref": "https://php-edifact.github.io/edifact-schema/D04B/dataelement/7083.edifact.schema.json"
+                                }
+                            }
+                        },
+                        "PIA": {
+                            "description": "Segment PIA",
+                            "type": "object",
+                            "properties": {
+                                "productIdentifierCodeQualifier": {
+                                    "$ref": "https://php-edifact.github.io/edifact-schema/D04B/dataelement/4347.edifact.schema.json"
+                                },
+                                "itemNumberIdentification": {
+                                    "$ref": "https://php-edifact.github.io/edifact-schema/D04B/compositedataelement/C212.edifact.schema.json"
+                                },
+                                "itemNumberIdentification2": {
+                                    "$ref": "https://php-edifact.github.io/edifact-schema/D04B/compositedataelement/C212.edifact.schema.json"
+                                },
+                                "itemNumberIdentification3": {
+                                    "$ref": "https://php-edifact.github.io/edifact-schema/D04B/compositedataelement/C212.edifact.schema.json"
+                                },
+                                "itemNumberIdentification4": {
+                                    "$ref": "https://php-edifact.github.io/edifact-schema/D04B/compositedataelement/C212.edifact.schema.json"
+                                },
+                                "itemNumberIdentification5": {
+                                    "$ref": "https://php-edifact.github.io/edifact-schema/D04B/compositedataelement/C212.edifact.schema.json"
+                                }
+                            }
+                        },
+                        "IMD": {
+                            "description": "Segment IMD",
+                            "type": "object",
+                            "properties": {
+                                "descriptionFormatCode": {
+                                    "$ref": "https://php-edifact.github.io/edifact-schema/D04B/dataelement/7077.edifact.schema.json"
+                                },
+                                "itemCharacteristic": {
+                                    "$ref": "https://php-edifact.github.io/edifact-schema/D04B/compositedataelement/C272.edifact.schema.json"
+                                },
+                                "itemDescription": {
+                                    "$ref": "https://php-edifact.github.io/edifact-schema/D04B/compositedataelement/C273.edifact.schema.json"
+                                },
+                                "surfaceOrLayerCode": {
+                                    "$ref": "https://php-edifact.github.io/edifact-schema/D04B/dataelement/7383.edifact.schema.json"
+                                }
+                            }
+                        },
+                        "MEA": {
+                            "description": "Segment MEA",
+                            "type": "object",
+                            "properties": {
+                                "measurementPurposeCodeQualifier": {
+                                    "$ref": "https://php-edifact.github.io/edifact-schema/D04B/dataelement/6311.edifact.schema.json"
+                                },
+                                "measurementDetails": {
+                                    "$ref": "https://php-edifact.github.io/edifact-schema/D04B/compositedataelement/C502.edifact.schema.json"
+                                },
+                                "value": {
+                                    "$ref": "https://php-edifact.github.io/edifact-schema/D04B/compositedataelement/C174.edifact.schema.json"
+                                },
+                                "surfaceOrLayerCode": {
+                                    "$ref": "https://php-edifact.github.io/edifact-schema/D04B/dataelement/7383.edifact.schema.json"
+                                }
+                            }
+                        },
+                        "GIN": {
+                            "description": "Segment GIN",
+                            "type": "object",
+                            "properties": {
+                                "objectIdentificationCodeQualifier": {
+                                    "$ref": "https://php-edifact.github.io/edifact-schema/D04B/dataelement/7405.edifact.schema.json"
+                                },
+                                "identityNumberRange": {
+                                    "$ref": "https://php-edifact.github.io/edifact-schema/D04B/compositedataelement/C208.edifact.schema.json"
+                                },
+                                "identityNumberRange2": {
+                                    "$ref": "https://php-edifact.github.io/edifact-schema/D04B/compositedataelement/C208.edifact.schema.json"
+                                },
+                                "identityNumberRange3": {
+                                    "$ref": "https://php-edifact.github.io/edifact-schema/D04B/compositedataelement/C208.edifact.schema.json"
+                                },
+                                "identityNumberRange4": {
+                                    "$ref": "https://php-edifact.github.io/edifact-schema/D04B/compositedataelement/C208.edifact.schema.json"
+                                },
+                                "identityNumberRange5": {
+                                    "$ref": "https://php-edifact.github.io/edifact-schema/D04B/compositedataelement/C208.edifact.schema.json"
+                                }
+                            }
+                        },
+                        "RCS": {
+                            "description": "Segment RCS",
+                            "type": "object",
+                            "properties": {
+                                "sectorAreaIdentificationCodeQualifier": {
+                                    "$ref": "https://php-edifact.github.io/edifact-schema/D04B/dataelement/7293.edifact.schema.json"
+                                },
+                                "requirement": {
+                                    "$ref": "https://php-edifact.github.io/edifact-schema/D04B/compositedataelement/C550.edifact.schema.json"
+                                },
+                                "actionRequestOrnotificationDescriptionCode": {
+                                    "$ref": "https://php-edifact.github.io/edifact-schema/D04B/dataelement/1229.edifact.schema.json"
+                                },
+                                "countryNameCode": {
+                                    "$ref": "https://php-edifact.github.io/edifact-schema/D04B/dataelement/3207.edifact.schema.json"
+                                }
+                            }
+                        },
+                        "FTX": {
+                            "description": "Segment FTX",
+                            "type": "object",
+                            "properties": {
+                                "textSubjectCodeQualifier": {
+                                    "$ref": "https://php-edifact.github.io/edifact-schema/D04B/dataelement/4451.edifact.schema.json"
+                                },
+                                "freeTextFunctionCode": {
+                                    "$ref": "https://php-edifact.github.io/edifact-schema/D04B/dataelement/4453.edifact.schema.json"
+                                },
+                                "textReference": {
+                                    "$ref": "https://php-edifact.github.io/edifact-schema/D04B/compositedataelement/C107.edifact.schema.json"
+                                },
+                                "textLiteral": {
+                                    "$ref": "https://php-edifact.github.io/edifact-schema/D04B/compositedataelement/C108.edifact.schema.json"
+                                },
+                                "languageNameCode": {
+                                    "$ref": "https://php-edifact.github.io/edifact-schema/D04B/dataelement/3453.edifact.schema.json"
+                                },
+                                "freeTextFormatCode": {
+                                    "$ref": "https://php-edifact.github.io/edifact-schema/D04B/dataelement/4447.edifact.schema.json"
+                                }
+                            }
+                        },
+                        "SG7": {
+                            "description": "Group SG7",
+                            "type": "object",
+                            "properties": [],
+                            "required": []
+                        },
+                        "SG8": {
+                            "description": "Group SG8",
+                            "type": "object",
+                            "properties": [],
+                            "required": []
+                        },
+                        "SG16": {
+                            "description": "Group SG16",
+                            "type": "object",
+                            "properties": [],
+                            "required": []
+                        }
+                    },
+                    "required": [
+                        "LIN"
+                    ]
+                }
+            },
+            "required": [
+                "DOC"
+            ]
+        },
+        "UNT": {
+            "description": "Segment UNT",
+            "type": "object",
+            "properties": []
+        }
+    },
+    "required": [
+        "UNH",
+        "BGM",
+        "DTM",
+        "SG1",
+        "SG3",
+        "UNT"
+    ]
+}

@@ -1,0 +1,15 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D08A/dataelement/7166.edifact.schema.json",
+    "title": "hierarchicalStructureParentIdentifier",
+    "description": "To identify the next higher level in a hierarchical structure.",
+    "type": "object",
+    "properties": {
+        "value": {
+            "description": "Value",
+            "type": "string",
+            "maxLength": 35
+        }
+    },
+    "required": []
+}

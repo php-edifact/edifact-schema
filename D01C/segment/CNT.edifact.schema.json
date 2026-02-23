@@ -1,0 +1,13 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D01C/segment/CNT.edifact.schema.json",
+    "title": "CNT",
+    "description": "To provide control total.",
+    "type": "object",
+    "properties": {
+        "control": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D01C/compositedataelement/C270.edifact.schema.json"
+        }
+    },
+    "required": []
+}

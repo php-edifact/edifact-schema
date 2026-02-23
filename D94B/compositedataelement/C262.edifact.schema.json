@@ -1,0 +1,16 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D94B/compositedataelement/C262.edifact.schema.json",
+    "title": "C262",
+    "description": "Code and/or description motivating a price or quantity change. development, use C960 instead.  C262 will be deleted from the D95.A Directory.",
+    "type": "object",
+    "properties": {
+        "changeReasonCoded": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D94B/dataelement/4295.edifact.schema.json"
+        },
+        "changeReason": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D94B/dataelement/4294.edifact.schema.json"
+        }
+    },
+    "required": []
+}

@@ -1,0 +1,19 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D95B/segment/SCC.edifact.schema.json",
+    "title": "SCC",
+    "description": "To specify scheduling conditions.",
+    "type": "object",
+    "properties": {
+        "deliveryPlanStatusIndicatorCoded": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D95B/dataelement/4017.edifact.schema.json"
+        },
+        "deliveryRequirementsCoded": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D95B/dataelement/4493.edifact.schema.json"
+        },
+        "patternDescription": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D95B/compositedataelement/C329.edifact.schema.json"
+        }
+    },
+    "required": []
+}

@@ -1,0 +1,15 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D97A/dataelement/1058.edifact.schema.json",
+    "title": "release",
+    "description": "To specify the release number or release name of an object.",
+    "type": "object",
+    "properties": {
+        "value": {
+            "description": "Value",
+            "type": "string",
+            "maxLength": 9
+        }
+    },
+    "required": []
+}

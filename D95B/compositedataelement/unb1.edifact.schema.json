@@ -1,0 +1,16 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D95B/compositedataelement/unb1.edifact.schema.json",
+    "title": "unb1",
+    "description": "Syntax identifier",
+    "type": "object",
+    "properties": {
+        "syntaxIdentifier": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D95B/dataelement/unb11.edifact.schema.json"
+        },
+        "syntaxVersionNumber": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D95B/dataelement/unb12.edifact.schema.json"
+        }
+    },
+    "required": []
+}

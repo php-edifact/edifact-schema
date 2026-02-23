@@ -1,0 +1,19 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D07A/compositedataelement/C229.edifact.schema.json",
+    "title": "C229",
+    "description": "Identification of a category or a zone of charges.",
+    "type": "object",
+    "properties": {
+        "chargeCategoryCode": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D07A/dataelement/5237.edifact.schema.json"
+        },
+        "codeListIdentificationCode": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D07A/dataelement/1131.edifact.schema.json"
+        },
+        "codeListResponsibleAgencyCode": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D07A/dataelement/3055.edifact.schema.json"
+        }
+    },
+    "required": []
+}

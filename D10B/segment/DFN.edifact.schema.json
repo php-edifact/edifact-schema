@@ -1,0 +1,19 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D10B/segment/DFN.edifact.schema.json",
+    "title": "DFN",
+    "description": "To specify a definition function.",
+    "type": "object",
+    "properties": {
+        "definitionFunctionCode": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D10B/dataelement/9023.edifact.schema.json"
+        },
+        "definitionExtentCode": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D10B/dataelement/9025.edifact.schema.json"
+        },
+        "definitionIdentifier": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D10B/dataelement/4519.edifact.schema.json"
+        }
+    },
+    "required": []
+}

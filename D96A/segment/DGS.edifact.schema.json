@@ -1,0 +1,49 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D96A/segment/DGS.edifact.schema.json",
+    "title": "DGS",
+    "description": "To identify dangerous goods.",
+    "type": "object",
+    "properties": {
+        "dangerousGoodsRegulationsCoded": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D96A/dataelement/8273.edifact.schema.json"
+        },
+        "hazardCode": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D96A/compositedataelement/C205.edifact.schema.json"
+        },
+        "undgInformation": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D96A/compositedataelement/C234.edifact.schema.json"
+        },
+        "dangerousGoodsShipmentFlashpoint": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D96A/compositedataelement/C223.edifact.schema.json"
+        },
+        "packingGroupCoded": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D96A/dataelement/8339.edifact.schema.json"
+        },
+        "emsNumber": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D96A/dataelement/8364.edifact.schema.json"
+        },
+        "mfag": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D96A/dataelement/8410.edifact.schema.json"
+        },
+        "tremCardNumber": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D96A/dataelement/8126.edifact.schema.json"
+        },
+        "hazardIdentification": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D96A/compositedataelement/C235.edifact.schema.json"
+        },
+        "dangerousGoodsLabel": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D96A/compositedataelement/C236.edifact.schema.json"
+        },
+        "packingInstructionCoded": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D96A/dataelement/8255.edifact.schema.json"
+        },
+        "categoryOfMeansOfTransportCoded": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D96A/dataelement/8325.edifact.schema.json"
+        },
+        "permissionForTransportCoded": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D96A/dataelement/8211.edifact.schema.json"
+        }
+    },
+    "required": []
+}

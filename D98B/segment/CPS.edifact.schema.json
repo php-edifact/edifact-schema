@@ -1,0 +1,19 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D98B/segment/CPS.edifact.schema.json",
+    "title": "CPS",
+    "description": "To identify the sequence in which physical packing is presented in the consignment, and optionally to identify the hierarchical relationship between packing layers.",
+    "type": "object",
+    "properties": {
+        "hierarchicalId.Number": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D98B/dataelement/7164.edifact.schema.json"
+        },
+        "hierarchicalParentId.": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D98B/dataelement/7166.edifact.schema.json"
+        },
+        "packagingLevel,Coded": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D98B/dataelement/7075.edifact.schema.json"
+        }
+    },
+    "required": []
+}

@@ -1,0 +1,25 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D16A/compositedataelement/C108.edifact.schema.json",
+    "title": "C108",
+    "description": "Free text; one to five lines.",
+    "type": "object",
+    "properties": {
+        "freeText": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D16A/dataelement/4440.edifact.schema.json"
+        },
+        "freeText2": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D16A/dataelement/4440.edifact.schema.json"
+        },
+        "freeText3": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D16A/dataelement/4440.edifact.schema.json"
+        },
+        "freeText4": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D16A/dataelement/4440.edifact.schema.json"
+        },
+        "freeText5": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D16A/dataelement/4440.edifact.schema.json"
+        }
+    },
+    "required": []
+}

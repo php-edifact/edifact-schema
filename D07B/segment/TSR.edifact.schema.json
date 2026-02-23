@@ -1,0 +1,22 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D07B/segment/TSR.edifact.schema.json",
+    "title": "TSR",
+    "description": "To specify the contract and carriage conditions and service and priority requirements for the transport.",
+    "type": "object",
+    "properties": {
+        "contractAndCarriageCondition": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D07B/compositedataelement/C536.edifact.schema.json"
+        },
+        "service": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D07B/compositedataelement/C233.edifact.schema.json"
+        },
+        "transportPriority": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D07B/compositedataelement/C537.edifact.schema.json"
+        },
+        "natureOfCargo": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D07B/compositedataelement/C703.edifact.schema.json"
+        }
+    },
+    "required": []
+}

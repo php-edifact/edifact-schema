@@ -1,0 +1,15 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D00B/dataelement/6176.edifact.schema.json",
+    "title": "occurrencesMaximumNumber",
+    "description": "To specify the maximum number of occurrences.",
+    "type": "object",
+    "properties": {
+        "value": {
+            "description": "Value",
+            "type": "string",
+            "maxLength": 7
+        }
+    },
+    "required": []
+}

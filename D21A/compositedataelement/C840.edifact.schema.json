@@ -1,0 +1,22 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D21A/compositedataelement/C840.edifact.schema.json",
+    "title": "C840",
+    "description": "To specify type of admission.",
+    "type": "object",
+    "properties": {
+        "admissionTypeDescriptionCode": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D21A/dataelement/9445.edifact.schema.json"
+        },
+        "codeListIdentificationCode": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D21A/dataelement/1131.edifact.schema.json"
+        },
+        "codeListResponsibleAgencyCode": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D21A/dataelement/3055.edifact.schema.json"
+        },
+        "admissionTypeDescription": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D21A/dataelement/9444.edifact.schema.json"
+        }
+    },
+    "required": []
+}

@@ -1,0 +1,15 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D20A/dataelement/6000.edifact.schema.json",
+    "title": "latitudeDegree",
+    "description": "To specify  the angular distance, measured in degrees, minutes, and seconds, north or south from the equator.",
+    "type": "object",
+    "properties": {
+        "value": {
+            "description": "Value",
+            "type": "string",
+            "maxLength": 10
+        }
+    },
+    "required": []
+}

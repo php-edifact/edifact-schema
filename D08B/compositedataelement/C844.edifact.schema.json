@@ -1,0 +1,22 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D08B/compositedataelement/C844.edifact.schema.json",
+    "title": "C844",
+    "description": "To specify details regarding the class of an organisation.",
+    "type": "object",
+    "properties": {
+        "organisationalClassNameCode": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D08B/dataelement/3083.edifact.schema.json"
+        },
+        "codeListIdentificationCode": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D08B/dataelement/1131.edifact.schema.json"
+        },
+        "codeListResponsibleAgencyCode": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D08B/dataelement/3055.edifact.schema.json"
+        },
+        "organisationalClassName": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D08B/dataelement/3082.edifact.schema.json"
+        }
+    },
+    "required": []
+}

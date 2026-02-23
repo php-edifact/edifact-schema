@@ -1,0 +1,22 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D18A/segment/EDT.edifact.schema.json",
+    "title": "EDT",
+    "description": "To specify editing details.",
+    "type": "object",
+    "properties": {
+        "editFieldLengthMeasure": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D18A/dataelement/6178.edifact.schema.json"
+        },
+        "editMaskFormatIdentifier": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D18A/dataelement/9026.edifact.schema.json"
+        },
+        "editMaskRepresentationCode": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D18A/dataelement/9031.edifact.schema.json"
+        },
+        "freeTextFormatCode": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D18A/dataelement/4447.edifact.schema.json"
+        }
+    },
+    "required": []
+}

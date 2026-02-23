@@ -1,0 +1,19 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D22B/segment/CPI.edifact.schema.json",
+    "title": "CPI",
+    "description": "To identify a charge.",
+    "type": "object",
+    "properties": {
+        "chargeCategory": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D22B/compositedataelement/C229.edifact.schema.json"
+        },
+        "methodOfPayment": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D22B/compositedataelement/C231.edifact.schema.json"
+        },
+        "paymentArrangementCode": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D22B/dataelement/4237.edifact.schema.json"
+        }
+    },
+    "required": []
+}

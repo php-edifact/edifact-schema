@@ -1,0 +1,25 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D10B/segment/DOC.edifact.schema.json",
+    "title": "DOC",
+    "description": "To identify documents and details directly related to it.",
+    "type": "object",
+    "properties": {
+        "document": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D10B/compositedataelement/C002.edifact.schema.json"
+        },
+        "document2": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D10B/compositedataelement/C503.edifact.schema.json"
+        },
+        "communicationMediumTypeCode": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D10B/dataelement/3153.edifact.schema.json"
+        },
+        "documentCopiesRequiredQuantity": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D10B/dataelement/1220.edifact.schema.json"
+        },
+        "documentOriginalsRequiredQuantity": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D10B/dataelement/1218.edifact.schema.json"
+        }
+    },
+    "required": []
+}

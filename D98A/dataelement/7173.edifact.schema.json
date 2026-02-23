@@ -1,0 +1,15 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D98A/dataelement/7173.edifact.schema.json",
+    "title": "hierarchyObjectQualifier",
+    "description": "To qualify the object of the given hierarchy (e.g. product hierarchy, company hierarchy..).",
+    "type": "object",
+    "properties": {
+        "value": {
+            "description": "Value",
+            "type": "string",
+            "maxLength": 3
+        }
+    },
+    "required": []
+}

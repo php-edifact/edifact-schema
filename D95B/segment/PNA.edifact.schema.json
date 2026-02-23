@@ -1,0 +1,40 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D95B/segment/PNA.edifact.schema.json",
+    "title": "PNA",
+    "description": "To specify information necessary to establish the identity of a party. Note: Any message submitted for Status 1 which uses this segment shall NOT also use the NAD segment. (See Rapporteurs' decision on the proposed ADR & PNA segments and the existing NAD segment - Sydney, April 1995).",
+    "type": "object",
+    "properties": {
+        "partyQualifier": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D95B/dataelement/3035.edifact.schema.json"
+        },
+        "identificationNumber": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D95B/compositedataelement/C206.edifact.schema.json"
+        },
+        "partyIdentificationDetails": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D95B/compositedataelement/C082.edifact.schema.json"
+        },
+        "nameTypeCoded": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D95B/dataelement/3403.edifact.schema.json"
+        },
+        "nameStatusCoded": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D95B/dataelement/3397.edifact.schema.json"
+        },
+        "nameComponentDetails": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D95B/compositedataelement/C816.edifact.schema.json"
+        },
+        "nameComponentDetails2": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D95B/compositedataelement/C816.edifact.schema.json"
+        },
+        "nameComponentDetails3": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D95B/compositedataelement/C816.edifact.schema.json"
+        },
+        "nameComponentDetails4": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D95B/compositedataelement/C816.edifact.schema.json"
+        },
+        "nameComponentDetails5": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D95B/compositedataelement/C816.edifact.schema.json"
+        }
+    },
+    "required": []
+}

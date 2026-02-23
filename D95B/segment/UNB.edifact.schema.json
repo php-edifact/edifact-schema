@@ -1,0 +1,43 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D95B/segment/UNB.edifact.schema.json",
+    "title": "UNB",
+    "description": "To start, identify and specify an interchange",
+    "type": "object",
+    "properties": {
+        "syntaxIdentifier": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D95B/compositedataelement/unb1.edifact.schema.json"
+        },
+        "interchangeSender": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D95B/compositedataelement/unb2.edifact.schema.json"
+        },
+        "interchangeRecipient": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D95B/compositedataelement/unb3.edifact.schema.json"
+        },
+        "dateTimePreparation": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D95B/compositedataelement/unb4.edifact.schema.json"
+        },
+        "interchangeControlReference": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D95B/dataelement/unb5.edifact.schema.json"
+        },
+        "recipientDetails": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D95B/compositedataelement/unb6.edifact.schema.json"
+        },
+        "applicationReference": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D95B/dataelement/unb7.edifact.schema.json"
+        },
+        "processingPriorityCode": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D95B/dataelement/unb8.edifact.schema.json"
+        },
+        "ackRequest": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D95B/dataelement/unb9.edifact.schema.json"
+        },
+        "interchangeAgreementIdentifier": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D95B/dataelement/unb10.edifact.schema.json"
+        },
+        "testIndicator": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D95B/dataelement/unb11.edifact.schema.json"
+        }
+    },
+    "required": []
+}

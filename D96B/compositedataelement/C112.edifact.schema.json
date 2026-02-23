@@ -1,0 +1,22 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D96B/compositedataelement/C112.edifact.schema.json",
+    "title": "C112",
+    "description": "Time details in payment terms.",
+    "type": "object",
+    "properties": {
+        "paymentTimeReferenceCoded": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D96B/dataelement/2475.edifact.schema.json"
+        },
+        "timeRelationCoded": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D96B/dataelement/2009.edifact.schema.json"
+        },
+        "typeOfPeriodCoded": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D96B/dataelement/2151.edifact.schema.json"
+        },
+        "numberOfPeriods": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D96B/dataelement/2152.edifact.schema.json"
+        }
+    },
+    "required": []
+}

@@ -1,0 +1,31 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D96A/segment/IDE.edifact.schema.json",
+    "title": "IDE",
+    "description": "To identify an object.",
+    "type": "object",
+    "properties": {
+        "identificationQualifier": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D96A/dataelement/7495.edifact.schema.json"
+        },
+        "identificationNumber": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D96A/compositedataelement/C206.edifact.schema.json"
+        },
+        "partyIdentificationDetails": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D96A/compositedataelement/C082.edifact.schema.json"
+        },
+        "statusCoded": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D96A/dataelement/4405.edifact.schema.json"
+        },
+        "configurationLevel": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D96A/dataelement/1222.edifact.schema.json"
+        },
+        "positionIdentification": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D96A/compositedataelement/C778.edifact.schema.json"
+        },
+        "productCharacteristic": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D96A/compositedataelement/C240.edifact.schema.json"
+        }
+    },
+    "required": []
+}

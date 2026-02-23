@@ -1,0 +1,15 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D97A/dataelement/1312.edifact.schema.json",
+    "title": "consignmentLoadSequenceNumber",
+    "description": "To indicate the sequence of loading in which the consignments are loaded in a piece of equipment or in a means of transport (e.g. truck).",
+    "type": "object",
+    "properties": {
+        "value": {
+            "description": "Value",
+            "type": "string",
+            "maxLength": 4
+        }
+    },
+    "required": []
+}

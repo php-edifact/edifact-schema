@@ -1,0 +1,22 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D95B/compositedataelement/C232.edifact.schema.json",
+    "title": "C232",
+    "description": "Code indicating a type of government action.",
+    "type": "object",
+    "properties": {
+        "governmentAgencyCoded": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D95B/dataelement/9415.edifact.schema.json"
+        },
+        "governmentInvolvementCoded": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D95B/dataelement/9411.edifact.schema.json"
+        },
+        "governmentActionCoded": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D95B/dataelement/9417.edifact.schema.json"
+        },
+        "governmentProcedureCoded": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D95B/dataelement/9353.edifact.schema.json"
+        }
+    },
+    "required": []
+}

@@ -1,0 +1,25 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D12A/compositedataelement/C506.edifact.schema.json",
+    "title": "C506",
+    "description": "Identification of a reference.",
+    "type": "object",
+    "properties": {
+        "referenceCodeQualifier": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D12A/dataelement/1153.edifact.schema.json"
+        },
+        "referenceIdentifier": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D12A/dataelement/1154.edifact.schema.json"
+        },
+        "documentLineIdentifier": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D12A/dataelement/1156.edifact.schema.json"
+        },
+        "versionIdentifier": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D12A/dataelement/1056.edifact.schema.json"
+        },
+        "revisionIdentifier": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D12A/dataelement/1060.edifact.schema.json"
+        }
+    },
+    "required": []
+}

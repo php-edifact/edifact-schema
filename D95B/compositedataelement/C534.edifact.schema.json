@@ -1,0 +1,28 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D95B/compositedataelement/C534.edifact.schema.json",
+    "title": "C534",
+    "description": "Indication of method of payment employed or to be employed.",
+    "type": "object",
+    "properties": {
+        "paymentConditionsCoded": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D95B/dataelement/4439.edifact.schema.json"
+        },
+        "paymentGuaranteeCoded": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D95B/dataelement/4431.edifact.schema.json"
+        },
+        "paymentMeansCoded": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D95B/dataelement/4461.edifact.schema.json"
+        },
+        "codeListQualifier": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D95B/dataelement/1131.edifact.schema.json"
+        },
+        "codeListResponsibleAgencyCoded": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D95B/dataelement/3055.edifact.schema.json"
+        },
+        "paymentChannelCoded": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D95B/dataelement/4435.edifact.schema.json"
+        }
+    },
+    "required": []
+}

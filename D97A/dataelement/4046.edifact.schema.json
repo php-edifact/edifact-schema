@@ -1,0 +1,15 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D97A/dataelement/4046.edifact.schema.json",
+    "title": "safetySectionNumber",
+    "description": "To identify the safety section number.",
+    "type": "object",
+    "properties": {
+        "value": {
+            "description": "Value",
+            "type": "string",
+            "maxLength": 2
+        }
+    },
+    "required": []
+}

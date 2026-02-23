@@ -1,0 +1,16 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D09A/segment/ARR.edifact.schema.json",
+    "title": "ARR",
+    "description": "To contain the data in an array.",
+    "type": "object",
+    "properties": {
+        "positionIdentification": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D09A/compositedataelement/C778.edifact.schema.json"
+        },
+        "arrayCellDetails": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D09A/compositedataelement/C770.edifact.schema.json"
+        }
+    },
+    "required": []
+}

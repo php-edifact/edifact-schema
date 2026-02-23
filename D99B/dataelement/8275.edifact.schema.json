@@ -1,0 +1,15 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D99B/dataelement/8275.edifact.schema.json",
+    "title": "containerOrPackageState,Coded",
+    "description": "Code to identify whether goods of separate description or comprising separate consignments are contained in the same external packaging or to indicate that a container or similar unit load device is empty.",
+    "type": "object",
+    "properties": {
+        "value": {
+            "description": "Value",
+            "type": "string",
+            "maxLength": 3
+        }
+    },
+    "required": []
+}

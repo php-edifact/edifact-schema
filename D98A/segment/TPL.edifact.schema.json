@@ -1,0 +1,13 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D98A/segment/TPL.edifact.schema.json",
+    "title": "TPL",
+    "description": "To specify placement of goods or equipment in relation to the transport used. The segment serves as a pointer to the TDT segment group.",
+    "type": "object",
+    "properties": {
+        "transportIdentification": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D98A/compositedataelement/C222.edifact.schema.json"
+        }
+    },
+    "required": []
+}

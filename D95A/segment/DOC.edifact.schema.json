@@ -1,0 +1,25 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D95A/segment/DOC.edifact.schema.json",
+    "title": "DOC",
+    "description": "To identify documents, either printed, electronically transferred, or referenced as specified in message description, including, where relevant, the identification of the type of transaction that will result from this message.",
+    "type": "object",
+    "properties": {
+        "documentmessageName": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D95A/compositedataelement/C002.edifact.schema.json"
+        },
+        "documentmessageDetails": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D95A/compositedataelement/C503.edifact.schema.json"
+        },
+        "communicationChannelIdentifierCoded": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D95A/dataelement/3153.edifact.schema.json"
+        },
+        "numberOfCopiesOfDocumentRequired": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D95A/dataelement/1220.edifact.schema.json"
+        },
+        "numberOfOriginalsOfDocumentRequired": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D95A/dataelement/1218.edifact.schema.json"
+        }
+    },
+    "required": []
+}

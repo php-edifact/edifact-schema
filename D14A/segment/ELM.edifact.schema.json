@@ -1,0 +1,37 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D14A/segment/ELM.edifact.schema.json",
+    "title": "ELM",
+    "description": "To identify a simple data element and give related details.",
+    "type": "object",
+    "properties": {
+        "simpleDataElementTagIdentifier": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D14A/dataelement/9150.edifact.schema.json"
+        },
+        "simpleDataElementCharacterRepresentationCode": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D14A/dataelement/9153.edifact.schema.json"
+        },
+        "lengthTypeCode": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D14A/dataelement/6113.edifact.schema.json"
+        },
+        "simpleDataElementMaximumLengthMeasure": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D14A/dataelement/9156.edifact.schema.json"
+        },
+        "simpleDataElementMinimumLengthMeasure": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D14A/dataelement/9158.edifact.schema.json"
+        },
+        "codeSetIndicatorCode": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D14A/dataelement/9161.edifact.schema.json"
+        },
+        "designatedClassCode": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D14A/dataelement/1507.edifact.schema.json"
+        },
+        "maintenanceOperationCode": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D14A/dataelement/4513.edifact.schema.json"
+        },
+        "significantDigitsQuantity": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D14A/dataelement/6432.edifact.schema.json"
+        }
+    },
+    "required": []
+}

@@ -1,0 +1,15 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D18A/dataelement/7171.edifact.schema.json",
+    "title": "hierarchicalStructureRelationshipCode",
+    "description": "Code specifying the relationship between the hierarchical object and an identified object.",
+    "type": "object",
+    "properties": {
+        "value": {
+            "description": "Value",
+            "type": "string",
+            "maxLength": 3
+        }
+    },
+    "required": []
+}

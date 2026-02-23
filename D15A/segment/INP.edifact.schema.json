@@ -1,0 +1,22 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D15A/segment/INP.edifact.schema.json",
+    "title": "INP",
+    "description": "To specify parties to an instruction, the instruction, or both.",
+    "type": "object",
+    "properties": {
+        "partiesToInstruction": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D15A/compositedataelement/C849.edifact.schema.json"
+        },
+        "instruction": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D15A/compositedataelement/C522.edifact.schema.json"
+        },
+        "statusOfInstruction": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D15A/compositedataelement/C850.edifact.schema.json"
+        },
+        "actionCode": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D15A/dataelement/1229.edifact.schema.json"
+        }
+    },
+    "required": []
+}

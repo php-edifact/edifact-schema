@@ -1,0 +1,15 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D99A/dataelement/5278.edifact.schema.json",
+    "title": "dutyOrtaxOrfeeRate",
+    "description": "Rate of duty or tax or fee applicable to commodities or of tax applicable to services.",
+    "type": "object",
+    "properties": {
+        "value": {
+            "description": "Value",
+            "type": "string",
+            "maxLength": 17
+        }
+    },
+    "required": []
+}

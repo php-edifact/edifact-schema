@@ -1,0 +1,15 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D08A/dataelement/7357.edifact.schema.json",
+    "title": "commodityIdentificationCode",
+    "description": "Code identifying a commodity for Customs, transport or statistical purposes (generic term).",
+    "type": "object",
+    "properties": {
+        "value": {
+            "description": "Value",
+            "type": "string",
+            "maxLength": 18
+        }
+    },
+    "required": []
+}

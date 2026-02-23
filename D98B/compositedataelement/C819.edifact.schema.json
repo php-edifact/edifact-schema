@@ -1,0 +1,22 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D98B/compositedataelement/C819.edifact.schema.json",
+    "title": "C819",
+    "description": "To specify a part of a country (eg county or part of a city).",
+    "type": "object",
+    "properties": {
+        "countrySub-entityIdentification": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D98B/dataelement/3229.edifact.schema.json"
+        },
+        "codeListQualifier": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D98B/dataelement/1131.edifact.schema.json"
+        },
+        "codeListResponsibleAgency,Coded": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D98B/dataelement/3055.edifact.schema.json"
+        },
+        "countrySub-entity": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D98B/dataelement/3228.edifact.schema.json"
+        }
+    },
+    "required": []
+}

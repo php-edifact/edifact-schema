@@ -1,0 +1,19 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D97A/compositedataelement/C956.edifact.schema.json",
+    "title": "C956",
+    "description": "Identification of the attribute related to an entity.",
+    "type": "object",
+    "properties": {
+        "codeListQualifier": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D97A/dataelement/1131.edifact.schema.json"
+        },
+        "codeListResponsibleAgency,Coded": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D97A/dataelement/3055.edifact.schema.json"
+        },
+        "attribute": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D97A/dataelement/9018.edifact.schema.json"
+        }
+    },
+    "required": []
+}

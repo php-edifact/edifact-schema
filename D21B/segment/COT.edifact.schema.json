@@ -1,0 +1,25 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D21B/segment/COT.edifact.schema.json",
+    "title": "COT",
+    "description": "To specify details about membership contributions.",
+    "type": "object",
+    "properties": {
+        "contributionCodeQualifier": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D21B/dataelement/5047.edifact.schema.json"
+        },
+        "contributionType": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D21B/compositedataelement/C953.edifact.schema.json"
+        },
+        "instruction": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D21B/compositedataelement/C522.edifact.schema.json"
+        },
+        "rate": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D21B/compositedataelement/C203.edifact.schema.json"
+        },
+        "reasonForChange": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D21B/compositedataelement/C960.edifact.schema.json"
+        }
+    },
+    "required": []
+}

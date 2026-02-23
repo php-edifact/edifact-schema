@@ -1,0 +1,28 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D21B/segment/GID.edifact.schema.json",
+    "title": "GID",
+    "description": "To indicate totals of a goods item.",
+    "type": "object",
+    "properties": {
+        "goodsItemNumber": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D21B/dataelement/1496.edifact.schema.json"
+        },
+        "numberAndTypeOfPackages": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D21B/compositedataelement/C213.edifact.schema.json"
+        },
+        "numberAndTypeOfPackages2": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D21B/compositedataelement/C213.edifact.schema.json"
+        },
+        "numberAndTypeOfPackages3": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D21B/compositedataelement/C213.edifact.schema.json"
+        },
+        "numberAndTypeOfPackages4": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D21B/compositedataelement/C213.edifact.schema.json"
+        },
+        "numberAndTypeOfPackages5": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D21B/compositedataelement/C213.edifact.schema.json"
+        }
+    },
+    "required": []
+}

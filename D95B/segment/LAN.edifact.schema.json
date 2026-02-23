@@ -1,0 +1,16 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D95B/segment/LAN.edifact.schema.json",
+    "title": "LAN",
+    "description": "To specify a language.",
+    "type": "object",
+    "properties": {
+        "languageQualifier": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D95B/dataelement/3455.edifact.schema.json"
+        },
+        "languageDetails": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D95B/compositedataelement/C508.edifact.schema.json"
+        }
+    },
+    "required": []
+}

@@ -1,0 +1,15 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D13A/dataelement/6182.edifact.schema.json",
+    "title": "diameterMeasure",
+    "description": "To specify the value of a diameter dimension.",
+    "type": "object",
+    "properties": {
+        "value": {
+            "description": "Value",
+            "type": "string",
+            "maxLength": 15
+        }
+    },
+    "required": []
+}

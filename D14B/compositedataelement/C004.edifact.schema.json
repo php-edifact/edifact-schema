@@ -1,0 +1,22 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D14B/compositedataelement/C004.edifact.schema.json",
+    "title": "C004",
+    "description": "To specify the event category.",
+    "type": "object",
+    "properties": {
+        "eventCategoryDescriptionCode": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D14B/dataelement/9637.edifact.schema.json"
+        },
+        "codeListIdentificationCode": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D14B/dataelement/1131.edifact.schema.json"
+        },
+        "codeListResponsibleAgencyCode": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D14B/dataelement/3055.edifact.schema.json"
+        },
+        "eventCategoryDescription": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D14B/dataelement/9636.edifact.schema.json"
+        }
+    },
+    "required": []
+}

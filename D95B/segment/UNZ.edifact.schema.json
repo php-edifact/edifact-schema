@@ -1,0 +1,16 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D95B/segment/UNZ.edifact.schema.json",
+    "title": "UNZ",
+    "description": "InterchangeTrailer",
+    "type": "object",
+    "properties": {
+        "interchangeControlCount": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D95B/dataelement/9902.edifact.schema.json"
+        },
+        "interchangeControlRef": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D95B/dataelement/9903.edifact.schema.json"
+        }
+    },
+    "required": []
+}

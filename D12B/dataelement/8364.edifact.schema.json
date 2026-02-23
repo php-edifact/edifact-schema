@@ -1,0 +1,15 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D12B/dataelement/8364.edifact.schema.json",
+    "title": "emergencyProcedureForShipsIdentifier",
+    "description": "To identify the emergency procedure number for ships transporting dangerous goods. Synonym: EMS Number.",
+    "type": "object",
+    "properties": {
+        "value": {
+            "description": "Value",
+            "type": "string",
+            "maxLength": 6
+        }
+    },
+    "required": []
+}

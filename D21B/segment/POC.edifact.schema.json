@@ -1,0 +1,13 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D21B/segment/POC.edifact.schema.json",
+    "title": "POC",
+    "description": "To specify the purpose of the call of the conveyance.",
+    "type": "object",
+    "properties": {
+        "purposeOfConveyanceCall": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D21B/compositedataelement/C525.edifact.schema.json"
+        }
+    },
+    "required": []
+}

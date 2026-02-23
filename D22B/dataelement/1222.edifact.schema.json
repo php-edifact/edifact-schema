@@ -1,0 +1,15 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D22B/dataelement/1222.edifact.schema.json",
+    "title": "configurationLevelNumber",
+    "description": "To specify a level within a configuration.",
+    "type": "object",
+    "properties": {
+        "value": {
+            "description": "Value",
+            "type": "string",
+            "maxLength": 2
+        }
+    },
+    "required": []
+}

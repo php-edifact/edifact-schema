@@ -1,0 +1,15 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D03B/dataelement/8155.edifact.schema.json",
+    "title": "equipmentSizeAndTypeDescriptionCode",
+    "description": "Code specifying the size and type of equipment.",
+    "type": "object",
+    "properties": {
+        "value": {
+            "description": "Value",
+            "type": "string",
+            "maxLength": 10
+        }
+    },
+    "required": []
+}

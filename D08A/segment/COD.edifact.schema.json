@@ -1,0 +1,16 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D08A/segment/COD.edifact.schema.json",
+    "title": "COD",
+    "description": "To provide component details of an object (e.g. product, container) such as its type and the material of which it is composed.",
+    "type": "object",
+    "properties": {
+        "typeOfUnit": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D08A/compositedataelement/C823.edifact.schema.json"
+        },
+        "componentMaterial": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D08A/compositedataelement/C824.edifact.schema.json"
+        }
+    },
+    "required": []
+}

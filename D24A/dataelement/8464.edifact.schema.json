@@ -1,0 +1,15 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D24A/dataelement/8464.edifact.schema.json",
+    "title": "transportServiceDescription",
+    "description": "Free form description of a transport service.",
+    "type": "object",
+    "properties": {
+        "value": {
+            "description": "Value",
+            "type": "string",
+            "maxLength": 256
+        }
+    },
+    "required": []
+}

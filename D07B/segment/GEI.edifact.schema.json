@@ -1,0 +1,19 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D07B/segment/GEI.edifact.schema.json",
+    "title": "GEI",
+    "description": "To identify processing information.",
+    "type": "object",
+    "properties": {
+        "processingInformationCodeQualifier": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D07B/dataelement/9649.edifact.schema.json"
+        },
+        "processingIndicator": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D07B/compositedataelement/C012.edifact.schema.json"
+        },
+        "processTypeDescriptionCode": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D07B/dataelement/7187.edifact.schema.json"
+        }
+    },
+    "required": []
+}

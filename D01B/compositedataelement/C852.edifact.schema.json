@@ -1,0 +1,19 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D01B/compositedataelement/C852.edifact.schema.json",
+    "title": "C852",
+    "description": "To provide identification details for a risk object sub-type.",
+    "type": "object",
+    "properties": {
+        "riskObjectSub-typeDescriptionIdentifier": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D01B/dataelement/7177.edifact.schema.json"
+        },
+        "codeListIdentificationCode": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D01B/dataelement/1131.edifact.schema.json"
+        },
+        "codeListResponsibleAgencyCode": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D01B/dataelement/3055.edifact.schema.json"
+        }
+    },
+    "required": []
+}

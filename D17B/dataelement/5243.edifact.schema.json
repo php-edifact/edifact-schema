@@ -1,0 +1,15 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D17B/dataelement/5243.edifact.schema.json",
+    "title": "rateOrTariffClassDescriptionCode",
+    "description": "Code specifying an applicable rate or tariff class.",
+    "type": "object",
+    "properties": {
+        "value": {
+            "description": "Value",
+            "type": "string",
+            "maxLength": 9
+        }
+    },
+    "required": []
+}

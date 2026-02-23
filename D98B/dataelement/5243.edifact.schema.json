@@ -1,0 +1,15 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D98B/dataelement/5243.edifact.schema.json",
+    "title": "rateOrtariffClassIdentification",
+    "description": "Identification of the rate/tariff class.",
+    "type": "object",
+    "properties": {
+        "value": {
+            "description": "Value",
+            "type": "string",
+            "maxLength": 9
+        }
+    },
+    "required": []
+}

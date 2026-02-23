@@ -1,0 +1,16 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D07A/compositedataelement/C814.edifact.schema.json",
+    "title": "C814",
+    "description": "To identify the safety section to which information relates.",
+    "type": "object",
+    "properties": {
+        "safetySectionNumber": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D07A/dataelement/4046.edifact.schema.json"
+        },
+        "safetySectionName": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D07A/dataelement/4044.edifact.schema.json"
+        }
+    },
+    "required": []
+}

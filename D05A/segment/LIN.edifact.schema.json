@@ -1,0 +1,28 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D05A/segment/LIN.edifact.schema.json",
+    "title": "LIN",
+    "description": "To identify a line item and configuration.",
+    "type": "object",
+    "properties": {
+        "lineItemIdentifier": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D05A/dataelement/1082.edifact.schema.json"
+        },
+        "actionRequestOrnotificationDescriptionCode": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D05A/dataelement/1229.edifact.schema.json"
+        },
+        "itemNumberIdentification": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D05A/compositedataelement/C212.edifact.schema.json"
+        },
+        "sub": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D05A/compositedataelement/C829.edifact.schema.json"
+        },
+        "configurationLevelNumber": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D05A/dataelement/1222.edifact.schema.json"
+        },
+        "configurationOperationCode": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D05A/dataelement/7083.edifact.schema.json"
+        }
+    },
+    "required": []
+}

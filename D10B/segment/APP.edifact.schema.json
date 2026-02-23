@@ -1,0 +1,19 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D10B/segment/APP.edifact.schema.json",
+    "title": "APP",
+    "description": "To specify the applicability.",
+    "type": "object",
+    "properties": {
+        "applicabilityCodeQualifier": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D10B/dataelement/9051.edifact.schema.json"
+        },
+        "applicabilityType": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D10B/compositedataelement/C973.edifact.schema.json"
+        },
+        "partyIdentificationDetails": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D10B/compositedataelement/C082.edifact.schema.json"
+        }
+    },
+    "required": []
+}

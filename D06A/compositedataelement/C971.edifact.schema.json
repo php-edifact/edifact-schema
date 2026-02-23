@@ -1,0 +1,22 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D06A/compositedataelement/C971.edifact.schema.json",
+    "title": "C971",
+    "description": "Specification of the proviso type in coded or clear form.",
+    "type": "object",
+    "properties": {
+        "provisoTypeDescriptionCode": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D06A/dataelement/4073.edifact.schema.json"
+        },
+        "codeListIdentificationCode": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D06A/dataelement/1131.edifact.schema.json"
+        },
+        "codeListResponsibleAgencyCode": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D06A/dataelement/3055.edifact.schema.json"
+        },
+        "provisoTypeDescription": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D06A/dataelement/4072.edifact.schema.json"
+        }
+    },
+    "required": []
+}

@@ -1,0 +1,22 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D21B/compositedataelement/C030.edifact.schema.json",
+    "title": "C030",
+    "description": "To specify the type of event.",
+    "type": "object",
+    "properties": {
+        "eventTypeDescriptionCode": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D21B/dataelement/9171.edifact.schema.json"
+        },
+        "codeListIdentificationCode": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D21B/dataelement/1131.edifact.schema.json"
+        },
+        "codeListResponsibleAgencyCode": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D21B/dataelement/3055.edifact.schema.json"
+        },
+        "eventTypeDescription": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D21B/dataelement/9170.edifact.schema.json"
+        }
+    },
+    "required": []
+}

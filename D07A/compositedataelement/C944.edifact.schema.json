@@ -1,0 +1,22 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D07A/compositedataelement/C944.edifact.schema.json",
+    "title": "C944",
+    "description": "Code and/or description of membership status.",
+    "type": "object",
+    "properties": {
+        "membershipStatusDescriptionCode": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D07A/dataelement/7453.edifact.schema.json"
+        },
+        "codeListIdentificationCode": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D07A/dataelement/1131.edifact.schema.json"
+        },
+        "codeListResponsibleAgencyCode": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D07A/dataelement/3055.edifact.schema.json"
+        },
+        "membershipStatusDescription": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D07A/dataelement/7452.edifact.schema.json"
+        }
+    },
+    "required": []
+}

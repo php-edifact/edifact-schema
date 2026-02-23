@@ -1,0 +1,19 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D99A/segment/CED.edifact.schema.json",
+    "title": "CED",
+    "description": "To give a precise definition of all necessary elements belonging to the configuration of a computer system like hardware, firmware, operating system, communication (VANS, network type, protocol, format) and application software.",
+    "type": "object",
+    "properties": {
+        "computerEnvironmentDetailsQualifier": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D99A/dataelement/1501.edifact.schema.json"
+        },
+        "computerEnvironmentIdentification": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D99A/compositedataelement/C079.edifact.schema.json"
+        },
+        "fileGeneratingCommand": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D99A/dataelement/9448.edifact.schema.json"
+        }
+    },
+    "required": []
+}

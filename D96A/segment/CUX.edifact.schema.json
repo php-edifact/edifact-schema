@@ -1,0 +1,22 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D96A/segment/CUX.edifact.schema.json",
+    "title": "CUX",
+    "description": "To specify currencies used in the transaction and relevant details for the rate of exchange.",
+    "type": "object",
+    "properties": {
+        "currencyDetails": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D96A/compositedataelement/C504.edifact.schema.json"
+        },
+        "currencyDetails2": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D96A/compositedataelement/C504.edifact.schema.json"
+        },
+        "rateOfExchange": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D96A/dataelement/5402.edifact.schema.json"
+        },
+        "currencyMarketExchangeCoded": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D96A/dataelement/6341.edifact.schema.json"
+        }
+    },
+    "required": []
+}

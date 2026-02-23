@@ -1,0 +1,25 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D21B/compositedataelement/C058.edifact.schema.json",
+    "title": "C058",
+    "description": "Unstructured name and address: one to five lines.",
+    "type": "object",
+    "properties": {
+        "nameAndAddressDescription": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D21B/dataelement/3124.edifact.schema.json"
+        },
+        "nameAndAddressDescription2": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D21B/dataelement/3124.edifact.schema.json"
+        },
+        "nameAndAddressDescription3": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D21B/dataelement/3124.edifact.schema.json"
+        },
+        "nameAndAddressDescription4": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D21B/dataelement/3124.edifact.schema.json"
+        },
+        "nameAndAddressDescription5": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D21B/dataelement/3124.edifact.schema.json"
+        }
+    },
+    "required": []
+}

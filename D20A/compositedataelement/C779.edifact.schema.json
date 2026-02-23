@@ -1,0 +1,16 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D20A/compositedataelement/C779.edifact.schema.json",
+    "title": "C779",
+    "description": "The identification of an array structure.",
+    "type": "object",
+    "properties": {
+        "arrayCellStructureIdentifier": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D20A/dataelement/9428.edifact.schema.json"
+        },
+        "objectIdentificationCodeQualifier": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D20A/dataelement/7405.edifact.schema.json"
+        }
+    },
+    "required": []
+}

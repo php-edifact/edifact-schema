@@ -1,0 +1,16 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D95B/compositedataelement/C523.edifact.schema.json",
+    "title": "C523",
+    "description": "Identification of number of units and its purpose.",
+    "type": "object",
+    "properties": {
+        "numberOfUnits": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D95B/dataelement/6350.edifact.schema.json"
+        },
+        "numberOfUnitsQualifier": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D95B/dataelement/6353.edifact.schema.json"
+        }
+    },
+    "required": []
+}

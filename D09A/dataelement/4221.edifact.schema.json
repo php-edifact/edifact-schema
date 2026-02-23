@@ -1,0 +1,15 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D09A/dataelement/4221.edifact.schema.json",
+    "title": "discrepancyNatureIdentificationCode",
+    "description": "Code specifying the identification used to define the nature of a discrepancy.",
+    "type": "object",
+    "properties": {
+        "value": {
+            "description": "Value",
+            "type": "string",
+            "maxLength": 3
+        }
+    },
+    "required": []
+}

@@ -1,0 +1,25 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D21B/compositedataelement/C945.edifact.schema.json",
+    "title": "C945",
+    "description": "Identification of a membership level.",
+    "type": "object",
+    "properties": {
+        "membershipLevelCodeQualifier": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D21B/dataelement/7455.edifact.schema.json"
+        },
+        "membershipLevelDescriptionCode": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D21B/dataelement/7457.edifact.schema.json"
+        },
+        "codeListIdentificationCode": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D21B/dataelement/1131.edifact.schema.json"
+        },
+        "codeListResponsibleAgencyCode": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D21B/dataelement/3055.edifact.schema.json"
+        },
+        "membershipLevelDescription": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D21B/dataelement/7456.edifact.schema.json"
+        }
+    },
+    "required": []
+}

@@ -1,0 +1,16 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D12A/segment/ROD.edifact.schema.json",
+    "title": "ROD",
+    "description": "To identify a type of object at risk.",
+    "type": "object",
+    "properties": {
+        "riskObjectType": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D12A/compositedataelement/C851.edifact.schema.json"
+        },
+        "riskObjectSub": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D12A/compositedataelement/C852.edifact.schema.json"
+        }
+    },
+    "required": []
+}

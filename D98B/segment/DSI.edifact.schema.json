@@ -1,0 +1,25 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D98B/segment/DSI.edifact.schema.json",
+    "title": "DSI",
+    "description": "To identify a data set.",
+    "type": "object",
+    "properties": {
+        "dataSetIdentification": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D98B/compositedataelement/C782.edifact.schema.json"
+        },
+        "partyIdentificationDetails": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D98B/compositedataelement/C082.edifact.schema.json"
+        },
+        "status,Coded": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D98B/dataelement/4405.edifact.schema.json"
+        },
+        "sequenceInformation": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D98B/compositedataelement/C286.edifact.schema.json"
+        },
+        "revisionNumber": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D98B/dataelement/1060.edifact.schema.json"
+        }
+    },
+    "required": []
+}

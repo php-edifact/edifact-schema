@@ -1,0 +1,22 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D98B/compositedataelement/C818.edifact.schema.json",
+    "title": "C818",
+    "description": "To specify an inherited characteristic of a person.",
+    "type": "object",
+    "properties": {
+        "personInheritedCharacteristicIdentification": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D98B/dataelement/3311.edifact.schema.json"
+        },
+        "codeListQualifier": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D98B/dataelement/1131.edifact.schema.json"
+        },
+        "codeListResponsibleAgency,Coded": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D98B/dataelement/3055.edifact.schema.json"
+        },
+        "personInheritedCharacteristic": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D98B/dataelement/3310.edifact.schema.json"
+        }
+    },
+    "required": []
+}

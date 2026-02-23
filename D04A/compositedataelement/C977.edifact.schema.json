@@ -1,0 +1,22 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D04A/compositedataelement/C977.edifact.schema.json",
+    "title": "C977",
+    "description": "Specification of the period detail in coded or clear form.",
+    "type": "object",
+    "properties": {
+        "periodDetailDescriptionCode": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D04A/dataelement/2119.edifact.schema.json"
+        },
+        "codeListIdentificationCode": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D04A/dataelement/1131.edifact.schema.json"
+        },
+        "codeListResponsibleAgencyCode": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D04A/dataelement/3055.edifact.schema.json"
+        },
+        "periodDetailDescription": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D04A/dataelement/2118.edifact.schema.json"
+        }
+    },
+    "required": []
+}

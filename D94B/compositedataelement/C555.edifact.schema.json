@@ -1,0 +1,19 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D94B/compositedataelement/C555.edifact.schema.json",
+    "title": "C555",
+    "description": "To specify a status event.",
+    "type": "object",
+    "properties": {
+        "statusEventCoded": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D94B/dataelement/9011.edifact.schema.json"
+        },
+        "codeListQualifier": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D94B/dataelement/1131.edifact.schema.json"
+        },
+        "codeListResponsibleAgencyCoded": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D94B/dataelement/3055.edifact.schema.json"
+        }
+    },
+    "required": []
+}

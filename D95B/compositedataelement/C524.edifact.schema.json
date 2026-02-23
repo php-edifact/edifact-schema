@@ -1,0 +1,22 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D95B/compositedataelement/C524.edifact.schema.json",
+    "title": "C524",
+    "description": "Instruction for the handling of goods, products or articles in shipment, storage etc.",
+    "type": "object",
+    "properties": {
+        "handlingInstructionsCoded": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D95B/dataelement/4079.edifact.schema.json"
+        },
+        "codeListQualifier": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D95B/dataelement/1131.edifact.schema.json"
+        },
+        "codeListResponsibleAgencyCoded": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D95B/dataelement/3055.edifact.schema.json"
+        },
+        "handlingInstructions": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D95B/dataelement/4078.edifact.schema.json"
+        }
+    },
+    "required": []
+}

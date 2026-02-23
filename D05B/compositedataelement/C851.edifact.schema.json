@@ -1,0 +1,19 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D05B/compositedataelement/C851.edifact.schema.json",
+    "title": "C851",
+    "description": "Specification of a type of risk object.",
+    "type": "object",
+    "properties": {
+        "riskObjectTypeIdentifier": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D05B/dataelement/7179.edifact.schema.json"
+        },
+        "codeListIdentificationCode": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D05B/dataelement/1131.edifact.schema.json"
+        },
+        "codeListResponsibleAgencyCode": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D05B/dataelement/3055.edifact.schema.json"
+        }
+    },
+    "required": []
+}

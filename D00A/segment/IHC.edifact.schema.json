@@ -1,0 +1,16 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D00A/segment/IHC.edifact.schema.json",
+    "title": "IHC",
+    "description": "To specify characteristics of a person such as ethnic origin.",
+    "type": "object",
+    "properties": {
+        "personCharacteristicCodeQualifier": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D00A/dataelement/3289.edifact.schema.json"
+        },
+        "personInheritedCharacteristicDetails": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D00A/compositedataelement/C818.edifact.schema.json"
+        }
+    },
+    "required": []
+}

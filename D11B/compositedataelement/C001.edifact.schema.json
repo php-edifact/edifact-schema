@@ -1,0 +1,22 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D11B/compositedataelement/C001.edifact.schema.json",
+    "title": "C001",
+    "description": "Code and/or name identifying the type of means of transport.",
+    "type": "object",
+    "properties": {
+        "transportMeansDescriptionCode": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D11B/dataelement/8179.edifact.schema.json"
+        },
+        "codeListIdentificationCode": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D11B/dataelement/1131.edifact.schema.json"
+        },
+        "codeListResponsibleAgencyCode": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D11B/dataelement/3055.edifact.schema.json"
+        },
+        "transportMeansDescription": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D11B/dataelement/8178.edifact.schema.json"
+        }
+    },
+    "required": []
+}

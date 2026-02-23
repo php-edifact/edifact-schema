@@ -1,0 +1,13 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D11A/segment/CAV.edifact.schema.json",
+    "title": "CAV",
+    "description": "To provide the value of a characteristic.",
+    "type": "object",
+    "properties": {
+        "characteristicValue": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D11A/compositedataelement/C889.edifact.schema.json"
+        }
+    },
+    "required": []
+}

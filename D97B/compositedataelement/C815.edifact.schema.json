@@ -1,0 +1,22 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D97B/compositedataelement/C815.edifact.schema.json",
+    "title": "C815",
+    "description": "To identify additional safety information.",
+    "type": "object",
+    "properties": {
+        "additionalSafetyInformation,Coded": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D97B/dataelement/4039.edifact.schema.json"
+        },
+        "codeListQualifier": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D97B/dataelement/1131.edifact.schema.json"
+        },
+        "codeListResponsibleAgency,Coded": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D97B/dataelement/3055.edifact.schema.json"
+        },
+        "additionalSafetyInformation": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D97B/dataelement/4038.edifact.schema.json"
+        }
+    },
+    "required": []
+}

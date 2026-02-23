@@ -1,0 +1,19 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D22B/segment/QRS.edifact.schema.json",
+    "title": "QRS",
+    "description": "To provide a declaration in the form of a coded question and response.",
+    "type": "object",
+    "properties": {
+        "sectorAreaIdentificationCodeQualifier": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D22B/dataelement/7293.edifact.schema.json"
+        },
+        "questionDetails": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D22B/compositedataelement/C811.edifact.schema.json"
+        },
+        "responseDetails": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D22B/compositedataelement/C812.edifact.schema.json"
+        }
+    },
+    "required": []
+}

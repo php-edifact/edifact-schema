@@ -1,0 +1,22 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D19B/segment/DRD.edifact.schema.json",
+    "title": "DRD",
+    "description": "To specify the details of the data representation.",
+    "type": "object",
+    "properties": {
+        "structureComponentIdentifier": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D19B/dataelement/7512.edifact.schema.json"
+        },
+        "structureTypeCode": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D19B/dataelement/7515.edifact.schema.json"
+        },
+        "dataRepresentationTypeCode": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D19B/dataelement/9169.edifact.schema.json"
+        },
+        "sizeMeasure": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D19B/dataelement/6174.edifact.schema.json"
+        }
+    },
+    "required": []
+}

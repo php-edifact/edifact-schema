@@ -1,0 +1,15 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D97A/dataelement/5286.edifact.schema.json",
+    "title": "dutyOrtaxOrfeeAssessmentBasis",
+    "description": "Value or quantity on which a duty or tax will be assessed.",
+    "type": "object",
+    "properties": {
+        "value": {
+            "description": "Value",
+            "type": "string",
+            "maxLength": 15
+        }
+    },
+    "required": []
+}

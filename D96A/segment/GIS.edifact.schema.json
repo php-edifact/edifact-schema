@@ -1,0 +1,13 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D96A/segment/GIS.edifact.schema.json",
+    "title": "GIS",
+    "description": "To transmit a processing indicator.",
+    "type": "object",
+    "properties": {
+        "processingIndicator": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D96A/compositedataelement/C529.edifact.schema.json"
+        }
+    },
+    "required": []
+}

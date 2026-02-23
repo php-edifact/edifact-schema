@@ -1,0 +1,15 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D06A/dataelement/7438.edifact.schema.json",
+    "title": "levelTwoIdentifier",
+    "description": "To identify the second facet of a sequencing mechanism used to position an item within an indexing structure.",
+    "type": "object",
+    "properties": {
+        "value": {
+            "description": "Value",
+            "type": "string",
+            "maxLength": 17
+        }
+    },
+    "required": []
+}

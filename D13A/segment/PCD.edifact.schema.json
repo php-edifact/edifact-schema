@@ -1,0 +1,16 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D13A/segment/PCD.edifact.schema.json",
+    "title": "PCD",
+    "description": "To specify percentage information.",
+    "type": "object",
+    "properties": {
+        "percentageDetails": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D13A/compositedataelement/C501.edifact.schema.json"
+        },
+        "statusDescriptionCode": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D13A/dataelement/4405.edifact.schema.json"
+        }
+    },
+    "required": []
+}

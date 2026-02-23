@@ -1,0 +1,22 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D21B/compositedataelement/C595.edifact.schema.json",
+    "title": "C595",
+    "description": "Identification of an accounting journal.",
+    "type": "object",
+    "properties": {
+        "accountingJournalIdentifier": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D21B/dataelement/1171.edifact.schema.json"
+        },
+        "codeListIdentificationCode": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D21B/dataelement/1131.edifact.schema.json"
+        },
+        "codeListResponsibleAgencyCode": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D21B/dataelement/3055.edifact.schema.json"
+        },
+        "accountingJournalName": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D21B/dataelement/1170.edifact.schema.json"
+        }
+    },
+    "required": []
+}

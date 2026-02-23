@@ -1,0 +1,15 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D96A/dataelement/8186.edifact.schema.json",
+    "title": "substanceIdentificationNumberLowerPart",
+    "description": "The number for the Orange Placard (lower part) required on the means of transport.",
+    "type": "object",
+    "properties": {
+        "value": {
+            "description": "Value",
+            "type": "string",
+            "maxLength": 0
+        }
+    },
+    "required": []
+}

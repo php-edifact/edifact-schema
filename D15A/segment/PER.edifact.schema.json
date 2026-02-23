@@ -1,0 +1,16 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D15A/segment/PER.edifact.schema.json",
+    "title": "PER",
+    "description": "Specification of details relating to a period.",
+    "type": "object",
+    "properties": {
+        "periodTypeCodeQualifier": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D15A/dataelement/2023.edifact.schema.json"
+        },
+        "periodDetail": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D15A/compositedataelement/C977.edifact.schema.json"
+        }
+    },
+    "required": []
+}

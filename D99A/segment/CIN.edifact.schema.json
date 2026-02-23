@@ -1,0 +1,19 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D99A/segment/CIN.edifact.schema.json",
+    "title": "CIN",
+    "description": "To describe an item of clinical information.",
+    "type": "object",
+    "properties": {
+        "clinicalInformationQualifier": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D99A/dataelement/6415.edifact.schema.json"
+        },
+        "clinicalInformationDetails": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D99A/compositedataelement/C836.edifact.schema.json"
+        },
+        "certaintyDetails": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D99A/compositedataelement/C837.edifact.schema.json"
+        }
+    },
+    "required": []
+}

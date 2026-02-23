@@ -1,0 +1,19 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D99B/compositedataelement/C186.edifact.schema.json",
+    "title": "C186",
+    "description": "Quantity information in a transaction, qualified when relevant.",
+    "type": "object",
+    "properties": {
+        "quantityTypeCodeQualifier": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D99B/dataelement/6063.edifact.schema.json"
+        },
+        "quantity": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D99B/dataelement/6060.edifact.schema.json"
+        },
+        "measurementUnitCode": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D99B/dataelement/6411.edifact.schema.json"
+        }
+    },
+    "required": []
+}

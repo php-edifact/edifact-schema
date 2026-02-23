@@ -1,0 +1,22 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D03B/compositedataelement/C010.edifact.schema.json",
+    "title": "C010",
+    "description": "To specify the type of information.",
+    "type": "object",
+    "properties": {
+        "informationTypeDescriptionCode": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D03B/dataelement/9613.edifact.schema.json"
+        },
+        "codeListIdentificationCode": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D03B/dataelement/1131.edifact.schema.json"
+        },
+        "codeListResponsibleAgencyCode": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D03B/dataelement/3055.edifact.schema.json"
+        },
+        "informationTypeDescription": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D03B/dataelement/9612.edifact.schema.json"
+        }
+    },
+    "required": []
+}

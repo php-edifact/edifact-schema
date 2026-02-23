@@ -1,0 +1,19 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D10A/compositedataelement/C401.edifact.schema.json",
+    "title": "C401",
+    "description": "To provide details of reason for, and responsibility for, use of transportation other than normally utilized.",
+    "type": "object",
+    "properties": {
+        "excessTransportationReasonCode": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D10A/dataelement/8457.edifact.schema.json"
+        },
+        "excessTransportationResponsibilityCode": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D10A/dataelement/8459.edifact.schema.json"
+        },
+        "customerShipmentAuthorisationIdentifier": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D10A/dataelement/7130.edifact.schema.json"
+        }
+    },
+    "required": []
+}

@@ -1,0 +1,22 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D18B/compositedataelement/C953.edifact.schema.json",
+    "title": "C953",
+    "description": "Identification of the type of a contribution to a scheme or group.",
+    "type": "object",
+    "properties": {
+        "contributionTypeDescriptionCode": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D18B/dataelement/5049.edifact.schema.json"
+        },
+        "codeListIdentificationCode": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D18B/dataelement/1131.edifact.schema.json"
+        },
+        "codeListResponsibleAgencyCode": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D18B/dataelement/3055.edifact.schema.json"
+        },
+        "contributionTypeDescription": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D18B/dataelement/5048.edifact.schema.json"
+        }
+    },
+    "required": []
+}

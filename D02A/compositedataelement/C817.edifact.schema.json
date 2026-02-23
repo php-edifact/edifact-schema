@@ -1,0 +1,19 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D02A/compositedataelement/C817.edifact.schema.json",
+    "title": "C817",
+    "description": "To describe the usage of an address.",
+    "type": "object",
+    "properties": {
+        "addressPurposeCode": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D02A/dataelement/3299.edifact.schema.json"
+        },
+        "addressTypeCode": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D02A/dataelement/3131.edifact.schema.json"
+        },
+        "addressStatusCode": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D02A/dataelement/3475.edifact.schema.json"
+        }
+    },
+    "required": []
+}

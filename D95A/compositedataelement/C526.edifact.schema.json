@@ -1,0 +1,19 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D95A/compositedataelement/C526.edifact.schema.json",
+    "title": "C526",
+    "description": "Number of samples collected per specified unit of measure.",
+    "type": "object",
+    "properties": {
+        "frequencyQualifier": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D95A/dataelement/6071.edifact.schema.json"
+        },
+        "frequencyValue": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D95A/dataelement/6072.edifact.schema.json"
+        },
+        "measureUnitQualifier": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D95A/dataelement/6411.edifact.schema.json"
+        }
+    },
+    "required": []
+}

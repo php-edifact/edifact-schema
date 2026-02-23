@@ -1,0 +1,22 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D16A/segment/RCS.edifact.schema.json",
+    "title": "RCS",
+    "description": "To specify sector/subject requirements and conditions.",
+    "type": "object",
+    "properties": {
+        "sectorAreaIdentificationCodeQualifier": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D16A/dataelement/7293.edifact.schema.json"
+        },
+        "requirement": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D16A/compositedataelement/C550.edifact.schema.json"
+        },
+        "actionCode": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D16A/dataelement/1229.edifact.schema.json"
+        },
+        "countryIdentifier": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D16A/dataelement/3207.edifact.schema.json"
+        }
+    },
+    "required": []
+}

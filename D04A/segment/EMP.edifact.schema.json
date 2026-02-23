@@ -1,0 +1,28 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D04A/segment/EMP.edifact.schema.json",
+    "title": "EMP",
+    "description": "To specify employment details.",
+    "type": "object",
+    "properties": {
+        "employmentDetailsCodeQualifier": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D04A/dataelement/9003.edifact.schema.json"
+        },
+        "employmentCategory": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D04A/compositedataelement/C948.edifact.schema.json"
+        },
+        "occupation": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D04A/compositedataelement/C951.edifact.schema.json"
+        },
+        "qualificationClassification": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D04A/compositedataelement/C950.edifact.schema.json"
+        },
+        "jobTitleDescription": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D04A/dataelement/3494.edifact.schema.json"
+        },
+        "qualificationApplicationAreaCode": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D04A/dataelement/9035.edifact.schema.json"
+        }
+    },
+    "required": []
+}

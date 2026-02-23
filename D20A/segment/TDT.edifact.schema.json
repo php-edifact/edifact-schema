@@ -1,0 +1,43 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D20A/segment/TDT.edifact.schema.json",
+    "title": "TDT",
+    "description": "To specify information regarding the transport such as mode of transport, means of transport, its conveyance reference number and the identification of the means of transport.",
+    "type": "object",
+    "properties": {
+        "transportStageCodeQualifier": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D20A/dataelement/8051.edifact.schema.json"
+        },
+        "meansOfTransportJourneyIdentifier": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D20A/dataelement/8028.edifact.schema.json"
+        },
+        "modeOfTransport": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D20A/compositedataelement/C220.edifact.schema.json"
+        },
+        "transportMeans": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D20A/compositedataelement/C001.edifact.schema.json"
+        },
+        "carrier": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D20A/compositedataelement/C040.edifact.schema.json"
+        },
+        "transitDirectionIndicatorCode": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D20A/dataelement/8101.edifact.schema.json"
+        },
+        "excessTransportationInformation": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D20A/compositedataelement/C401.edifact.schema.json"
+        },
+        "transportIdentification": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D20A/compositedataelement/C222.edifact.schema.json"
+        },
+        "transportMeansOwnershipIndicatorCode": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D20A/dataelement/8281.edifact.schema.json"
+        },
+        "powerType": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D20A/compositedataelement/C003.edifact.schema.json"
+        },
+        "transportService": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D20A/compositedataelement/C290.edifact.schema.json"
+        }
+    },
+    "required": []
+}

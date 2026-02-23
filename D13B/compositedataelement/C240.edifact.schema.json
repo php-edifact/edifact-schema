@@ -1,0 +1,25 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D13B/compositedataelement/C240.edifact.schema.json",
+    "title": "C240",
+    "description": "To provide a description of a characteristic.",
+    "type": "object",
+    "properties": {
+        "characteristicDescriptionCode": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D13B/dataelement/7037.edifact.schema.json"
+        },
+        "codeListIdentificationCode": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D13B/dataelement/1131.edifact.schema.json"
+        },
+        "codeListResponsibleAgencyCode": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D13B/dataelement/3055.edifact.schema.json"
+        },
+        "characteristicDescription": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D13B/dataelement/7036.edifact.schema.json"
+        },
+        "characteristicDescription2": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D13B/dataelement/7036.edifact.schema.json"
+        }
+    },
+    "required": []
+}

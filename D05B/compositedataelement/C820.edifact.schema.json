@@ -1,0 +1,19 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D05B/compositedataelement/C820.edifact.schema.json",
+    "title": "C820",
+    "description": "To identify the component affecting premium calculation.",
+    "type": "object",
+    "properties": {
+        "premiumCalculationComponentIdentifier": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D05B/dataelement/4521.edifact.schema.json"
+        },
+        "codeListIdentificationCode": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D05B/dataelement/1131.edifact.schema.json"
+        },
+        "codeListResponsibleAgencyCode": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D05B/dataelement/3055.edifact.schema.json"
+        }
+    },
+    "required": []
+}

@@ -1,0 +1,16 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D22B/compositedataelement/C850.edifact.schema.json",
+    "title": "C850",
+    "description": "Provides information regarding the status of an instruction.",
+    "type": "object",
+    "properties": {
+        "statusDescriptionCode": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D22B/dataelement/4405.edifact.schema.json"
+        },
+        "partyName": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D22B/dataelement/3036.edifact.schema.json"
+        }
+    },
+    "required": []
+}

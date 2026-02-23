@@ -1,0 +1,49 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D07A/segment/DGS.edifact.schema.json",
+    "title": "DGS",
+    "description": "To identify dangerous goods.",
+    "type": "object",
+    "properties": {
+        "dangerousGoodsRegulationsCode": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D07A/dataelement/8273.edifact.schema.json"
+        },
+        "hazardCode": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D07A/compositedataelement/C205.edifact.schema.json"
+        },
+        "undgInformation": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D07A/compositedataelement/C234.edifact.schema.json"
+        },
+        "dangerousGoodsShipmentFlashpoint": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D07A/compositedataelement/C223.edifact.schema.json"
+        },
+        "packagingDangerLevelCode": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D07A/dataelement/8339.edifact.schema.json"
+        },
+        "emergencyProcedureForShipsIdentifier": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D07A/dataelement/8364.edifact.schema.json"
+        },
+        "hazardMedicalFirstAidGuideIdentifier": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D07A/dataelement/8410.edifact.schema.json"
+        },
+        "transportEmergencyCardIdentifier": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D07A/dataelement/8126.edifact.schema.json"
+        },
+        "hazardIdentificationPlacardDetails": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D07A/compositedataelement/C235.edifact.schema.json"
+        },
+        "dangerousGoodsLabel": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D07A/compositedataelement/C236.edifact.schema.json"
+        },
+        "packingInstructionTypeCode": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D07A/dataelement/8255.edifact.schema.json"
+        },
+        "transportMeansDescriptionCode": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D07A/dataelement/8179.edifact.schema.json"
+        },
+        "hazardousCargoTransportAuthorisationCode": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D07A/dataelement/8211.edifact.schema.json"
+        }
+    },
+    "required": []
+}

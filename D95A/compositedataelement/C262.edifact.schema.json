@@ -1,0 +1,16 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D95A/compositedataelement/C262.edifact.schema.json",
+    "title": "C262",
+    "description": "Code and/or description motivating a price or quantity change. composite C960). C960 must be used in future segments which require this composite's function.",
+    "type": "object",
+    "properties": {
+        "changeReasonCoded": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D95A/dataelement/4295.edifact.schema.json"
+        },
+        "changeReason": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D95A/dataelement/4294.edifact.schema.json"
+        }
+    },
+    "required": []
+}

@@ -1,0 +1,22 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D14A/segment/DLM.edifact.schema.json",
+    "title": "DLM",
+    "description": "To specify limitations on deliveries.",
+    "type": "object",
+    "properties": {
+        "backOrderArrangementTypeCode": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D14A/dataelement/4455.edifact.schema.json"
+        },
+        "instruction": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D14A/compositedataelement/C522.edifact.schema.json"
+        },
+        "specialServicesIdentification": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D14A/compositedataelement/C214.edifact.schema.json"
+        },
+        "substitutionConditionCode": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D14A/dataelement/4457.edifact.schema.json"
+        }
+    },
+    "required": []
+}

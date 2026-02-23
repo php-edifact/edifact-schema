@@ -1,0 +1,13 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D96A/compositedataelement/C770.edifact.schema.json",
+    "title": "C770",
+    "description": "To contain the data for a contiguous set of cells in an array. times in the composite.",
+    "type": "object",
+    "properties": {
+        "arrayCellInformation": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D96A/dataelement/9424.edifact.schema.json"
+        }
+    },
+    "required": []
+}

@@ -1,0 +1,16 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D16B/segment/HAN.edifact.schema.json",
+    "title": "HAN",
+    "description": "To specify handling and where necessary, notify hazards.",
+    "type": "object",
+    "properties": {
+        "handlingInstructions": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D16B/compositedataelement/C524.edifact.schema.json"
+        },
+        "hazardousMaterial": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D16B/compositedataelement/C218.edifact.schema.json"
+        }
+    },
+    "required": []
+}

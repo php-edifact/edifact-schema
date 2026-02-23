@@ -1,0 +1,19 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D95B/compositedataelement/C955.edifact.schema.json",
+    "title": "C955",
+    "description": "Identification of the type of attribute.",
+    "type": "object",
+    "properties": {
+        "attributeTypeCoded": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D95B/dataelement/9021.edifact.schema.json"
+        },
+        "codeListQualifier": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D95B/dataelement/1131.edifact.schema.json"
+        },
+        "codeListResponsibleAgencyCoded": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D95B/dataelement/3055.edifact.schema.json"
+        }
+    },
+    "required": []
+}

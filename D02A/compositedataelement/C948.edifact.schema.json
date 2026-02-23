@@ -1,0 +1,22 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D02A/compositedataelement/C948.edifact.schema.json",
+    "title": "C948",
+    "description": "Code and/or description of an employment category.",
+    "type": "object",
+    "properties": {
+        "employmentCategoryDescriptionCode": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D02A/dataelement/9005.edifact.schema.json"
+        },
+        "codeListIdentificationCode": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D02A/dataelement/1131.edifact.schema.json"
+        },
+        "codeListResponsibleAgencyCode": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D02A/dataelement/3055.edifact.schema.json"
+        },
+        "employmentCategoryDescription": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D02A/dataelement/9004.edifact.schema.json"
+        }
+    },
+    "required": []
+}

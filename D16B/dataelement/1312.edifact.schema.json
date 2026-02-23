@@ -1,0 +1,15 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D16B/dataelement/1312.edifact.schema.json",
+    "title": "consignmentLoadSequenceIdentifier",
+    "description": "To identify the loading sequence of a consignment or consignments.",
+    "type": "object",
+    "properties": {
+        "value": {
+            "description": "Value",
+            "type": "string",
+            "maxLength": 4
+        }
+    },
+    "required": []
+}

@@ -1,0 +1,22 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D94B/segment/BGM.edifact.schema.json",
+    "title": "BGM",
+    "description": "To indicate the type and function of a message and to transmit the identifying number.",
+    "type": "object",
+    "properties": {
+        "documentmessageName": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D94B/compositedataelement/C002.edifact.schema.json"
+        },
+        "documentmessageNumber": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D94B/dataelement/1004.edifact.schema.json"
+        },
+        "messageFunctionCoded": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D94B/dataelement/1225.edifact.schema.json"
+        },
+        "responseTypeCoded": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D94B/dataelement/4343.edifact.schema.json"
+        }
+    },
+    "required": []
+}

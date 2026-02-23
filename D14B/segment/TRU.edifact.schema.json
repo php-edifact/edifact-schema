@@ -1,0 +1,25 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D14B/segment/TRU.edifact.schema.json",
+    "title": "TRU",
+    "description": "A segment specifying technical rules.",
+    "type": "object",
+    "properties": {
+        "objectIdentifier": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D14B/dataelement/7402.edifact.schema.json"
+        },
+        "versionIdentifier": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D14B/dataelement/1056.edifact.schema.json"
+        },
+        "releaseIdentifier": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D14B/dataelement/1058.edifact.schema.json"
+        },
+        "rulePartIdentifier": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D14B/dataelement/7175.edifact.schema.json"
+        },
+        "codeListResponsibleAgencyCode": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D14B/dataelement/3055.edifact.schema.json"
+        }
+    },
+    "required": []
+}

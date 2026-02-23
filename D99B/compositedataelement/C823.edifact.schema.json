@@ -1,0 +1,16 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D99B/compositedataelement/C823.edifact.schema.json",
+    "title": "C823",
+    "description": "To identify the type of unit/component of an object (e.g. lock, door, tyre).",
+    "type": "object",
+    "properties": {
+        "codeListResponsibleAgencyCode": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D99B/dataelement/3055.edifact.schema.json"
+        },
+        "typeOfUnitOrcomponent": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D99B/dataelement/7504.edifact.schema.json"
+        }
+    },
+    "required": []
+}

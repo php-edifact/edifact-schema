@@ -1,0 +1,25 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D95A/segment/INV.edifact.schema.json",
+    "title": "INV",
+    "description": "To provide the different information related to the inventory management functions and needed to process properly the inventory movements and the inventory balances.",
+    "type": "object",
+    "properties": {
+        "inventoryMovementDirectionCoded": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D95A/dataelement/4501.edifact.schema.json"
+        },
+        "typeOfInventoryAffectedCoded": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D95A/dataelement/7491.edifact.schema.json"
+        },
+        "reasonForInventoryMovementCoded": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D95A/dataelement/4499.edifact.schema.json"
+        },
+        "inventoryBalanceMethodCoded": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D95A/dataelement/4503.edifact.schema.json"
+        },
+        "instruction": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D95A/compositedataelement/C522.edifact.schema.json"
+        }
+    },
+    "required": []
+}

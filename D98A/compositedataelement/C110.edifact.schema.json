@@ -1,0 +1,25 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D98A/compositedataelement/C110.edifact.schema.json",
+    "title": "C110",
+    "description": "Terms of payment code from a specified source.",
+    "type": "object",
+    "properties": {
+        "termsOfPaymentIdentification": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D98A/dataelement/4277.edifact.schema.json"
+        },
+        "codeListQualifier": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D98A/dataelement/1131.edifact.schema.json"
+        },
+        "codeListResponsibleAgency,Coded": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D98A/dataelement/3055.edifact.schema.json"
+        },
+        "termsOfPayment": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D98A/dataelement/4276.edifact.schema.json"
+        },
+        "termsOfPayment2": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D98A/dataelement/4276.edifact.schema.json"
+        }
+    },
+    "required": []
+}

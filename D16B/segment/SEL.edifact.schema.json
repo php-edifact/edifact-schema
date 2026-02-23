@@ -1,0 +1,25 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D16B/segment/SEL.edifact.schema.json",
+    "title": "SEL",
+    "description": "To specify the seal number or a range of seal numbers.",
+    "type": "object",
+    "properties": {
+        "transportUnitSealIdentifier": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D16B/dataelement/9308.edifact.schema.json"
+        },
+        "sealIssuer": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D16B/compositedataelement/C215.edifact.schema.json"
+        },
+        "sealConditionCode": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D16B/dataelement/4517.edifact.schema.json"
+        },
+        "identityNumberRange": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D16B/compositedataelement/C208.edifact.schema.json"
+        },
+        "sealTypeCode": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D16B/dataelement/4525.edifact.schema.json"
+        }
+    },
+    "required": []
+}

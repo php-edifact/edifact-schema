@@ -1,0 +1,13 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D98B/compositedataelement/C829.edifact.schema.json",
+    "title": "C829",
+    "description": "To provide an indication that a segment or segment group is used to contain sub-line or sub-line item information and to optionally enable the sub-line to be identified.",
+    "type": "object",
+    "properties": {
+        "lineItemNumber": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D98B/dataelement/1082.edifact.schema.json"
+        }
+    },
+    "required": []
+}

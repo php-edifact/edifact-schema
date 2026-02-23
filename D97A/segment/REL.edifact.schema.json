@@ -1,0 +1,16 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D97A/segment/REL.edifact.schema.json",
+    "title": "REL",
+    "description": "To identify the direct relationship between the data/information contained in one segment and the data/information contained in one or more other segments.",
+    "type": "object",
+    "properties": {
+        "relationshipQualifier": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D97A/dataelement/9141.edifact.schema.json"
+        },
+        "relationship": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D97A/compositedataelement/C941.edifact.schema.json"
+        }
+    },
+    "required": []
+}

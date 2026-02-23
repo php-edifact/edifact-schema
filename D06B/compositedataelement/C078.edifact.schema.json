@@ -1,0 +1,22 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D06B/compositedataelement/C078.edifact.schema.json",
+    "title": "C078",
+    "description": "Identification of an account holder by account number and/or account holder name in one or two lines. Number preferred.",
+    "type": "object",
+    "properties": {
+        "accountHolderIdentifier": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D06B/dataelement/3194.edifact.schema.json"
+        },
+        "accountHolderName": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D06B/dataelement/3192.edifact.schema.json"
+        },
+        "accountHolderName2": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D06B/dataelement/3192.edifact.schema.json"
+        },
+        "currencyIdentificationCode": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D06B/dataelement/6345.edifact.schema.json"
+        }
+    },
+    "required": []
+}

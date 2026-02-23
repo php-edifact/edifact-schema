@@ -1,0 +1,31 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D95B/compositedataelement/unh2.edifact.schema.json",
+    "title": "unh2",
+    "description": "",
+    "type": "object",
+    "properties": {
+        "messageType": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D95B/dataelement/unh21.edifact.schema.json"
+        },
+        "messageVersion": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D95B/dataelement/unh22.edifact.schema.json"
+        },
+        "messageRelease": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D95B/dataelement/unh23.edifact.schema.json"
+        },
+        "controllingAgency": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D95B/dataelement/unh24.edifact.schema.json"
+        },
+        "associationAssignedCode": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D95B/dataelement/unh25.edifact.schema.json"
+        },
+        "codeListDirectory": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D95B/dataelement/unh26.edifact.schema.json"
+        },
+        "messageTypeSubfunction": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D95B/dataelement/unh25.edifact.schema.json"
+        }
+    },
+    "required": []
+}

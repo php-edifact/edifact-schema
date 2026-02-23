@@ -1,0 +1,31 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D97B/compositedataelement/C243.edifact.schema.json",
+    "title": "C243",
+    "description": "Rate of duty/tax/fee applicable to commodities or of tax applicable to services.",
+    "type": "object",
+    "properties": {
+        "dutyOrtaxOrfeeRateIdentification": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D97B/dataelement/5279.edifact.schema.json"
+        },
+        "codeListQualifier": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D97B/dataelement/1131.edifact.schema.json"
+        },
+        "codeListResponsibleAgency,Coded": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D97B/dataelement/3055.edifact.schema.json"
+        },
+        "dutyOrtaxOrfeeRate": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D97B/dataelement/5278.edifact.schema.json"
+        },
+        "dutyOrtaxOrfeeRateBasisIdentification": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D97B/dataelement/5273.edifact.schema.json"
+        },
+        "codeListQualifier2": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D97B/dataelement/1131.edifact.schema.json"
+        },
+        "codeListResponsibleAgency,Coded2": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D97B/dataelement/3055.edifact.schema.json"
+        }
+    },
+    "required": []
+}

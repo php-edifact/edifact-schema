@@ -1,0 +1,13 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D23A/segment/RFF.edifact.schema.json",
+    "title": "RFF",
+    "description": "To specify a reference.",
+    "type": "object",
+    "properties": {
+        "reference": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D23A/compositedataelement/C506.edifact.schema.json"
+        }
+    },
+    "required": []
+}

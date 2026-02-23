@@ -1,0 +1,15 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D96B/dataelement/5305.edifact.schema.json",
+    "title": "dutytaxfeeCategoryCoded",
+    "description": "Code identifying a tax/duty/fee category within a tax/duty/fee type system.",
+    "type": "object",
+    "properties": {
+        "value": {
+            "description": "Value",
+            "type": "string",
+            "maxLength": 3
+        }
+    },
+    "required": []
+}

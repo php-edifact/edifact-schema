@@ -1,0 +1,15 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D01C/dataelement/7446.edifact.schema.json",
+    "title": "levelSixIdentifier",
+    "description": "To identify the sixth facet of a sequencing mechanism used to position an item within an indexing structure.",
+    "type": "object",
+    "properties": {
+        "value": {
+            "description": "Value",
+            "type": "string",
+            "maxLength": 17
+        }
+    },
+    "required": []
+}

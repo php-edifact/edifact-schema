@@ -1,0 +1,15 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D95B/dataelement/8078.edifact.schema.json",
+    "title": "hazardSubstanceitempageNumber",
+    "description": "Number giving additional hazard code classification of a goods item within the applicable dangerous goods regulation.",
+    "type": "object",
+    "properties": {
+        "value": {
+            "description": "Value",
+            "type": "string",
+            "maxLength": 7
+        }
+    },
+    "required": []
+}

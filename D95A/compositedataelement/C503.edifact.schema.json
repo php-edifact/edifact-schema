@@ -1,0 +1,22 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D95A/compositedataelement/C503.edifact.schema.json",
+    "title": "C503",
+    "description": "Identification of document/message by number, status, source and/or language.",
+    "type": "object",
+    "properties": {
+        "documentmessageNumber": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D95A/dataelement/1004.edifact.schema.json"
+        },
+        "documentmessageStatusCoded": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D95A/dataelement/1373.edifact.schema.json"
+        },
+        "documentmessageSource": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D95A/dataelement/1366.edifact.schema.json"
+        },
+        "languageCoded": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D95A/dataelement/3453.edifact.schema.json"
+        }
+    },
+    "required": []
+}

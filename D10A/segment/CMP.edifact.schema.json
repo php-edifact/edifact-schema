@@ -1,0 +1,19 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D10A/segment/CMP.edifact.schema.json",
+    "title": "CMP",
+    "description": "To identify a composite data element and to give its class and maintenance operation.",
+    "type": "object",
+    "properties": {
+        "compositeDataElementTagIdentifier": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D10A/dataelement/9146.edifact.schema.json"
+        },
+        "designatedClassCode": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D10A/dataelement/1507.edifact.schema.json"
+        },
+        "maintenanceOperationCode": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D10A/dataelement/4513.edifact.schema.json"
+        }
+    },
+    "required": []
+}

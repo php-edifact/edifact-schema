@@ -1,0 +1,22 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D06A/segment/STC.edifact.schema.json",
+    "title": "STC",
+    "description": "To specify a statistical concept.",
+    "type": "object",
+    "properties": {
+        "statisticalConceptIdentification": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D06A/compositedataelement/C785.edifact.schema.json"
+        },
+        "partyIdentificationDetails": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D06A/compositedataelement/C082.edifact.schema.json"
+        },
+        "statusDescriptionCode": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D06A/dataelement/4405.edifact.schema.json"
+        },
+        "maintenanceOperationCode": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D06A/dataelement/4513.edifact.schema.json"
+        }
+    },
+    "required": []
+}

@@ -1,0 +1,25 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D20B/compositedataelement/C174.edifact.schema.json",
+    "title": "C174",
+    "description": "Measurement value and relevant minimum and maximum values of the measurement range.",
+    "type": "object",
+    "properties": {
+        "measurementUnitCode": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D20B/dataelement/6411.edifact.schema.json"
+        },
+        "measure": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D20B/dataelement/6314.edifact.schema.json"
+        },
+        "rangeMinimumQuantity": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D20B/dataelement/6162.edifact.schema.json"
+        },
+        "rangeMaximumQuantity": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D20B/dataelement/6152.edifact.schema.json"
+        },
+        "significantDigitsQuantity": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D20B/dataelement/6432.edifact.schema.json"
+        }
+    },
+    "required": []
+}

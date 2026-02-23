@@ -1,0 +1,25 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D07A/segment/BUS.edifact.schema.json",
+    "title": "BUS",
+    "description": "To provide information related to the processing and purpose of a financial message.",
+    "type": "object",
+    "properties": {
+        "businessFunction": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D07A/compositedataelement/C521.edifact.schema.json"
+        },
+        "geographicAreaCode": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D07A/dataelement/3279.edifact.schema.json"
+        },
+        "financialTransactionTypeCode": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D07A/dataelement/4487.edifact.schema.json"
+        },
+        "bankOperation": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D07A/compositedataelement/C551.edifact.schema.json"
+        },
+        "intra-companyPaymentIndicatorCode": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D07A/dataelement/4463.edifact.schema.json"
+        }
+    },
+    "required": []
+}

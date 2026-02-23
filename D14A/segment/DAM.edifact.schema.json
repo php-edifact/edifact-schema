@@ -1,0 +1,25 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D14A/segment/DAM.edifact.schema.json",
+    "title": "DAM",
+    "description": "To specify damage including action taken.",
+    "type": "object",
+    "properties": {
+        "damageDetailsCodeQualifier": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D14A/dataelement/7493.edifact.schema.json"
+        },
+        "typeOfDamage": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D14A/compositedataelement/C821.edifact.schema.json"
+        },
+        "damageArea": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D14A/compositedataelement/C822.edifact.schema.json"
+        },
+        "damageSeverity": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D14A/compositedataelement/C825.edifact.schema.json"
+        },
+        "action": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D14A/compositedataelement/C826.edifact.schema.json"
+        }
+    },
+    "required": []
+}

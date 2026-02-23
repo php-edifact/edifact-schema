@@ -1,0 +1,25 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D15B/segment/EVE.edifact.schema.json",
+    "title": "EVE",
+    "description": "To specify details about events.",
+    "type": "object",
+    "properties": {
+        "eventDetailsCodeQualifier": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D15B/dataelement/9635.edifact.schema.json"
+        },
+        "eventCategory": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D15B/compositedataelement/C004.edifact.schema.json"
+        },
+        "eventType": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D15B/compositedataelement/C030.edifact.schema.json"
+        },
+        "eventIdentification": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D15B/compositedataelement/C063.edifact.schema.json"
+        },
+        "actionCode": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D15B/dataelement/1229.edifact.schema.json"
+        }
+    },
+    "required": []
+}

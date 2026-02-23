@@ -1,0 +1,28 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D99B/segment/DII.edifact.schema.json",
+    "title": "DII",
+    "description": "To identify a directory and to give its release, status, controlling agency, language and maintenance operation.",
+    "type": "object",
+    "properties": {
+        "version": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D99B/dataelement/1056.edifact.schema.json"
+        },
+        "release": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D99B/dataelement/1058.edifact.schema.json"
+        },
+        "directoryStatus": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D99B/dataelement/9148.edifact.schema.json"
+        },
+        "controlAgency": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D99B/dataelement/1476.edifact.schema.json"
+        },
+        "languageNameCode": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D99B/dataelement/3453.edifact.schema.json"
+        },
+        "maintenanceOperation,Coded": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D99B/dataelement/4513.edifact.schema.json"
+        }
+    },
+    "required": []
+}

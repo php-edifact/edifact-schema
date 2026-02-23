@@ -1,0 +1,25 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D10A/compositedataelement/C950.edifact.schema.json",
+    "title": "C950",
+    "description": "Qualification classification description and/or code. This specifies the trade, skill, professional or similar qualification category.",
+    "type": "object",
+    "properties": {
+        "qualificationClassificationDescriptionCode": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D10A/dataelement/9007.edifact.schema.json"
+        },
+        "codeListIdentificationCode": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D10A/dataelement/1131.edifact.schema.json"
+        },
+        "codeListResponsibleAgencyCode": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D10A/dataelement/3055.edifact.schema.json"
+        },
+        "qualificationClassificationDescription": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D10A/dataelement/9006.edifact.schema.json"
+        },
+        "qualificationClassificationDescription2": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D10A/dataelement/9006.edifact.schema.json"
+        }
+    },
+    "required": []
+}

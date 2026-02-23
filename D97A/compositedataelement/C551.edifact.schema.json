@@ -1,0 +1,19 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D97A/compositedataelement/C551.edifact.schema.json",
+    "title": "C551",
+    "description": "Identification of a bank operation by code.",
+    "type": "object",
+    "properties": {
+        "bankOperation,Coded": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D97A/dataelement/4383.edifact.schema.json"
+        },
+        "codeListQualifier": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D97A/dataelement/1131.edifact.schema.json"
+        },
+        "codeListResponsibleAgency,Coded": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D97A/dataelement/3055.edifact.schema.json"
+        }
+    },
+    "required": []
+}

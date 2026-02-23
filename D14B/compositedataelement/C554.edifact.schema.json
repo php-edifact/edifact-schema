@@ -1,0 +1,19 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D14B/compositedataelement/C554.edifact.schema.json",
+    "title": "C554",
+    "description": "Identification of the applicable rate/tariff class.",
+    "type": "object",
+    "properties": {
+        "rateOrTariffClassDescriptionCode": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D14B/dataelement/5243.edifact.schema.json"
+        },
+        "codeListIdentificationCode": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D14B/dataelement/1131.edifact.schema.json"
+        },
+        "codeListResponsibleAgencyCode": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D14B/dataelement/3055.edifact.schema.json"
+        }
+    },
+    "required": []
+}

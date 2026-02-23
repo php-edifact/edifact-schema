@@ -1,0 +1,15 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D97A/dataelement/3446.edifact.schema.json",
+    "title": "partyTaxIdentificationNumber",
+    "description": "Number assigned to a purchaser (buyer, orderer) by a tax jurisdiction (state, country, etc).",
+    "type": "object",
+    "properties": {
+        "value": {
+            "description": "Value",
+            "type": "string",
+            "maxLength": 20
+        }
+    },
+    "required": []
+}

@@ -1,0 +1,19 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D95B/compositedataelement/unb2.edifact.schema.json",
+    "title": "unb2",
+    "description": "Interchange sender",
+    "type": "object",
+    "properties": {
+        "senderIdentification": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D95B/dataelement/unb21.edifact.schema.json"
+        },
+        "identificationCodeQualifier": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D95B/dataelement/unb22.edifact.schema.json"
+        },
+        "addressReverseRouting": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D95B/dataelement/unb23.edifact.schema.json"
+        }
+    },
+    "required": []
+}

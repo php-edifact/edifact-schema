@@ -1,0 +1,25 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D10A/compositedataelement/C878.edifact.schema.json",
+    "title": "C878",
+    "description": "Identification of the account for charge or allowance.",
+    "type": "object",
+    "properties": {
+        "institutionBranchIdentifier": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D10A/dataelement/3434.edifact.schema.json"
+        },
+        "codeListIdentificationCode": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D10A/dataelement/1131.edifact.schema.json"
+        },
+        "codeListResponsibleAgencyCode": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D10A/dataelement/3055.edifact.schema.json"
+        },
+        "accountHolderIdentifier": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D10A/dataelement/3194.edifact.schema.json"
+        },
+        "currencyIdentificationCode": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D10A/dataelement/6345.edifact.schema.json"
+        }
+    },
+    "required": []
+}

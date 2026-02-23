@@ -1,0 +1,15 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D11B/dataelement/7124.edifact.schema.json",
+    "title": "unitedNationsDangerousGoods(undg)Identifier",
+    "description": "The unique serial number assigned within the United Nations to substances and articles contained in a list of the dangerous goods most commonly carried.",
+    "type": "object",
+    "properties": {
+        "value": {
+            "description": "Value",
+            "type": "string",
+            "maxLength": 4
+        }
+    },
+    "required": []
+}

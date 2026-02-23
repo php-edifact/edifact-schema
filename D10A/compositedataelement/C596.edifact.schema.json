@@ -1,0 +1,22 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D10A/compositedataelement/C596.edifact.schema.json",
+    "title": "C596",
+    "description": "Identification of the type of entry included in an accounting journal.",
+    "type": "object",
+    "properties": {
+        "accountingEntryTypeNameCode": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D10A/dataelement/4475.edifact.schema.json"
+        },
+        "codeListIdentificationCode": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D10A/dataelement/1131.edifact.schema.json"
+        },
+        "codeListResponsibleAgencyCode": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D10A/dataelement/3055.edifact.schema.json"
+        },
+        "accountingEntryTypeName": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D10A/dataelement/4474.edifact.schema.json"
+        }
+    },
+    "required": []
+}

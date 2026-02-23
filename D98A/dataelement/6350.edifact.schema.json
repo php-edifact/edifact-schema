@@ -1,0 +1,15 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D98A/dataelement/6350.edifact.schema.json",
+    "title": "numberOfUnits",
+    "description": "Number of units of a certain type.",
+    "type": "object",
+    "properties": {
+        "value": {
+            "description": "Value",
+            "type": "string",
+            "maxLength": 15
+        }
+    },
+    "required": []
+}

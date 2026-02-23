@@ -1,0 +1,16 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D99B/compositedataelement/C042.edifact.schema.json",
+    "title": "C042",
+    "description": "To specify a nationality.",
+    "type": "object",
+    "properties": {
+        "codeListResponsibleAgencyCode": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D99B/dataelement/3055.edifact.schema.json"
+        },
+        "nationality": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D99B/dataelement/3292.edifact.schema.json"
+        }
+    },
+    "required": []
+}

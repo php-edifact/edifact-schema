@@ -1,0 +1,16 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D04B/segment/AJT.edifact.schema.json",
+    "title": "AJT",
+    "description": "To identify the reason for an adjustment.",
+    "type": "object",
+    "properties": {
+        "adjustmentReasonDescriptionCode": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D04B/dataelement/4465.edifact.schema.json"
+        },
+        "lineItemIdentifier": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D04B/dataelement/1082.edifact.schema.json"
+        }
+    },
+    "required": []
+}

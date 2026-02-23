@@ -1,0 +1,31 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D10A/segment/ALI.edifact.schema.json",
+    "title": "ALI",
+    "description": "To indicate that special conditions due to the origin, customs preference, fiscal or commercial factors are applicable.",
+    "type": "object",
+    "properties": {
+        "countryOfOriginIdentifier": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D10A/dataelement/3239.edifact.schema.json"
+        },
+        "dutyRegimeTypeCode": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D10A/dataelement/9213.edifact.schema.json"
+        },
+        "specialConditionCode": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D10A/dataelement/4183.edifact.schema.json"
+        },
+        "specialConditionCode2": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D10A/dataelement/4183.edifact.schema.json"
+        },
+        "specialConditionCode3": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D10A/dataelement/4183.edifact.schema.json"
+        },
+        "specialConditionCode4": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D10A/dataelement/4183.edifact.schema.json"
+        },
+        "specialConditionCode5": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D10A/dataelement/4183.edifact.schema.json"
+        }
+    },
+    "required": []
+}

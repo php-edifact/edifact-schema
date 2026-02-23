@@ -1,0 +1,22 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D01A/segment/ASI.edifact.schema.json",
+    "title": "ASI",
+    "description": "To identify the structure of an array.",
+    "type": "object",
+    "properties": {
+        "arrayStructureIdentification": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D01A/compositedataelement/C779.edifact.schema.json"
+        },
+        "partyIdentificationDetails": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D01A/compositedataelement/C082.edifact.schema.json"
+        },
+        "statusDescriptionCode": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D01A/dataelement/4405.edifact.schema.json"
+        },
+        "maintenanceOperationCode": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D01A/dataelement/4513.edifact.schema.json"
+        }
+    },
+    "required": []
+}

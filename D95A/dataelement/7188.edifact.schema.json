@@ -1,0 +1,15 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D95A/dataelement/7188.edifact.schema.json",
+    "title": "testRevisionNumber",
+    "description": "Definition of the revision or of the change level of the specified test method employed.",
+    "type": "object",
+    "properties": {
+        "value": {
+            "description": "Value",
+            "type": "string",
+            "maxLength": 30
+        }
+    },
+    "required": []
+}

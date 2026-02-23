@@ -1,0 +1,22 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D97B/compositedataelement/C838.edifact.schema.json",
+    "title": "C838",
+    "description": "To specify a dosage.",
+    "type": "object",
+    "properties": {
+        "dosageIdentification": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D97B/dataelement/6083.edifact.schema.json"
+        },
+        "codeListQualifier": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D97B/dataelement/1131.edifact.schema.json"
+        },
+        "codeListResponsibleAgency,Coded": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D97B/dataelement/3055.edifact.schema.json"
+        },
+        "dosage": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D97B/dataelement/6082.edifact.schema.json"
+        }
+    },
+    "required": []
+}

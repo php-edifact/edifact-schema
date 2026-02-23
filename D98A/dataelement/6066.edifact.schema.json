@@ -1,0 +1,15 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D98A/dataelement/6066.edifact.schema.json",
+    "title": "controlValue",
+    "description": "Value obtained from summing the values specified by the Control Qualifier throughout the message (Hash total).",
+    "type": "object",
+    "properties": {
+        "value": {
+            "description": "Value",
+            "type": "string",
+            "maxLength": 18
+        }
+    },
+    "required": []
+}

@@ -1,0 +1,31 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D14A/segment/SCD.edifact.schema.json",
+    "title": "SCD",
+    "description": "To specify a component of a data structure (e.g. an array or table).",
+    "type": "object",
+    "properties": {
+        "structureComponentFunctionCodeQualifier": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D14A/dataelement/7497.edifact.schema.json"
+        },
+        "structureComponentIdentification": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D14A/compositedataelement/C786.edifact.schema.json"
+        },
+        "partyIdentificationDetails": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D14A/compositedataelement/C082.edifact.schema.json"
+        },
+        "statusDescriptionCode": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D14A/dataelement/4405.edifact.schema.json"
+        },
+        "configurationLevelNumber": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D14A/dataelement/1222.edifact.schema.json"
+        },
+        "positionIdentification": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D14A/compositedataelement/C778.edifact.schema.json"
+        },
+        "characteristicDescription": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D14A/compositedataelement/C240.edifact.schema.json"
+        }
+    },
+    "required": []
+}

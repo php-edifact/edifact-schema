@@ -1,0 +1,28 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D98A/segment/GIR.edifact.schema.json",
+    "title": "GIR",
+    "description": "To specify a related set of identification numbers.",
+    "type": "object",
+    "properties": {
+        "setIdentificationQualifier": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D98A/dataelement/7297.edifact.schema.json"
+        },
+        "identificationNumber": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D98A/compositedataelement/C206.edifact.schema.json"
+        },
+        "identificationNumber2": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D98A/compositedataelement/C206.edifact.schema.json"
+        },
+        "identificationNumber3": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D98A/compositedataelement/C206.edifact.schema.json"
+        },
+        "identificationNumber4": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D98A/compositedataelement/C206.edifact.schema.json"
+        },
+        "identificationNumber5": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D98A/compositedataelement/C206.edifact.schema.json"
+        }
+    },
+    "required": []
+}

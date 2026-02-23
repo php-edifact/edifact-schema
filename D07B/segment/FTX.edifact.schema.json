@@ -1,0 +1,28 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D07B/segment/FTX.edifact.schema.json",
+    "title": "FTX",
+    "description": "To provide free form or coded text information.",
+    "type": "object",
+    "properties": {
+        "textSubjectCodeQualifier": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D07B/dataelement/4451.edifact.schema.json"
+        },
+        "freeTextFunctionCode": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D07B/dataelement/4453.edifact.schema.json"
+        },
+        "textReference": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D07B/compositedataelement/C107.edifact.schema.json"
+        },
+        "textLiteral": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D07B/compositedataelement/C108.edifact.schema.json"
+        },
+        "languageNameCode": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D07B/dataelement/3453.edifact.schema.json"
+        },
+        "freeTextFormatCode": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D07B/dataelement/4447.edifact.schema.json"
+        }
+    },
+    "required": []
+}

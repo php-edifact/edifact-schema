@@ -1,0 +1,16 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D09A/compositedataelement/C056.edifact.schema.json",
+    "title": "C056",
+    "description": "Code and/or name of a contact such as a department or employee. Code preferred.",
+    "type": "object",
+    "properties": {
+        "contactIdentifier": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D09A/dataelement/3413.edifact.schema.json"
+        },
+        "contactName": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D09A/dataelement/3412.edifact.schema.json"
+        }
+    },
+    "required": []
+}

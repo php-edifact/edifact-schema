@@ -1,0 +1,37 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D95B/segment/NAD.edifact.schema.json",
+    "title": "NAD",
+    "description": "To specify the name/address and their related function, either by CO82 only and/or unstructured by CO58 or structured by CO80 thru 3207. be permitted to use the ADR segment and/or the PNA segment.  After the conclusion of the Brazil JRT (scheduled for April 1996), this NAD segment shall NO LONGER BE PERMITTED FOR USE IN ANY NEW MESSAGES submitted for Status 1 in the UN/EDIFACT Directories. This means that either the ADR and/or the PNA segments shall be used in place of this NAD segment by the message designers. (See Rapporteurs' decision on the proposed ADR & PNA segments and the existing NAD segment - Sydney, April 1995).",
+    "type": "object",
+    "properties": {
+        "partyQualifier": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D95B/dataelement/3035.edifact.schema.json"
+        },
+        "partyIdentificationDetails": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D95B/compositedataelement/C082.edifact.schema.json"
+        },
+        "nameAndAddress": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D95B/compositedataelement/C058.edifact.schema.json"
+        },
+        "partyName": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D95B/compositedataelement/C080.edifact.schema.json"
+        },
+        "street": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D95B/compositedataelement/C059.edifact.schema.json"
+        },
+        "cityName": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D95B/dataelement/3164.edifact.schema.json"
+        },
+        "countrySubentityIdentification": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D95B/dataelement/3229.edifact.schema.json"
+        },
+        "postcodeIdentification": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D95B/dataelement/3251.edifact.schema.json"
+        },
+        "countryCoded": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D95B/dataelement/3207.edifact.schema.json"
+        }
+    },
+    "required": []
+}

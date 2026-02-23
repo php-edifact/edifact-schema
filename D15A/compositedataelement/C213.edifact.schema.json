@@ -1,0 +1,28 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D15A/compositedataelement/C213.edifact.schema.json",
+    "title": "C213",
+    "description": "Number and type of individual parts of a shipment.",
+    "type": "object",
+    "properties": {
+        "packageQuantity": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D15A/dataelement/7224.edifact.schema.json"
+        },
+        "packageTypeDescriptionCode": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D15A/dataelement/7065.edifact.schema.json"
+        },
+        "codeListIdentificationCode": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D15A/dataelement/1131.edifact.schema.json"
+        },
+        "codeListResponsibleAgencyCode": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D15A/dataelement/3055.edifact.schema.json"
+        },
+        "typeOfPackages": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D15A/dataelement/7064.edifact.schema.json"
+        },
+        "packagingRelatedDescriptionCode": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D15A/dataelement/7233.edifact.schema.json"
+        }
+    },
+    "required": []
+}

@@ -1,0 +1,19 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D99B/segment/SPR.edifact.schema.json",
+    "title": "SPR",
+    "description": "To provide classification details relating to the activities of an organisation.",
+    "type": "object",
+    "properties": {
+        "sectorAreaIdentificationCodeQualifier": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D99B/dataelement/7293.edifact.schema.json"
+        },
+        "organisationClassification,Coded": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D99B/dataelement/3079.edifact.schema.json"
+        },
+        "organisationClassificationDetail": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D99B/compositedataelement/C844.edifact.schema.json"
+        }
+    },
+    "required": []
+}

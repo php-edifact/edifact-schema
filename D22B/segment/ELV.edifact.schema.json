@@ -1,0 +1,22 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D22B/segment/ELV.edifact.schema.json",
+    "title": "ELV",
+    "description": "To define an element value.",
+    "type": "object",
+    "properties": {
+        "valueDefinitionCodeQualifier": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D22B/dataelement/9029.edifact.schema.json"
+        },
+        "valueText": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D22B/dataelement/9422.edifact.schema.json"
+        },
+        "requirementDesignatorCode": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D22B/dataelement/7299.edifact.schema.json"
+        },
+        "maintenanceOperationCode": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D22B/dataelement/4513.edifact.schema.json"
+        }
+    },
+    "required": []
+}

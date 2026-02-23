@@ -1,0 +1,19 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D94B/segment/PCI.edifact.schema.json",
+    "title": "PCI",
+    "description": "To specify markings and labels on individual packages or physical units.",
+    "type": "object",
+    "properties": {
+        "markingInstructionsCoded": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D94B/dataelement/4233.edifact.schema.json"
+        },
+        "marksAndLabels": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D94B/compositedataelement/C210.edifact.schema.json"
+        },
+        "containerpackageStatusCoded": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D94B/dataelement/8275.edifact.schema.json"
+        }
+    },
+    "required": []
+}

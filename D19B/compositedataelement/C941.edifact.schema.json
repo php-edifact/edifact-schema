@@ -1,0 +1,22 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D19B/compositedataelement/C941.edifact.schema.json",
+    "title": "C941",
+    "description": "Identification and/or description of a relationship.",
+    "type": "object",
+    "properties": {
+        "relationshipDescriptionCode": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D19B/dataelement/9143.edifact.schema.json"
+        },
+        "codeListIdentificationCode": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D19B/dataelement/1131.edifact.schema.json"
+        },
+        "codeListResponsibleAgencyCode": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D19B/dataelement/3055.edifact.schema.json"
+        },
+        "relationshipDescription": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D19B/dataelement/9142.edifact.schema.json"
+        }
+    },
+    "required": []
+}

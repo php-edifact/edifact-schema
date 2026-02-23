@@ -1,0 +1,22 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D11B/compositedataelement/C101.edifact.schema.json",
+    "title": "C101",
+    "description": "To specify the religion of a person.",
+    "type": "object",
+    "properties": {
+        "religionNameCode": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D11B/dataelement/3483.edifact.schema.json"
+        },
+        "codeListIdentificationCode": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D11B/dataelement/1131.edifact.schema.json"
+        },
+        "codeListResponsibleAgencyCode": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D11B/dataelement/3055.edifact.schema.json"
+        },
+        "religionName": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D11B/dataelement/3482.edifact.schema.json"
+        }
+    },
+    "required": []
+}

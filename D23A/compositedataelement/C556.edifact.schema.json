@@ -1,0 +1,22 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D23A/compositedataelement/C556.edifact.schema.json",
+    "title": "C556",
+    "description": "To specify the reason for a status.",
+    "type": "object",
+    "properties": {
+        "statusReasonDescriptionCode": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D23A/dataelement/9013.edifact.schema.json"
+        },
+        "codeListIdentificationCode": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D23A/dataelement/1131.edifact.schema.json"
+        },
+        "codeListResponsibleAgencyCode": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D23A/dataelement/3055.edifact.schema.json"
+        },
+        "statusReasonDescription": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D23A/dataelement/9012.edifact.schema.json"
+        }
+    },
+    "required": []
+}

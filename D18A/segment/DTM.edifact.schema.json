@@ -1,0 +1,13 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D18A/segment/DTM.edifact.schema.json",
+    "title": "DTM",
+    "description": "To specify date, and/or time, or period.",
+    "type": "object",
+    "properties": {
+        "date": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D18A/compositedataelement/C507.edifact.schema.json"
+        }
+    },
+    "required": []
+}

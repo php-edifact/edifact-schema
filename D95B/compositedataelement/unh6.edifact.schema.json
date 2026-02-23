@@ -1,0 +1,22 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D95B/compositedataelement/unh6.edifact.schema.json",
+    "title": "unh6",
+    "description": "",
+    "type": "object",
+    "properties": {
+        "implementationGuidelineIdentification": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D95B/dataelement/unh61.edifact.schema.json"
+        },
+        "implementationGuideline": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D95B/dataelement/unh62.edifact.schema.json"
+        },
+        "implementationGuidelineRelease": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D95B/dataelement/unh63.edifact.schema.json"
+        },
+        "controllingAgency": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D95B/dataelement/unh64.edifact.schema.json"
+        }
+    },
+    "required": []
+}

@@ -1,0 +1,22 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D05B/compositedataelement/C224.edifact.schema.json",
+    "title": "C224",
+    "description": "Code and or name identifying size and type of equipment. Code preferred.",
+    "type": "object",
+    "properties": {
+        "equipmentSizeAndTypeDescriptionCode": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D05B/dataelement/8155.edifact.schema.json"
+        },
+        "codeListIdentificationCode": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D05B/dataelement/1131.edifact.schema.json"
+        },
+        "codeListResponsibleAgencyCode": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D05B/dataelement/3055.edifact.schema.json"
+        },
+        "equipmentSizeAndTypeDescription": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D05B/dataelement/8154.edifact.schema.json"
+        }
+    },
+    "required": []
+}

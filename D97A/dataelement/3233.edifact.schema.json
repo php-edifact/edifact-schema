@@ -1,0 +1,15 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D97A/dataelement/3233.edifact.schema.json",
+    "title": "relatedPlaceOrlocationTwoIdentification",
+    "description": "Specification of a second related place/location by code.",
+    "type": "object",
+    "properties": {
+        "value": {
+            "description": "Value",
+            "type": "string",
+            "maxLength": 25
+        }
+    },
+    "required": []
+}

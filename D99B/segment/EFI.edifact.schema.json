@@ -1,0 +1,22 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D99B/segment/EFI.edifact.schema.json",
+    "title": "EFI",
+    "description": "To specify the link of one non-EDIFACT external file to an EDIFACT message.",
+    "type": "object",
+    "properties": {
+        "fileIdentification": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D99B/compositedataelement/C077.edifact.schema.json"
+        },
+        "fileDetails": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D99B/compositedataelement/C099.edifact.schema.json"
+        },
+        "sequenceNumber": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D99B/dataelement/1050.edifact.schema.json"
+        },
+        "fileCompressionTechnique": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D99B/dataelement/9450.edifact.schema.json"
+        }
+    },
+    "required": []
+}

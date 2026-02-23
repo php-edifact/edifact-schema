@@ -1,0 +1,16 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D01A/segment/RTE.edifact.schema.json",
+    "title": "RTE",
+    "description": "To specify rate information.",
+    "type": "object",
+    "properties": {
+        "rateDetails": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D01A/compositedataelement/C128.edifact.schema.json"
+        },
+        "statusDescriptionCode": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D01A/dataelement/4405.edifact.schema.json"
+        }
+    },
+    "required": []
+}

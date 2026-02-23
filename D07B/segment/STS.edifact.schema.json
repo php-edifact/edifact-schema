@@ -1,0 +1,31 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D07B/segment/STS.edifact.schema.json",
+    "title": "STS",
+    "description": "To specify the status of an object or service, including its category and the reason(s) for the status.",
+    "type": "object",
+    "properties": {
+        "statusCategory": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D07B/compositedataelement/C601.edifact.schema.json"
+        },
+        "status": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D07B/compositedataelement/C555.edifact.schema.json"
+        },
+        "statusReason": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D07B/compositedataelement/C556.edifact.schema.json"
+        },
+        "statusReason2": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D07B/compositedataelement/C556.edifact.schema.json"
+        },
+        "statusReason3": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D07B/compositedataelement/C556.edifact.schema.json"
+        },
+        "statusReason4": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D07B/compositedataelement/C556.edifact.schema.json"
+        },
+        "statusReason5": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D07B/compositedataelement/C556.edifact.schema.json"
+        }
+    },
+    "required": []
+}

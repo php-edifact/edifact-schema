@@ -1,0 +1,19 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D95B/compositedataelement/C292.edifact.schema.json",
+    "title": "C292",
+    "description": "A value assigned by the seller to indicate movement of prices from a previous price catalogue.",
+    "type": "object",
+    "properties": {
+        "priceChangeIndicatorCoded": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D95B/dataelement/5377.edifact.schema.json"
+        },
+        "codeListQualifier": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D95B/dataelement/1131.edifact.schema.json"
+        },
+        "codeListResponsibleAgencyCoded": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D95B/dataelement/3055.edifact.schema.json"
+        }
+    },
+    "required": []
+}

@@ -1,0 +1,15 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D95A/dataelement/7130.edifact.schema.json",
+    "title": "customerAuthorizationNumber",
+    "description": "Customer provided authorization number to allow supplier to ship goods under specific freight conditions.  This number will be transmitted back to customer in the dispatch advice message.",
+    "type": "object",
+    "properties": {
+        "value": {
+            "description": "Value",
+            "type": "string",
+            "maxLength": 17
+        }
+    },
+    "required": []
+}

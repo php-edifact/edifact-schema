@@ -1,0 +1,16 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D09B/segment/PCC.edifact.schema.json",
+    "title": "PCC",
+    "description": "To identify the component affecting a premium calculation and the value category of the component.",
+    "type": "object",
+    "properties": {
+        "premiumCalculationComponent": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D09B/compositedataelement/C820.edifact.schema.json"
+        },
+        "premiumCalculationComponentValueCategoryIdentifier": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D09B/dataelement/4522.edifact.schema.json"
+        }
+    },
+    "required": []
+}

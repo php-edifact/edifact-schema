@@ -1,0 +1,13 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D08B/segment/EQN.edifact.schema.json",
+    "title": "EQN",
+    "description": "To specify the number of units.",
+    "type": "object",
+    "properties": {
+        "numberOfUnitDetails": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D08B/compositedataelement/C523.edifact.schema.json"
+        }
+    },
+    "required": []
+}

@@ -1,0 +1,13 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D19B/segment/SAL.edifact.schema.json",
+    "title": "SAL",
+    "description": "Identification of a remuneration type.",
+    "type": "object",
+    "properties": {
+        "remunerationTypeIdentification": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D19B/compositedataelement/C049.edifact.schema.json"
+        }
+    },
+    "required": []
+}

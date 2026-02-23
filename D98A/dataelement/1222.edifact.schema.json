@@ -1,0 +1,15 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D98A/dataelement/1222.edifact.schema.json",
+    "title": "configurationLevel",
+    "description": "Number indicating the level of an object which is in a hierarchy.",
+    "type": "object",
+    "properties": {
+        "value": {
+            "description": "Value",
+            "type": "string",
+            "maxLength": 2
+        }
+    },
+    "required": []
+}

@@ -1,0 +1,16 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D19B/segment/NAT.edifact.schema.json",
+    "title": "NAT",
+    "description": "To specify a nationality.",
+    "type": "object",
+    "properties": {
+        "nationalityCodeQualifier": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D19B/dataelement/3493.edifact.schema.json"
+        },
+        "nationalityDetails": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D19B/compositedataelement/C042.edifact.schema.json"
+        }
+    },
+    "required": []
+}

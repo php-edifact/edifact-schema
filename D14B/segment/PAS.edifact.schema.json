@@ -1,0 +1,22 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D14B/segment/PAS.edifact.schema.json",
+    "title": "PAS",
+    "description": "To specify attendance information relating to an individual.",
+    "type": "object",
+    "properties": {
+        "attendanceTypeCodeQualifier": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D14B/dataelement/9443.edifact.schema.json"
+        },
+        "attendeeCategory": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D14B/compositedataelement/C839.edifact.schema.json"
+        },
+        "attendanceAdmissionDetails": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D14B/compositedataelement/C840.edifact.schema.json"
+        },
+        "attendanceDischargeDetails": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D14B/compositedataelement/C841.edifact.schema.json"
+        }
+    },
+    "required": []
+}

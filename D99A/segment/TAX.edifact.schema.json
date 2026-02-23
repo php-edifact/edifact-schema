@@ -1,0 +1,34 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D99A/segment/TAX.edifact.schema.json",
+    "title": "TAX",
+    "description": "To specify relevant duty/tax/fee information.",
+    "type": "object",
+    "properties": {
+        "dutyOrtaxOrfeeFunctionQualifier": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D99A/dataelement/5283.edifact.schema.json"
+        },
+        "duty": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D99A/compositedataelement/C241.edifact.schema.json"
+        },
+        "duty2": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D99A/compositedataelement/C533.edifact.schema.json"
+        },
+        "dutyOrtaxOrfeeAssessmentBasis": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D99A/dataelement/5286.edifact.schema.json"
+        },
+        "duty3": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D99A/compositedataelement/C243.edifact.schema.json"
+        },
+        "dutyOrtaxOrfeeCategory,Coded": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D99A/dataelement/5305.edifact.schema.json"
+        },
+        "partyTaxIdentificationNumber": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D99A/dataelement/3446.edifact.schema.json"
+        },
+        "calculationSequenceIndicator,Coded": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D99A/dataelement/1227.edifact.schema.json"
+        }
+    },
+    "required": []
+}

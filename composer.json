@@ -1,0 +1,5 @@
+{
+    "require": {
+        "php-edifact/edifact-mapping": "^0.5.2"
+    }
+}

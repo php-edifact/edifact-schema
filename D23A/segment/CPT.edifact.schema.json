@@ -1,0 +1,16 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D23A/segment/CPT.edifact.schema.json",
+    "title": "CPT",
+    "description": "To provide account identification information.",
+    "type": "object",
+    "properties": {
+        "accountTypeCodeQualifier": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D23A/dataelement/4437.edifact.schema.json"
+        },
+        "accountIdentification": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D23A/compositedataelement/C593.edifact.schema.json"
+        }
+    },
+    "required": []
+}

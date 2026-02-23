@@ -1,0 +1,16 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D96B/compositedataelement/C077.edifact.schema.json",
+    "title": "C077",
+    "description": "To identify a file.",
+    "type": "object",
+    "properties": {
+        "fileName": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D96B/dataelement/1508.edifact.schema.json"
+        },
+        "itemDescription": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D96B/dataelement/7008.edifact.schema.json"
+        }
+    },
+    "required": []
+}

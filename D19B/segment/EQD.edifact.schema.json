@@ -1,0 +1,31 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D19B/segment/EQD.edifact.schema.json",
+    "title": "EQD",
+    "description": "To identify a unit of equipment.",
+    "type": "object",
+    "properties": {
+        "equipmentTypeCodeQualifier": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D19B/dataelement/8053.edifact.schema.json"
+        },
+        "equipmentIdentification": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D19B/compositedataelement/C237.edifact.schema.json"
+        },
+        "equipmentSizeAndType": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D19B/compositedataelement/C224.edifact.schema.json"
+        },
+        "equipmentSupplierCode": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D19B/dataelement/8077.edifact.schema.json"
+        },
+        "equipmentStatusCode": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D19B/dataelement/8249.edifact.schema.json"
+        },
+        "fullOrEmptyIndicatorCode": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D19B/dataelement/8169.edifact.schema.json"
+        },
+        "markingInstructionsCode": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D19B/dataelement/4233.edifact.schema.json"
+        }
+    },
+    "required": []
+}

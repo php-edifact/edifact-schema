@@ -1,0 +1,40 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D99A/compositedataelement/C210.edifact.schema.json",
+    "title": "C210",
+    "description": "Shipping marks on packages in free text; one to ten lines.",
+    "type": "object",
+    "properties": {
+        "shippingMarks": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D99A/dataelement/7102.edifact.schema.json"
+        },
+        "shippingMarks2": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D99A/dataelement/7102.edifact.schema.json"
+        },
+        "shippingMarks3": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D99A/dataelement/7102.edifact.schema.json"
+        },
+        "shippingMarks4": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D99A/dataelement/7102.edifact.schema.json"
+        },
+        "shippingMarks5": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D99A/dataelement/7102.edifact.schema.json"
+        },
+        "shippingMarks6": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D99A/dataelement/7102.edifact.schema.json"
+        },
+        "shippingMarks7": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D99A/dataelement/7102.edifact.schema.json"
+        },
+        "shippingMarks8": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D99A/dataelement/7102.edifact.schema.json"
+        },
+        "shippingMarks9": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D99A/dataelement/7102.edifact.schema.json"
+        },
+        "shippingMarks10": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D99A/dataelement/7102.edifact.schema.json"
+        }
+    },
+    "required": []
+}

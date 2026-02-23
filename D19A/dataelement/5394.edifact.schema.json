@@ -1,0 +1,15 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D19A/dataelement/5394.edifact.schema.json",
+    "title": "priceMultiplierRate",
+    "description": "To specify the rate of a price multiplier.",
+    "type": "object",
+    "properties": {
+        "value": {
+            "description": "Value",
+            "type": "string",
+            "maxLength": 12
+        }
+    },
+    "required": []
+}

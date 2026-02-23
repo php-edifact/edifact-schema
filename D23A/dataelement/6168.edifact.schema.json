@@ -1,0 +1,15 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D23A/dataelement/6168.edifact.schema.json",
+    "title": "lengthMeasure",
+    "description": "To specify the value of a length dimension.",
+    "type": "object",
+    "properties": {
+        "value": {
+            "description": "Value",
+            "type": "string",
+            "maxLength": 15
+        }
+    },
+    "required": []
+}

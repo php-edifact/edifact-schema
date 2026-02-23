@@ -1,0 +1,19 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D01C/compositedataelement/C537.edifact.schema.json",
+    "title": "C537",
+    "description": "To indicate the priority of requested transport service.",
+    "type": "object",
+    "properties": {
+        "transportServicePriorityCode": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D01C/dataelement/4219.edifact.schema.json"
+        },
+        "codeListIdentificationCode": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D01C/dataelement/1131.edifact.schema.json"
+        },
+        "codeListResponsibleAgencyCode": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D01C/dataelement/3055.edifact.schema.json"
+        }
+    },
+    "required": []
+}

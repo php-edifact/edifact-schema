@@ -1,0 +1,25 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D98B/segment/CDV.edifact.schema.json",
+    "title": "CDV",
+    "description": "To provide information related to a code value.",
+    "type": "object",
+    "properties": {
+        "codeValue": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D98B/dataelement/9426.edifact.schema.json"
+        },
+        "codeName": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D98B/dataelement/9434.edifact.schema.json"
+        },
+        "maintenanceOperation,Coded": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D98B/dataelement/4513.edifact.schema.json"
+        },
+        "codeValueSource,Coded": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D98B/dataelement/9453.edifact.schema.json"
+        },
+        "requirementDesignator,Coded": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D98B/dataelement/7299.edifact.schema.json"
+        }
+    },
+    "required": []
+}

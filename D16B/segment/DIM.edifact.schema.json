@@ -1,0 +1,16 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D16B/segment/DIM.edifact.schema.json",
+    "title": "DIM",
+    "description": "To specify dimensions.",
+    "type": "object",
+    "properties": {
+        "dimensionTypeCodeQualifier": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D16B/dataelement/6145.edifact.schema.json"
+        },
+        "dimensions": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D16B/compositedataelement/C211.edifact.schema.json"
+        }
+    },
+    "required": []
+}

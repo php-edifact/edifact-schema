@@ -1,0 +1,15 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D14B/dataelement/1220.edifact.schema.json",
+    "title": "documentCopiesRequiredQuantity",
+    "description": "Quantity of document copies required.",
+    "type": "object",
+    "properties": {
+        "value": {
+            "description": "Value",
+            "type": "string",
+            "maxLength": 2
+        }
+    },
+    "required": []
+}

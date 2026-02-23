@@ -1,0 +1,22 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D97B/segment/IMD.edifact.schema.json",
+    "title": "IMD",
+    "description": "To describe an item in either an industry or free format.",
+    "type": "object",
+    "properties": {
+        "itemDescriptionType,Coded": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D97B/dataelement/7077.edifact.schema.json"
+        },
+        "itemCharacteristic,Coded": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D97B/dataelement/7081.edifact.schema.json"
+        },
+        "itemDescription": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D97B/compositedataelement/C273.edifact.schema.json"
+        },
+        "surfaceOrlayerIndicator,Coded": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D97B/dataelement/7383.edifact.schema.json"
+        }
+    },
+    "required": []
+}

@@ -1,0 +1,25 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D18B/compositedataelement/C501.edifact.schema.json",
+    "title": "C501",
+    "description": "Percentage relating to a specified basis.",
+    "type": "object",
+    "properties": {
+        "percentageTypeCodeQualifier": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D18B/dataelement/5245.edifact.schema.json"
+        },
+        "percentage": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D18B/dataelement/5482.edifact.schema.json"
+        },
+        "percentageBasisIdentificationCode": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D18B/dataelement/5249.edifact.schema.json"
+        },
+        "codeListIdentificationCode": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D18B/dataelement/1131.edifact.schema.json"
+        },
+        "codeListResponsibleAgencyCode": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D18B/dataelement/3055.edifact.schema.json"
+        }
+    },
+    "required": []
+}

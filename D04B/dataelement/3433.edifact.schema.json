@@ -1,0 +1,15 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D04B/dataelement/3433.edifact.schema.json",
+    "title": "institutionNameCode",
+    "description": "Code specifying the name of an institution.",
+    "type": "object",
+    "properties": {
+        "value": {
+            "description": "Value",
+            "type": "string",
+            "maxLength": 11
+        }
+    },
+    "required": []
+}

@@ -1,0 +1,25 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D12A/compositedataelement/C889.edifact.schema.json",
+    "title": "C889",
+    "description": "To provide the value of a characteristic.",
+    "type": "object",
+    "properties": {
+        "characteristicValueDescriptionCode": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D12A/dataelement/7111.edifact.schema.json"
+        },
+        "codeListIdentificationCode": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D12A/dataelement/1131.edifact.schema.json"
+        },
+        "codeListResponsibleAgencyCode": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D12A/dataelement/3055.edifact.schema.json"
+        },
+        "characteristicValueDescription": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D12A/dataelement/7110.edifact.schema.json"
+        },
+        "characteristicValueDescription2": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D12A/dataelement/7110.edifact.schema.json"
+        }
+    },
+    "required": []
+}

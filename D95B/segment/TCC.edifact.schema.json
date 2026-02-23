@@ -1,0 +1,22 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D95B/segment/TCC.edifact.schema.json",
+    "title": "TCC",
+    "description": "To specify charges.",
+    "type": "object",
+    "properties": {
+        "charge": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D95B/compositedataelement/C200.edifact.schema.json"
+        },
+        "ratetariffClass": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D95B/compositedataelement/C203.edifact.schema.json"
+        },
+        "commodityrateDetail": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D95B/compositedataelement/C528.edifact.schema.json"
+        },
+        "ratetariffClassDetail": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D95B/compositedataelement/C554.edifact.schema.json"
+        }
+    },
+    "required": []
+}

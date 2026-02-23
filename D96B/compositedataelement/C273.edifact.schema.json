@@ -1,0 +1,28 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D96B/compositedataelement/C273.edifact.schema.json",
+    "title": "C273",
+    "description": "Description of an item.",
+    "type": "object",
+    "properties": {
+        "itemDescriptionIdentification": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D96B/dataelement/7009.edifact.schema.json"
+        },
+        "codeListQualifier": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D96B/dataelement/1131.edifact.schema.json"
+        },
+        "codeListResponsibleAgencyCoded": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D96B/dataelement/3055.edifact.schema.json"
+        },
+        "itemDescription": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D96B/dataelement/7008.edifact.schema.json"
+        },
+        "itemDescription2": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D96B/dataelement/7008.edifact.schema.json"
+        },
+        "languageCoded": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D96B/dataelement/3453.edifact.schema.json"
+        }
+    },
+    "required": []
+}

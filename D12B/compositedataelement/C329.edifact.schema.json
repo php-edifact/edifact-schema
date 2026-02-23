@@ -1,0 +1,19 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D12B/compositedataelement/C329.edifact.schema.json",
+    "title": "C329",
+    "description": "Shipment, delivery or production interval pattern and timing.",
+    "type": "object",
+    "properties": {
+        "frequencyCode": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D12B/dataelement/2013.edifact.schema.json"
+        },
+        "despatchPatternCode": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D12B/dataelement/2015.edifact.schema.json"
+        },
+        "despatchPatternTimingCode": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D12B/dataelement/2017.edifact.schema.json"
+        }
+    },
+    "required": []
+}

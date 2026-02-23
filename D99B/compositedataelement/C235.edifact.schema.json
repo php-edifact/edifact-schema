@@ -1,0 +1,9 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D99B/compositedataelement/C235.edifact.schema.json",
+    "title": "C235",
+    "description": "These numbers appear on the hazard identification placard required on the means of transport.",
+    "type": "object",
+    "properties": [],
+    "required": []
+}

@@ -1,0 +1,22 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D15B/compositedataelement/C517.edifact.schema.json",
+    "title": "C517",
+    "description": "Identification of a location by code or name.",
+    "type": "object",
+    "properties": {
+        "locationIdentifier": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D15B/dataelement/3225.edifact.schema.json"
+        },
+        "codeListIdentificationCode": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D15B/dataelement/1131.edifact.schema.json"
+        },
+        "codeListResponsibleAgencyCode": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D15B/dataelement/3055.edifact.schema.json"
+        },
+        "locationName": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D15B/dataelement/3224.edifact.schema.json"
+        }
+    },
+    "required": []
+}

@@ -1,0 +1,25 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D22A/compositedataelement/C290.edifact.schema.json",
+    "title": "C290",
+    "description": "To identify a transport service.",
+    "type": "object",
+    "properties": {
+        "transportServiceIdentificationCode": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D22A/dataelement/8462.edifact.schema.json"
+        },
+        "codeListIdentificationCode": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D22A/dataelement/1131.edifact.schema.json"
+        },
+        "codeListResponsibleAgencyCode": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D22A/dataelement/3055.edifact.schema.json"
+        },
+        "transportServiceName": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D22A/dataelement/8463.edifact.schema.json"
+        },
+        "transportServiceDescription": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D22A/dataelement/8464.edifact.schema.json"
+        }
+    },
+    "required": []
+}

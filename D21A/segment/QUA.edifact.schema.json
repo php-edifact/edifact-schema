@@ -1,0 +1,16 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D21A/segment/QUA.edifact.schema.json",
+    "title": "QUA",
+    "description": "To specify the qualification of a person.",
+    "type": "object",
+    "properties": {
+        "qualificationTypeCodeQualifier": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D21A/dataelement/9037.edifact.schema.json"
+        },
+        "qualificationClassification": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D21A/compositedataelement/C950.edifact.schema.json"
+        }
+    },
+    "required": []
+}

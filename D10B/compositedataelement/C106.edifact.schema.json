@@ -1,0 +1,19 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D10B/compositedataelement/C106.edifact.schema.json",
+    "title": "C106",
+    "description": "Identification of a document/message by its number and eventually its version or revision.",
+    "type": "object",
+    "properties": {
+        "documentIdentifier": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D10B/dataelement/1004.edifact.schema.json"
+        },
+        "versionIdentifier": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D10B/dataelement/1056.edifact.schema.json"
+        },
+        "revisionIdentifier": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D10B/dataelement/1060.edifact.schema.json"
+        }
+    },
+    "required": []
+}

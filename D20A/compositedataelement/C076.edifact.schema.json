@@ -1,0 +1,16 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D20A/compositedataelement/C076.edifact.schema.json",
+    "title": "C076",
+    "description": "Communication number of a department or employee in a specified channel.",
+    "type": "object",
+    "properties": {
+        "communicationAddressIdentifier": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D20A/dataelement/3148.edifact.schema.json"
+        },
+        "communicationMeansTypeCode": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D20A/dataelement/3155.edifact.schema.json"
+        }
+    },
+    "required": []
+}

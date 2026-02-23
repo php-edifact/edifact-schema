@@ -1,0 +1,22 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D04B/compositedataelement/C942.edifact.schema.json",
+    "title": "C942",
+    "description": "Identification and/or description of a membership category for a member of a scheme or group.",
+    "type": "object",
+    "properties": {
+        "membershipCategoryDescriptionCode": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D04B/dataelement/7451.edifact.schema.json"
+        },
+        "codeListIdentificationCode": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D04B/dataelement/1131.edifact.schema.json"
+        },
+        "codeListResponsibleAgencyCode": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D04B/dataelement/3055.edifact.schema.json"
+        },
+        "membershipCategoryDescription": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D04B/dataelement/7450.edifact.schema.json"
+        }
+    },
+    "required": []
+}

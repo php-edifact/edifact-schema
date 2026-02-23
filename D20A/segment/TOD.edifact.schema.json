@@ -1,0 +1,19 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D20A/segment/TOD.edifact.schema.json",
+    "title": "TOD",
+    "description": "To specify terms of delivery or transport.",
+    "type": "object",
+    "properties": {
+        "deliveryOrTransportTermsFunctionCode": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D20A/dataelement/4055.edifact.schema.json"
+        },
+        "transportChargesPaymentMethodCode": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D20A/dataelement/4215.edifact.schema.json"
+        },
+        "termsOfDeliveryOrTransport": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D20A/compositedataelement/C100.edifact.schema.json"
+        }
+    },
+    "required": []
+}

@@ -1,0 +1,16 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D10B/segment/CLI.edifact.schema.json",
+    "title": "CLI",
+    "description": "To specify a clinical intervention such as treatments and investigations.",
+    "type": "object",
+    "properties": {
+        "clinicalInterventionTypeCodeQualifier": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D10B/dataelement/9441.edifact.schema.json"
+        },
+        "clinicalInterventionDetails": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D10B/compositedataelement/C828.edifact.schema.json"
+        }
+    },
+    "required": []
+}

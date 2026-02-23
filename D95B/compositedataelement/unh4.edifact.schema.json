@@ -1,0 +1,16 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D95B/compositedataelement/unh4.edifact.schema.json",
+    "title": "unh4",
+    "description": "",
+    "type": "object",
+    "properties": {
+        "sequenceOfTransfers": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D95B/dataelement/unh41.edifact.schema.json"
+        },
+        "messageVersion": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D95B/dataelement/unh42.edifact.schema.json"
+        }
+    },
+    "required": []
+}

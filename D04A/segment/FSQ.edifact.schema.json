@@ -1,0 +1,25 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D04A/segment/FSQ.edifact.schema.json",
+    "title": "FSQ",
+    "description": "To provide a single operation within the sequence of operations of a formula.",
+    "type": "object",
+    "properties": {
+        "formulaSequenceCodeQualifier": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D04A/dataelement/9507.edifact.schema.json"
+        },
+        "formulaSequenceOperandCode": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D04A/dataelement/9509.edifact.schema.json"
+        },
+        "sequencePositionIdentifier": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D04A/dataelement/1050.edifact.schema.json"
+        },
+        "formulaSequenceName": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D04A/dataelement/9510.edifact.schema.json"
+        },
+        "freeText": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D04A/dataelement/4440.edifact.schema.json"
+        }
+    },
+    "required": []
+}

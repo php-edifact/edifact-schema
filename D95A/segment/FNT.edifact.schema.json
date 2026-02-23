@@ -1,0 +1,22 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D95A/segment/FNT.edifact.schema.json",
+    "title": "FNT",
+    "description": "To identify a footnote.",
+    "type": "object",
+    "properties": {
+        "footnoteIdentification": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D95A/compositedataelement/C784.edifact.schema.json"
+        },
+        "partyIdentificationDetails": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D95A/compositedataelement/C082.edifact.schema.json"
+        },
+        "statusCoded": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D95A/dataelement/4405.edifact.schema.json"
+        },
+        "maintenanceOperationCoded": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D95A/dataelement/4513.edifact.schema.json"
+        }
+    },
+    "required": []
+}

@@ -1,0 +1,25 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D98A/compositedataelement/C522.edifact.schema.json",
+    "title": "C522",
+    "description": "To specify an instruction.",
+    "type": "object",
+    "properties": {
+        "instructionQualifier": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D98A/dataelement/4403.edifact.schema.json"
+        },
+        "instruction,Coded": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D98A/dataelement/4401.edifact.schema.json"
+        },
+        "codeListQualifier": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D98A/dataelement/1131.edifact.schema.json"
+        },
+        "codeListResponsibleAgency,Coded": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D98A/dataelement/3055.edifact.schema.json"
+        },
+        "instruction": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D98A/dataelement/4400.edifact.schema.json"
+        }
+    },
+    "required": []
+}

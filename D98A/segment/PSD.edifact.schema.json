@@ -1,0 +1,34 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D98A/segment/PSD.edifact.schema.json",
+    "title": "PSD",
+    "description": "To define the physical sample parameters associated with a test, resulting in discrete measurements.",
+    "type": "object",
+    "properties": {
+        "sampleProcessStep,Coded": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D98A/dataelement/4407.edifact.schema.json"
+        },
+        "sampleSelectionMethod,Coded": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D98A/dataelement/7039.edifact.schema.json"
+        },
+        "frequencyDetails": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D98A/compositedataelement/C526.edifact.schema.json"
+        },
+        "sampleDescription,Coded": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D98A/dataelement/7045.edifact.schema.json"
+        },
+        "sampleDirection,Coded": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D98A/dataelement/7047.edifact.schema.json"
+        },
+        "sampleLocationDetails": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D98A/compositedataelement/C514.edifact.schema.json"
+        },
+        "sampleLocationDetails2": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D98A/compositedataelement/C514.edifact.schema.json"
+        },
+        "sampleLocationDetails3": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D98A/compositedataelement/C514.edifact.schema.json"
+        }
+    },
+    "required": []
+}

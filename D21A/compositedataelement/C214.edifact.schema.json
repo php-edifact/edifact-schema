@@ -1,0 +1,25 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D21A/compositedataelement/C214.edifact.schema.json",
+    "title": "C214",
+    "description": "Identification of a special service by a code from a specified source or by description.",
+    "type": "object",
+    "properties": {
+        "specialServiceDescriptionCode": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D21A/dataelement/7161.edifact.schema.json"
+        },
+        "codeListIdentificationCode": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D21A/dataelement/1131.edifact.schema.json"
+        },
+        "codeListResponsibleAgencyCode": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D21A/dataelement/3055.edifact.schema.json"
+        },
+        "specialServiceDescription": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D21A/dataelement/7160.edifact.schema.json"
+        },
+        "specialServiceDescription2": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D21A/dataelement/7160.edifact.schema.json"
+        }
+    },
+    "required": []
+}

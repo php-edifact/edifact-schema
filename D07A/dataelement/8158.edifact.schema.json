@@ -1,0 +1,15 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D07A/dataelement/8158.edifact.schema.json",
+    "title": "orangeHazardPlacardUpperPartIdentifier",
+    "description": "To specify the identity number for the upper part of the orange hazard placard required on the means of transport.",
+    "type": "object",
+    "properties": {
+        "value": {
+            "description": "Value",
+            "type": "string",
+            "maxLength": 4
+        }
+    },
+    "required": []
+}

@@ -1,0 +1,28 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D15B/segment/PYT.edifact.schema.json",
+    "title": "PYT",
+    "description": "To specify the terms of payment.",
+    "type": "object",
+    "properties": {
+        "paymentTermsTypeCodeQualifier": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D15B/dataelement/4279.edifact.schema.json"
+        },
+        "paymentTerms": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D15B/compositedataelement/C019.edifact.schema.json"
+        },
+        "eventTimeReferenceCode": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D15B/dataelement/2475.edifact.schema.json"
+        },
+        "termsTimeRelationCode": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D15B/dataelement/2009.edifact.schema.json"
+        },
+        "periodTypeCode": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D15B/dataelement/2151.edifact.schema.json"
+        },
+        "periodCountQuantity": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D15B/dataelement/2152.edifact.schema.json"
+        }
+    },
+    "required": []
+}

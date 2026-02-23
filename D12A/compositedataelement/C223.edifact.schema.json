@@ -1,0 +1,16 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D12A/compositedataelement/C223.edifact.schema.json",
+    "title": "C223",
+    "description": "Temperature at which a vapor can be ignited as per ISO 1523/73.",
+    "type": "object",
+    "properties": {
+        "shipmentFlashpointDegree": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D12A/dataelement/7106.edifact.schema.json"
+        },
+        "measurementUnitCode": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D12A/dataelement/6411.edifact.schema.json"
+        }
+    },
+    "required": []
+}

@@ -1,0 +1,19 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D97B/compositedataelement/C516.edifact.schema.json",
+    "title": "C516",
+    "description": "Amount of goods or services stated as a monetary amount in a specified currency.",
+    "type": "object",
+    "properties": {
+        "monetaryAmountTypeQualifier": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D97B/dataelement/5025.edifact.schema.json"
+        },
+        "monetaryAmount": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D97B/dataelement/5004.edifact.schema.json"
+        },
+        "currencyQualifier": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D97B/dataelement/6343.edifact.schema.json"
+        }
+    },
+    "required": []
+}

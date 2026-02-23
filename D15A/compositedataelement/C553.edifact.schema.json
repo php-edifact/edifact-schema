@@ -1,0 +1,22 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D15A/compositedataelement/C553.edifact.schema.json",
+    "title": "C553",
+    "description": "Identification of second related location by code or name.",
+    "type": "object",
+    "properties": {
+        "secondRelatedLocationIdentifier": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D15A/dataelement/3233.edifact.schema.json"
+        },
+        "codeListIdentificationCode": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D15A/dataelement/1131.edifact.schema.json"
+        },
+        "codeListResponsibleAgencyCode": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D15A/dataelement/3055.edifact.schema.json"
+        },
+        "secondRelatedLocationName": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D15A/dataelement/3232.edifact.schema.json"
+        }
+    },
+    "required": []
+}

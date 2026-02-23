@@ -1,0 +1,28 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D03B/segment/RSL.edifact.schema.json",
+    "title": "RSL",
+    "description": "To specify a discrete or non-discrete result as a value or value range.",
+    "type": "object",
+    "properties": {
+        "resultValueTypeCodeQualifier": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D03B/dataelement/6087.edifact.schema.json"
+        },
+        "resultRepresentationCode": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D03B/dataelement/6077.edifact.schema.json"
+        },
+        "resultDetails": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D03B/compositedataelement/C831.edifact.schema.json"
+        },
+        "resultDetails2": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D03B/compositedataelement/C831.edifact.schema.json"
+        },
+        "measurementUnitDetails": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D03B/compositedataelement/C848.edifact.schema.json"
+        },
+        "resultNormalcyCode": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D03B/dataelement/6079.edifact.schema.json"
+        }
+    },
+    "required": []
+}

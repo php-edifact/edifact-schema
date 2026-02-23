@@ -1,0 +1,34 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D95B/segment/VLI.edifact.schema.json",
+    "title": "VLI",
+    "description": "To identify a coded or non coded value list.",
+    "type": "object",
+    "properties": {
+        "valueListIdentification": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D95B/compositedataelement/C780.edifact.schema.json"
+        },
+        "partyIdentificationDetails": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D95B/compositedataelement/C082.edifact.schema.json"
+        },
+        "statusCoded": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D95B/dataelement/4405.edifact.schema.json"
+        },
+        "valueListName": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D95B/dataelement/1514.edifact.schema.json"
+        },
+        "classDesignatorCoded": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D95B/dataelement/1507.edifact.schema.json"
+        },
+        "valueListTypeCoded": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D95B/dataelement/1505.edifact.schema.json"
+        },
+        "productCharacteristic": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D95B/compositedataelement/C240.edifact.schema.json"
+        },
+        "maintenanceOperationCoded": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D95B/dataelement/4513.edifact.schema.json"
+        }
+    },
+    "required": []
+}

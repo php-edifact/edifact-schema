@@ -1,0 +1,28 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D17B/compositedataelement/C509.edifact.schema.json",
+    "title": "C509",
+    "description": "Identification of price type, price and related details.",
+    "type": "object",
+    "properties": {
+        "priceCodeQualifier": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D17B/dataelement/5125.edifact.schema.json"
+        },
+        "priceAmount": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D17B/dataelement/5118.edifact.schema.json"
+        },
+        "priceTypeCode": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D17B/dataelement/5375.edifact.schema.json"
+        },
+        "priceSpecificationCode": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D17B/dataelement/5387.edifact.schema.json"
+        },
+        "unitPriceBasisQuantity": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D17B/dataelement/5284.edifact.schema.json"
+        },
+        "measurementUnitCode": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D17B/dataelement/6411.edifact.schema.json"
+        }
+    },
+    "required": []
+}

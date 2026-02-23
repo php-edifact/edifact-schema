@@ -1,0 +1,16 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D96B/segment/ARR.edifact.schema.json",
+    "title": "ARR",
+    "description": "To contain the data in a array. Note: The composite C770 - array cell details - occurs 100 times in the segment.  The component 9424 - array cell information - occurs 100 times in the composite C770.",
+    "type": "object",
+    "properties": {
+        "positionIdentification": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D96B/compositedataelement/C778.edifact.schema.json"
+        },
+        "arrayCellDetails": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D96B/compositedataelement/C770.edifact.schema.json"
+        }
+    },
+    "required": []
+}

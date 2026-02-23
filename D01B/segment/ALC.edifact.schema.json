@@ -1,0 +1,25 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D01B/segment/ALC.edifact.schema.json",
+    "title": "ALC",
+    "description": "To identify allowance or charge details.",
+    "type": "object",
+    "properties": {
+        "allowanceOrChargeCodeQualifier": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D01B/dataelement/5463.edifact.schema.json"
+        },
+        "allowance": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D01B/compositedataelement/C552.edifact.schema.json"
+        },
+        "settlementMeansCode": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D01B/dataelement/4471.edifact.schema.json"
+        },
+        "calculationSequenceCode": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D01B/dataelement/1227.edifact.schema.json"
+        },
+        "specialServicesIdentification": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D01B/compositedataelement/C214.edifact.schema.json"
+        }
+    },
+    "required": []
+}

@@ -1,0 +1,15 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D95A/dataelement/8211.edifact.schema.json",
+    "title": "permissionForTransportCoded",
+    "description": "Code giving evidence that transportation of particular hazardous cargo is permitted and identifies the restrictions being put upon a particular transport.",
+    "type": "object",
+    "properties": {
+        "value": {
+            "description": "Value",
+            "type": "string",
+            "maxLength": 3
+        }
+    },
+    "required": []
+}

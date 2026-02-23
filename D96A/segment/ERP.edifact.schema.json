@@ -1,0 +1,13 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D96A/segment/ERP.edifact.schema.json",
+    "title": "ERP",
+    "description": "To identify the location and type of application error within a message.",
+    "type": "object",
+    "properties": {
+        "errorPointDetails": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D96A/compositedataelement/C701.edifact.schema.json"
+        }
+    },
+    "required": []
+}

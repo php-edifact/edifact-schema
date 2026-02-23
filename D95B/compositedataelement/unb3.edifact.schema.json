@@ -1,0 +1,19 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D95B/compositedataelement/unb3.edifact.schema.json",
+    "title": "unb3",
+    "description": "Interchange recipient",
+    "type": "object",
+    "properties": {
+        "recipientIdentification": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D95B/dataelement/unb31.edifact.schema.json"
+        },
+        "identificationCodeQualifier": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D95B/dataelement/unb32.edifact.schema.json"
+        },
+        "routingAddress": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D95B/dataelement/unb33.edifact.schema.json"
+        }
+    },
+    "required": []
+}

@@ -1,0 +1,16 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D99B/compositedataelement/C837.edifact.schema.json",
+    "title": "C837",
+    "description": "To specify the certainty.",
+    "type": "object",
+    "properties": {
+        "codeListResponsibleAgencyCode": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D99B/dataelement/3055.edifact.schema.json"
+        },
+        "certainty": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D99B/dataelement/4048.edifact.schema.json"
+        }
+    },
+    "required": []
+}

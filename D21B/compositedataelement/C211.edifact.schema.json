@@ -1,0 +1,25 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D21B/compositedataelement/C211.edifact.schema.json",
+    "title": "C211",
+    "description": "Specification of the dimensions of a transportable unit.",
+    "type": "object",
+    "properties": {
+        "measurementUnitCode": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D21B/dataelement/6411.edifact.schema.json"
+        },
+        "lengthMeasure": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D21B/dataelement/6168.edifact.schema.json"
+        },
+        "widthMeasure": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D21B/dataelement/6140.edifact.schema.json"
+        },
+        "heightMeasure": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D21B/dataelement/6008.edifact.schema.json"
+        },
+        "diameterMeasure": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D21B/dataelement/6182.edifact.schema.json"
+        }
+    },
+    "required": []
+}

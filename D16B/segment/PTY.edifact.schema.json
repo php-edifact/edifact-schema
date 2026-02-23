@@ -1,0 +1,16 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D16B/segment/PTY.edifact.schema.json",
+    "title": "PTY",
+    "description": "The segment is used to communicate priority information.",
+    "type": "object",
+    "properties": {
+        "priorityTypeCodeQualifier": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D16B/dataelement/4035.edifact.schema.json"
+        },
+        "priorityDetails": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D16B/compositedataelement/C585.edifact.schema.json"
+        }
+    },
+    "required": []
+}

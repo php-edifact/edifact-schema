@@ -1,0 +1,28 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D01A/compositedataelement/C200.edifact.schema.json",
+    "title": "C200",
+    "description": "Identification of a charge by code and/or by name.",
+    "type": "object",
+    "properties": {
+        "freightAndOtherChargesDescriptionIdentifier": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D01A/dataelement/8023.edifact.schema.json"
+        },
+        "codeListIdentificationCode": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D01A/dataelement/1131.edifact.schema.json"
+        },
+        "codeListResponsibleAgencyCode": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D01A/dataelement/3055.edifact.schema.json"
+        },
+        "freightAndOtherChargesDescription": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D01A/dataelement/8022.edifact.schema.json"
+        },
+        "paymentArrangementCode": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D01A/dataelement/4237.edifact.schema.json"
+        },
+        "itemIdentifier": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D01A/dataelement/7140.edifact.schema.json"
+        }
+    },
+    "required": []
+}

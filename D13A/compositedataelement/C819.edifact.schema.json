@@ -1,0 +1,22 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D13A/compositedataelement/C819.edifact.schema.json",
+    "title": "C819",
+    "description": "To specify a country subdivision, such as state, canton, county, prefecture.",
+    "type": "object",
+    "properties": {
+        "countrySubdivisionIdentifier": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D13A/dataelement/3229.edifact.schema.json"
+        },
+        "codeListIdentificationCode": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D13A/dataelement/1131.edifact.schema.json"
+        },
+        "codeListResponsibleAgencyCode": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D13A/dataelement/3055.edifact.schema.json"
+        },
+        "countrySubdivisionName": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D13A/dataelement/3228.edifact.schema.json"
+        }
+    },
+    "required": []
+}

@@ -1,0 +1,16 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D97A/compositedataelement/C786.edifact.schema.json",
+    "title": "C786",
+    "description": "The identification of a structure component.",
+    "type": "object",
+    "properties": {
+        "structureComponentIdentifier": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D97A/dataelement/7512.edifact.schema.json"
+        },
+        "identityNumberQualifier": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D97A/dataelement/7405.edifact.schema.json"
+        }
+    },
+    "required": []
+}

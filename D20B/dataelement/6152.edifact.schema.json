@@ -1,0 +1,15 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D20B/dataelement/6152.edifact.schema.json",
+    "title": "rangeMaximumQuantity",
+    "description": "To specify the maximum value of a range.",
+    "type": "object",
+    "properties": {
+        "value": {
+            "description": "Value",
+            "type": "string",
+            "maxLength": 18
+        }
+    },
+    "required": []
+}

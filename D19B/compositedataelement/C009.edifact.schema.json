@@ -1,0 +1,22 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D19B/compositedataelement/C009.edifact.schema.json",
+    "title": "C009",
+    "description": "To specify the category of information.",
+    "type": "object",
+    "properties": {
+        "informationCategoryDescriptionCode": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D19B/dataelement/4149.edifact.schema.json"
+        },
+        "codeListIdentificationCode": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D19B/dataelement/1131.edifact.schema.json"
+        },
+        "codeListResponsibleAgencyCode": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D19B/dataelement/3055.edifact.schema.json"
+        },
+        "informationCategoryDescription": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D19B/dataelement/4148.edifact.schema.json"
+        }
+    },
+    "required": []
+}

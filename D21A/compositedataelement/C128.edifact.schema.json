@@ -1,0 +1,22 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D21A/compositedataelement/C128.edifact.schema.json",
+    "title": "C128",
+    "description": "Rate per unit and rate basis.",
+    "type": "object",
+    "properties": {
+        "rateTypeCodeQualifier": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D21A/dataelement/5419.edifact.schema.json"
+        },
+        "unitPriceBasisRate": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D21A/dataelement/5420.edifact.schema.json"
+        },
+        "unitPriceBasisQuantity": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D21A/dataelement/5284.edifact.schema.json"
+        },
+        "measurementUnitCode": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D21A/dataelement/6411.edifact.schema.json"
+        }
+    },
+    "required": []
+}

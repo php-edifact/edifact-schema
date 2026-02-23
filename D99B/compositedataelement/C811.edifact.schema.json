@@ -1,0 +1,19 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D99B/compositedataelement/C811.edifact.schema.json",
+    "title": "C811",
+    "description": "To specify a question.",
+    "type": "object",
+    "properties": {
+        "codeListIdentificationCode": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D99B/dataelement/1131.edifact.schema.json"
+        },
+        "codeListResponsibleAgencyCode": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D99B/dataelement/3055.edifact.schema.json"
+        },
+        "question": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D99B/dataelement/4056.edifact.schema.json"
+        }
+    },
+    "required": []
+}

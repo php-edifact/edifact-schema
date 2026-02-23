@@ -1,0 +1,16 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D06A/compositedataelement/C220.edifact.schema.json",
+    "title": "C220",
+    "description": "Method of transport code or name. Code preferred.",
+    "type": "object",
+    "properties": {
+        "transportModeNameCode": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D06A/dataelement/8067.edifact.schema.json"
+        },
+        "transportModeName": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D06A/dataelement/8066.edifact.schema.json"
+        }
+    },
+    "required": []
+}

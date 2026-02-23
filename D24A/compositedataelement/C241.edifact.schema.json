@@ -1,0 +1,22 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D24A/compositedataelement/C241.edifact.schema.json",
+    "title": "C241",
+    "description": "Code and/or name identifying duty, tax or fee.",
+    "type": "object",
+    "properties": {
+        "dutyOrTaxOrFeeTypeNameCode": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D24A/dataelement/5153.edifact.schema.json"
+        },
+        "codeListIdentificationCode": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D24A/dataelement/1131.edifact.schema.json"
+        },
+        "codeListResponsibleAgencyCode": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D24A/dataelement/3055.edifact.schema.json"
+        },
+        "dutyOrTaxOrFeeTypeName": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D24A/dataelement/5152.edifact.schema.json"
+        }
+    },
+    "required": []
+}

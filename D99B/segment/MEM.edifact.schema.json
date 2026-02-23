@@ -1,0 +1,28 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D99B/segment/MEM.edifact.schema.json",
+    "title": "MEM",
+    "description": "To specify details about membership.",
+    "type": "object",
+    "properties": {
+        "membershipQualifier": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D99B/dataelement/7449.edifact.schema.json"
+        },
+        "membershipCategory": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D99B/compositedataelement/C942.edifact.schema.json"
+        },
+        "membershipStatus": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D99B/compositedataelement/C944.edifact.schema.json"
+        },
+        "membershipLevel": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D99B/compositedataelement/C945.edifact.schema.json"
+        },
+        "rate": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D99B/compositedataelement/C203.edifact.schema.json"
+        },
+        "reasonForChange": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D99B/compositedataelement/C960.edifact.schema.json"
+        }
+    },
+    "required": []
+}

@@ -1,0 +1,16 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D08B/segment/STA.edifact.schema.json",
+    "title": "STA",
+    "description": "To transmit summary statistics related to a specified collection of test result values.",
+    "type": "object",
+    "properties": {
+        "statisticTypeCodeQualifier": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D08B/dataelement/6331.edifact.schema.json"
+        },
+        "statisticalDetails": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D08B/compositedataelement/C527.edifact.schema.json"
+        }
+    },
+    "required": []
+}

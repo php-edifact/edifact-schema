@@ -1,0 +1,25 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D06A/segment/LOC.edifact.schema.json",
+    "title": "LOC",
+    "description": "To identify a place or a location and/or related locations.",
+    "type": "object",
+    "properties": {
+        "locationFunctionCodeQualifier": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D06A/dataelement/3227.edifact.schema.json"
+        },
+        "locationIdentification": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D06A/compositedataelement/C517.edifact.schema.json"
+        },
+        "relatedLocationOneIdentification": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D06A/compositedataelement/C519.edifact.schema.json"
+        },
+        "relatedLocationTwoIdentification": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D06A/compositedataelement/C553.edifact.schema.json"
+        },
+        "relationCode": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D06A/dataelement/5479.edifact.schema.json"
+        }
+    },
+    "required": []
+}

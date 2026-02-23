@@ -1,0 +1,15 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D96A/dataelement/8255.edifact.schema.json",
+    "title": "packingInstructionCoded",
+    "description": "Code defining the quantity and the type of package in which a product is allowed to be shipped in a passenger or freight aircraft.",
+    "type": "object",
+    "properties": {
+        "value": {
+            "description": "Value",
+            "type": "string",
+            "maxLength": 3
+        }
+    },
+    "required": []
+}

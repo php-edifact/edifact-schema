@@ -1,0 +1,28 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D96A/segment/EQD.edifact.schema.json",
+    "title": "EQD",
+    "description": "To identify a unit of equipment.",
+    "type": "object",
+    "properties": {
+        "equipmentQualifier": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D96A/dataelement/8053.edifact.schema.json"
+        },
+        "equipmentIdentification": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D96A/compositedataelement/C237.edifact.schema.json"
+        },
+        "equipmentSizeAndType": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D96A/compositedataelement/C224.edifact.schema.json"
+        },
+        "equipmentSupplierCoded": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D96A/dataelement/8077.edifact.schema.json"
+        },
+        "equipmentStatusCoded": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D96A/dataelement/8249.edifact.schema.json"
+        },
+        "fullemptyIndicatorCoded": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D96A/dataelement/8169.edifact.schema.json"
+        }
+    },
+    "required": []
+}

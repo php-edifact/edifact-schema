@@ -1,0 +1,19 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D99A/segment/APR.edifact.schema.json",
+    "title": "APR",
+    "description": "To provide information concerning pricing related to class of trade, price multiplier, and reason for change.",
+    "type": "object",
+    "properties": {
+        "classOfTrade,Coded": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D99A/dataelement/4043.edifact.schema.json"
+        },
+        "priceMultiplierInformation": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D99A/compositedataelement/C138.edifact.schema.json"
+        },
+        "reasonForChange": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D99A/compositedataelement/C960.edifact.schema.json"
+        }
+    },
+    "required": []
+}

@@ -1,0 +1,19 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D13B/segment/PDI.edifact.schema.json",
+    "title": "PDI",
+    "description": "To specify items of person demographic information.",
+    "type": "object",
+    "properties": {
+        "genderCode": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D13B/dataelement/3499.edifact.schema.json"
+        },
+        "maritalStatusDetails": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D13B/compositedataelement/C085.edifact.schema.json"
+        },
+        "religionDetails": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D13B/compositedataelement/C101.edifact.schema.json"
+        }
+    },
+    "required": []
+}

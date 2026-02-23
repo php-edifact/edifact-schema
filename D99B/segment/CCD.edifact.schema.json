@@ -1,0 +1,19 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D99B/segment/CCD.edifact.schema.json",
+    "title": "CCD",
+    "description": "To request a credit cover, reply to that request and disclose the reason for the reply.",
+    "type": "object",
+    "properties": {
+        "creditCoverRequest,Coded": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D99B/dataelement/4505.edifact.schema.json"
+        },
+        "creditCoverResponse,Coded": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D99B/dataelement/4507.edifact.schema.json"
+        },
+        "creditCoverReason,Coded": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D99B/dataelement/4509.edifact.schema.json"
+        }
+    },
+    "required": []
+}

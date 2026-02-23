@@ -1,0 +1,22 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D13A/compositedataelement/C550.edifact.schema.json",
+    "title": "C550",
+    "description": "To identify the specific rule/condition requirement.",
+    "type": "object",
+    "properties": {
+        "requirementOrConditionDescriptionIdentifier": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D13A/dataelement/7295.edifact.schema.json"
+        },
+        "codeListIdentificationCode": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D13A/dataelement/1131.edifact.schema.json"
+        },
+        "codeListResponsibleAgencyCode": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D13A/dataelement/3055.edifact.schema.json"
+        },
+        "requirementOrConditionDescription": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D13A/dataelement/7294.edifact.schema.json"
+        }
+    },
+    "required": []
+}

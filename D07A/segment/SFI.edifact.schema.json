@@ -1,0 +1,22 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D07A/segment/SFI.edifact.schema.json",
+    "title": "SFI",
+    "description": "To identify regulatory safety information.",
+    "type": "object",
+    "properties": {
+        "hierarchicalStructureLevelIdentifier": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D07A/dataelement/7164.edifact.schema.json"
+        },
+        "safetySection": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D07A/compositedataelement/C814.edifact.schema.json"
+        },
+        "additionalSafetyInformation": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D07A/compositedataelement/C815.edifact.schema.json"
+        },
+        "maintenanceOperationCode": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D07A/dataelement/4513.edifact.schema.json"
+        }
+    },
+    "required": []
+}

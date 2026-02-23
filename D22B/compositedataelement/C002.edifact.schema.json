@@ -1,0 +1,22 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D22B/compositedataelement/C002.edifact.schema.json",
+    "title": "C002",
+    "description": "Identification of a type of document/message by code or name. Code preferred.",
+    "type": "object",
+    "properties": {
+        "documentNameCode": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D22B/dataelement/1001.edifact.schema.json"
+        },
+        "codeListIdentificationCode": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D22B/dataelement/1131.edifact.schema.json"
+        },
+        "codeListResponsibleAgencyCode": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D22B/dataelement/3055.edifact.schema.json"
+        },
+        "documentName": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D22B/dataelement/1000.edifact.schema.json"
+        }
+    },
+    "required": []
+}

@@ -1,0 +1,22 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D21A/compositedataelement/C972.edifact.schema.json",
+    "title": "C972",
+    "description": "Specification of the proviso calculation in coded or clear form.",
+    "type": "object",
+    "properties": {
+        "provisoCalculationDescriptionCode": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D21A/dataelement/4075.edifact.schema.json"
+        },
+        "codeListIdentificationCode": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D21A/dataelement/1131.edifact.schema.json"
+        },
+        "codeListResponsibleAgencyCode": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D21A/dataelement/3055.edifact.schema.json"
+        },
+        "provisoCalculationDescription": {
+            "$ref": "https://php-edifact.github.io/edifact-schema/D21A/dataelement/4074.edifact.schema.json"
+        }
+    },
+    "required": []
+}

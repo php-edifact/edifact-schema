@@ -1,0 +1,15 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://php-edifact.github.io/edifact-schema/D96B/dataelement/4053.edifact.schema.json",
+    "title": "termsOfDeliveryOrTransportCoded",
+    "description": "Identification of the terms agreed between two parties (e.g. seller/buyer, shipper/carrier) under which a product or service is provided.",
+    "type": "object",
+    "properties": {
+        "value": {
+            "description": "Value",
+            "type": "string",
+            "maxLength": 3
+        }
+    },
+    "required": []
+}
